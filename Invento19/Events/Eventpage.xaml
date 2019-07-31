@@ -1,201 +1,209 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             mc:Ignorable="d"
-             x:Class="Invento19.Events.Eventpage">
-   
+<ContentPage
+    x:Class="Invento19.Events.Eventpage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
 
 
     <ContentPage.Content>
-       
-        <Grid VerticalOptions="FillAndExpand"
-              BackgroundColor="White">
+
+        <Grid BackgroundColor="White" VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
-                <RowDefinition Height="70"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
-            <StackLayout 
-                BackgroundColor="White"
-                Orientation="Horizontal">
-                <forms:SvgCachedImage Source="path.svg"
-                                          HorizontalOptions="Start" 
-                                          Margin="10"
-                                          HeightRequest="15"/>
-                <StackLayout Orientation="Vertical"
-                                 VerticalOptions="Center"
-                                 >
-                    <Label Text="Events"
-                           TextColor="#5D00EF"
-                           FontAttributes="Bold"
-                           FontSize="Large"
-                          
-                           />
+            <StackLayout BackgroundColor="White" Orientation="Horizontal">
+                <forms:SvgCachedImage
+                    Margin="10"
+                    HeightRequest="15"
+                    HorizontalOptions="Start"
+                    Source="path.svg" />
+                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Large"
+                        Text="Events"
+                        TextColor="#5D00EF" />
                 </StackLayout>
 
             </StackLayout>
-            <ScrollView Grid.Row="1" >
-               <Grid VerticalOptions="Start" 
-                                           >
-                   <Grid.ColumnDefinitions>
-                       <ColumnDefinition Width="auto"/>
+            <ScrollView Grid.Row="1">
+                <Grid VerticalOptions="Start">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
 
-                   </Grid.ColumnDefinitions>
-                   <Grid.RowDefinitions>
-                
-                       <RowDefinition Height="30"/>
-                       <RowDefinition Height="70" />
-                       <RowDefinition Height="30"/>
-                       <RowDefinition Height="70"/>
-                       <RowDefinition Height="30"/>
-                       <RowDefinition Height="500"/>
-                       <RowDefinition Height="30"/>
-                       <RowDefinition Height="150"/>
-                   </Grid.RowDefinitions>
-           
-                  
-                   <Grid Grid.Row="0"
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="500" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="150" />
+                    </Grid.RowDefinitions>
+
+
+                    <Grid
+                        Grid.Row="0"
                         Grid.Column="0"
-                        HorizontalOptions="Start"
-                        Margin="10,0,0,0"     >
-                        <forms:SvgCachedImage Source="Workshop.svg"
-                                         
-                                         Aspect="AspectFit"  />
-                   </Grid>
+                        Margin="10,0,0,0"
+                        HorizontalOptions="Start">
+                        <forms:SvgCachedImage Aspect="AspectFit" Source="Workshop.svg" />
+                    </Grid>
 
-                   <CollectionView  Grid.Row="1"
-                                    Grid.Column="0"
-                                    x:Name="FirstCollectionView"
-                                    VerticalOptions="FillAndExpand"  >
-                       <CollectionView.ItemsLayout>
-                                    <GridItemsLayout Orientation="Horizontal"/>
-                       </CollectionView.ItemsLayout>
-
-                       <CollectionView.ItemTemplate>
-                          <DataTemplate>
-                               <StackLayout Orientation="Horizontal">
-                                   <forms:SvgCachedImage Source="{Binding .}" Margin="10" />
-                               </StackLayout>
-                          </DataTemplate>
-                       </CollectionView.ItemTemplate>
-                   </CollectionView>
-                   <Grid Grid.Row="2"
-                         VerticalOptions="FillAndExpand"
-                         HorizontalOptions="Start"
-                         Margin="10,0,0,0">
-                         <forms:SvgCachedImage Source="Talks.svg"
-                                      Aspect="AspectFit" />
-                   </Grid>
-                   <CollectionView  Grid.Row="3"
-                                    VerticalOptions="FillAndExpand"                      
-                                    Grid.Column="0"
-                                    x:Name="SecondCollectionView">
+                    <CollectionView
+                        x:Name="WorkShopCollectionView"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        VerticalOptions="FillAndExpand">
                         <CollectionView.ItemsLayout>
-                                      <GridItemsLayout Orientation="Horizontal"/>
-                        </CollectionView.ItemsLayout>
-                    
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate >
-
-                                <StackLayout HorizontalOptions="FillAndExpand"
-                                             VerticalOptions="FillAndExpand"
-                                             Orientation="Horizontal">
-                                            <forms:SvgCachedImage
-                                                 Source="{Binding .}" Margin="10" >
-                                            </forms:SvgCachedImage>
-                            
-                                </StackLayout>
-
-
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                   </CollectionView>
-
-                   <Grid Grid.Row="4"
-                         Grid.Column="0"
-                         VerticalOptions="FillAndExpand"
-                         HorizontalOptions="Start" 
-                         Margin="10,0,0,0"   >
-                        <forms:SvgCachedImage Source="Competition.svg"                                       
-                                              Aspect="AspectFit"   />
-                   </Grid>
-                   <CollectionView Grid.Row="5"
-                                   x:Name="MainCollectionView"
-                                   Grid.Column="0">
-                       <CollectionView.ItemsLayout>
-                             <GridItemsLayout Orientation="Vertical"
-                                              Span="3"  />
-                       </CollectionView.ItemsLayout>
-                       <CollectionView.ItemTemplate>
-                          <DataTemplate>
-                                <StackLayout Orientation="Vertical" 
-                                             HorizontalOptions="FillAndExpand" 
-                                             VerticalOptions="FillAndExpand >
-                                    <forms:SvgCachedImage Source="{Binding .}" 
-                                                          Margin="10"
-                                                          HeightRequest="100"/>
-                                    <StackLayout Orientation="Vertical" 
-                                                       HorizontalOptions="Center"
-                                                       Margin="0,-15,0,10">
-                                        <Label 
-                                                    Text="{Binding .}"
-                                                    FontAttributes="Bold"
-                                                    TextColor="Black"
-                                                      />
-                                        <Label 
-                                                    Text="{Binding .}"                         
-                                                    TextColor="Black"
-                                                    Margin="0,-10,0,0" />
-
-                                    </StackLayout>
-                                </StackLayout>
-                            </DataTemplate>
-                       </CollectionView.ItemTemplate>
-                   </CollectionView>
-                   <Grid Grid.Row="6"
-                          Grid.Column="0"
-                          VerticalOptions="FillAndExpand"
-                          HorizontalOptions="Start" 
-                          Margin="10,0,0,0"   >
-                          <forms:SvgCachedImage Source="Competition.svg"                                   
-                                       Aspect="AspectFit"
-                                       />
-                   </Grid>
-                   <CollectionView Grid.Row="7"
-                                   x:Name="CompCollectionView"
-                                   VerticalOptions="FillAndExpand"
-                                   Grid.Column="0">
-                        <CollectionView.ItemsLayout>
-                            <GridItemsLayout Orientation="Horizontal"/>
+                            <GridItemsLayout Orientation="Horizontal" />
                         </CollectionView.ItemsLayout>
 
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <StackLayout Orientation="Horizontal" >
-                                    <StackLayout Orientation="Vertical" >
-                                        <forms:SvgCachedImage Source="{Binding .}"
-                                                              Margin="10"
-                                                              HeightRequest="100" 
-                                                              WidthRequest="100"  />
-                                        <Label HorizontalOptions="Center"
-                                               Text="{Binding .}"
-                                               FontAttributes="Bold"
-                                               TextColor="Black"
-                                               Margin="0,-10,0,0" />
-                                        <Label HorizontalOptions="Center"
-                                               Text="{Binding .}"                             
-                                               TextColor="Black"
-                                               Margin="0,-10,0,0" />
+                                <StackLayout Orientation="Horizontal">
+                                    <forms:SvgCachedImage Margin="10" Source="{Binding .}" />
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    <Grid
+                        Grid.Row="2"
+                        Margin="10,0,0,0"
+                        HorizontalOptions="Start"
+                        VerticalOptions="FillAndExpand">
+                        <forms:SvgCachedImage Aspect="AspectFit" Source="Talks.svg" />
+                    </Grid>
+                    <CollectionView
+                        x:Name="TalksCollectionView"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Horizontal" />
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+
+                                <StackLayout
+                                    HorizontalOptions="FillAndExpand"
+                                    Orientation="Horizontal"
+                                    VerticalOptions="FillAndExpand">
+                                    <forms:SvgCachedImage Margin="10" Source="{Binding .}" />
+
+                                </StackLayout>
+
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Grid
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Margin="10,0,0,0"
+                        HorizontalOptions="Start"
+                        VerticalOptions="FillAndExpand">
+                        <forms:SvgCachedImage Aspect="AspectFit" Source="Competition.svg" />
+                    </Grid>
+
+
+
+
+                    <CollectionView
+                        x:Name="MainCollectionView"
+                        Grid.Row="5"
+                        Grid.Column="0">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Vertical" Span="3" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout
+                                    HorizontalOptions="FillAndExpand"
+                                    Orientation="Vertical"
+                                    VerticalOptions="FillAndExpand">
+                                    <forms:SvgCachedImage
+                                        Margin="10"
+                                        HeightRequest="100"
+                                        Source="{Binding ImgUrl}" />
+                                    <StackLayout
+                                        Margin="0,-15,0,10"
+                                        HorizontalOptions="Center"
+                                        Orientation="Vertical">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            Text="{Binding Name}"
+                                            TextColor="Black" />
+                                        <Label
+                                            Margin="0,-10,0,0"
+                                            Text="{Binding About}"
+                                            TextColor="Black" />
+
                                     </StackLayout>
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-                   </CollectionView>
+                    </CollectionView>
+
+
+
+
+                    <Grid
+                        Grid.Row="6"
+                        Grid.Column="0"
+                        Margin="10,0,0,0"
+                        HorizontalOptions="Start"
+                        VerticalOptions="FillAndExpand">
+                        <forms:SvgCachedImage Aspect="AspectFit" Source="Competition.svg" />
+                    </Grid>
+                    <CollectionView
+                        x:Name="CompCollectionView"
+                        Grid.Row="7"
+                        Grid.Column="0"
+                        VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Horizontal" />
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical">
+                                        <forms:SvgCachedImage
+                                            Margin="10"
+                                            HeightRequest="100"
+                                            Source="{Binding ImgUrl}"
+                                            WidthRequest="100" />
+                                        <Label
+                                            Margin="0,-10,0,0"
+                                            FontAttributes="Bold"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding Name}"
+                                            TextColor="Black" />
+                                        <Label
+                                            Margin="0,-10,0,0"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding About}"
+                                            TextColor="Black" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
 
                 </Grid>
             </ScrollView>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Invento19.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,50 +22,204 @@ namespace Invento19.Events
             {
                 "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
             };
-            FirstCollectionView.ItemsSource = Workshops;
+
+
+
+            
+
+
+
             List<string> Talks = new List<string>
             {
                "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
             };
-            SecondCollectionView.ItemsSource = Talks;
-            List<string> Comp = new List<string>
-            {
-                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
-
-            };
-            List<string> Names = new List<string>
-            {
-                "code","dbmania","inspecta","coderelay","dbmania","inspecta"
-
-            };
-            List<string> Abouts = new List<string>
-            {
-                "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
-
-            };
-            CompCollectionView.ItemsSource = Comp;
-            CompCollectionView.ItemsSource = Names;
-            CompCollectionView.ItemsSource = Abouts;
-            List<string> Competition = new List<string>
-            {
-                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
 
 
 
-            };
-            MainCollectionView.ItemsSource = Competition;
-            List<string> Name = new List<string>
+            
+
+
+
+            //List<string> Comp = new List<string>
+            //{
+            //    "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
+
+            //};
+            //List<string> Names = new List<string>
+            //{
+            //    "code","dbmania","inspecta","coderelay","dbmania","inspecta"
+
+            //};
+            //List<string> Abouts = new List<string>
+            //{
+            //    "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
+
+            //};
+
+
+
+
+            //CompCollectionView.ItemsSource = Comp;
+            //CompCollectionView.ItemsSource = Names; 
+            //CompCollectionView.ItemsSource = Abouts;
+
+            List<ProgramModel> CompetionData = new List<ProgramModel>()
             {
-                "code","dbmania","inspecta","coderelay","dbmania","inspecta"
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                }
             };
-            List<string> About = new List<string>
+
+
+            List<ProgramModel> EventData = new List<ProgramModel>()
             {
-               "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="coderelay.svg",
+                    Name="Code Relay",
+                    About="About"
+                }
             };
-            MainCollectionView.ItemsSource = Name;
-           
-            MainCollectionView.ItemsSource = About;
-          
+
+
+
+            WorkShopCollectionView.ItemsSource = Workshops;
+            CompCollectionView.ItemsSource = CompetionData;
+            MainCollectionView.ItemsSource = EventData;
+            TalksCollectionView.ItemsSource = Talks;
+
+
+            //List<string> Competition = new List<string>
+            //{
+            //    "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
+
+
+
+            //};
+            //MainCollectionView.ItemsSource = Competition;
+            //List<string> Name = new List<string>
+            //{
+            //    "code","dbmania","inspecta","coderelay","dbmania","inspecta"
+            //};
+            //List<string> About = new List<string>
+            //{
+            //   "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
+            //};
+            //MainCollectionView.ItemsSource = Name;
+
+            //MainCollectionView.ItemsSource = About;
+
         }
         
     }
