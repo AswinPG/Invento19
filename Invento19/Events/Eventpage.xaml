@@ -14,17 +14,15 @@
         <Grid VerticalOptions="FillAndExpand"
               BackgroundColor="White">
             <Grid.RowDefinitions>
-                <RowDefinition Height="60"/>
+                <RowDefinition Height="70"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="60"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <StackLayout 
                 BackgroundColor="White"
-                Orientation="Horizontal"
-                VerticalOptions="Center">
+                Orientation="Horizontal">
                 <forms:SvgCachedImage Source="path.svg"
                                           HorizontalOptions="Start" 
                                           Margin="10"
@@ -41,8 +39,7 @@
                 </StackLayout>
 
             </StackLayout>
-            <ScrollView Grid.Row="1" 
-                        >
+            <ScrollView Grid.Row="1" >
                <Grid VerticalOptions="Start" 
                                            >
                    <Grid.ColumnDefinitions>
@@ -137,7 +134,8 @@
                        <CollectionView.ItemTemplate>
                           <DataTemplate>
                                 <StackLayout Orientation="Vertical" 
-                                             >
+                                             HorizontalOptions="FillAndExpand" 
+                                             VerticalOptions="FillAndExpand >
                                     <forms:SvgCachedImage Source="{Binding .}" 
                                                           Margin="10"
                                                           HeightRequest="100"/>
@@ -201,19 +199,6 @@
 
                 </Grid>
             </ScrollView>
-            <StackLayout Grid.Column="2"
-                         Orientation="Horizontal"
-                         >
-                <StackLayout HorizontalOptions="StartAndExpand" BackgroundColor="Red">
-                    <forms:SvgCachedImage Source="profile.svg" HorizontalOptions="Center" Aspect="AspectFit"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="Center" BackgroundColor="Blue">
-                    <forms:SvgCachedImage Source="home.svg" HorizontalOptions="Center" Aspect="AspectFit"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="EndAndExpand" BackgroundColor="Green">
-                    <forms:SvgCachedImage Source="faq.svg" HorizontalOptions="Center" Aspect="AspectFit"/>
-                </StackLayout>
-            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
