@@ -29,7 +29,7 @@ namespace Invento19.Events
             SecondCollectionView.ItemsSource = Talks;
             List<string> Comp = new List<string>
             {
-                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
+                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
 
             };
             List<string> Names = new List<string>
@@ -39,7 +39,7 @@ namespace Invento19.Events
             };
             List<string> Abouts = new List<string>
             {
-                "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
+                "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay","dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
 
             };
             CompCollectionView.ItemsSource = Comp;
@@ -47,7 +47,7 @@ namespace Invento19.Events
             CompCollectionView.ItemsSource = Abouts;
             List<string> Competition = new List<string>
             {
-                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
+                "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
 
 
 
@@ -59,7 +59,7 @@ namespace Invento19.Events
             };
             List<string> About = new List<string>
             {
-               "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
+               "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay","dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
             };
             MainCollectionView.ItemsSource = Name;
            
