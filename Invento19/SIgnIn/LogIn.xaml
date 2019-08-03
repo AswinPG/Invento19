@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             mc:Ignorable="d"
+             BackgroundImageSource="Android2.png"
+             x:Class="Invento19.SIgnIn.LogIn">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Transparent">
+
+                <ffSvg:SvgCachedImage Margin="20,20,0,0"
+                                      Source="logo.svg"
+                                      HeightRequest="48"
+                                      HorizontalOptions="Start"
+                                      VerticalOptions="Start"/>
+            </Frame>
+            <Frame Margin="20,0,20,0"
+                   BackgroundColor="Transparent">
+                <StackLayout Padding="0,140,0,0" Spacing="10">
+                    <Grid>
+                        <Label Grid.Column="0" Text="Log In"
+                       FontSize="50"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                                      />
+                        <StackLayout Grid.Column="1">
+                            <Label  Text="Sign Up"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                                      />
+                            <BoxView BackgroundColor="White"
+                             Margin="3,0,3,0"
+                             HeightRequest="5"
+                             WidthRequest="8"
+                             HorizontalOptions="End"/>
+                        </StackLayout>
+                    </Grid>
+
+                    <BoxView BackgroundColor="White"
+                             Margin="3,0,0,50"
+                             HeightRequest="12"
+                             WidthRequest="20"
+                             HorizontalOptions="Start"/>
+                    
+                    <Entry Placeholder="Username" PlaceholderColor="LightGray"/>
+                    <Entry Placeholder="Password" PlaceholderColor="LightGray"/>
+
+                </StackLayout>
+            </Frame>
+            <Frame Margin="20,0,20,0"
+                   BackgroundColor="Transparent">
+                <ffSvg:SvgCachedImage Source="go.svg" HeightRequest="36"/>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
