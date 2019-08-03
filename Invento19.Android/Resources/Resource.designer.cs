@@ -5776,16 +5776,10 @@ namespace Invento19.Droid
 			public const int abc_vector_test = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int Android1 = 2130837588;
+			public const int Android3 = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int Android2 = 2130837589;
-			
-			// aapt resource value: 0x7f020056
-			public const int Android3 = 2130837590;
-			
-			// aapt resource value: 0x7f020057
-			public const int avd_hide_password = 2130837591;
+			public const int avd_hide_password = 2130837589;
 			
 			// aapt resource value: 0x7f020143
 			public const int avd_hide_password_1 = 2130837827;
@@ -5796,8 +5790,8 @@ namespace Invento19.Droid
 			// aapt resource value: 0x7f020145
 			public const int avd_hide_password_3 = 2130837829;
 			
-			// aapt resource value: 0x7f020058
-			public const int avd_show_password = 2130837592;
+			// aapt resource value: 0x7f020056
+			public const int avd_show_password = 2130837590;
 			
 			// aapt resource value: 0x7f020146
 			public const int avd_show_password_1 = 2130837830;
@@ -5808,38 +5802,44 @@ namespace Invento19.Droid
 			// aapt resource value: 0x7f020148
 			public const int avd_show_password_3 = 2130837832;
 			
+			// aapt resource value: 0x7f020057
+			public const int cse = 2130837591;
+			
+			// aapt resource value: 0x7f020058
+			public const int design_bottom_navigation_item_background = 2130837592;
+			
 			// aapt resource value: 0x7f020059
-			public const int cse = 2130837593;
+			public const int design_fab_background = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_bottom_navigation_item_background = 2130837594;
+			public const int design_ic_visibility = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_fab_background = 2130837595;
+			public const int design_ic_visibility_off = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_ic_visibility = 2130837596;
+			public const int design_password_eye = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int design_ic_visibility_off = 2130837597;
+			public const int design_snackbar_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int design_password_eye = 2130837598;
+			public const int ece = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int design_snackbar_background = 2130837599;
+			public const int eee = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ece = 2130837600;
+			public const int facebook = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int eee = 2130837601;
+			public const int general = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int general = 2130837602;
+			public const int go = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int go = 2130837603;
+			public const int google = 2130837603;
 			
 			// aapt resource value: 0x7f020064
 			public const int highlights = 2130837604;

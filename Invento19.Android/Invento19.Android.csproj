@@ -80,6 +80,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\Montserrat-Black.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Bold.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Italic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Light.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Medium.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Regular.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-Thin.ttf" />
+    <AndroidAsset Include="Assets\Montserrat-ThinItalic.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -121,6 +139,24 @@
     <AndroidResource Include="Resources\drawable\highlights.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Subtract.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\go.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Android3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\facebook.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\google.svg" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\me.svg" />
   </ItemGroup>
   <ItemGroup>
@@ -137,18 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\it.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Subtract.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\go.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Android2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

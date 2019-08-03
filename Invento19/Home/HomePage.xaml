@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:forms="http://xamarin.com/schemas/2014/forms"
              xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             BackgroundImageSource="Android1.png"
+             BackgroundImageSource="Android3.png"
              mc:Ignorable="d"
              x:Class="Invento19.Home.HomePage">
     <ContentPage.Content>

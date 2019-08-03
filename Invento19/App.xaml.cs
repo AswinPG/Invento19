@@ -12,7 +12,7 @@ namespace Invento19
         {
             InitializeComponent();
 
-            MainPage = new SIgnUp();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()
