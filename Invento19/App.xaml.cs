@@ -1,4 +1,5 @@
 ﻿using System;
+using Invento19.Events;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Invento19
         {
             InitializeComponent();
 
-            MainPage = new Events.Eventpage();
+            MainPage = new Eventpage();
         }
 
         protected override void OnStart()

@@ -4,15 +4,18 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    BackgroundImageSource="Android.png"
     xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+   
+    >
 
 
 
     <ContentPage.Content>
 
-        <Grid BackgroundColor="White" VerticalOptions="FillAndExpand">
+        <Grid  VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="*" />
@@ -20,7 +23,8 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
-            <StackLayout BackgroundColor="White" Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Transparent">
                 <forms:SvgCachedImage
                     Margin="10"
                     HeightRequest="15"
@@ -31,7 +35,7 @@
                         FontAttributes="Bold"
                         FontSize="Large"
                         Text="Events"
-                        TextColor="#5D00EF" />
+                        TextColor="White" />
                 </StackLayout>
 
             </StackLayout>
@@ -44,9 +48,9 @@
                     <Grid.RowDefinitions>
 
                         <RowDefinition Height="30" />
-                        <RowDefinition Height="70" />
+                        <RowDefinition Height="60" />
                         <RowDefinition Height="30" />
-                        <RowDefinition Height="70" />
+                        <RowDefinition Height="60" />
                         <RowDefinition Height="30" />
                         <RowDefinition Height="500" />
                         <RowDefinition Height="30" />
@@ -73,8 +77,44 @@
 
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <StackLayout Orientation="Horizontal">
-                                    <forms:SvgCachedImage Margin="10" Source="{Binding .}" />
+                                <StackLayout Orientation="Horizontal"
+                                             Margin="10,0,0,0" >
+                                    <Frame CornerRadius="20"
+                                           BackgroundColor="#F8F8F8">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="60"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="150"/>
+                                                <ColumnDefinition Width="40"/>
+                                            </Grid.ColumnDefinitions>
+                                            <StackLayout Orientation="Vertical"
+                                                VerticalOptions="StartAndExpand"
+                                                         Grid.Column="0">
+                                                <Label Text="{Binding .}"
+                                                       TextColor="Black"
+                                                       HorizontalOptions="Center"
+                                                       VerticalOptions="Start"
+                                                       VerticalTextAlignment="Start">
+                                                    <Label.FontFamily>
+                                                        <OnPlatform x:TypeArguments="x:String">
+                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                        </OnPlatform>
+                                                    </Label.FontFamily>
+                                                   
+                                                </Label>
+                                            </StackLayout>
+                                            <StackLayout 
+                                                         HorizontalOptions="Center"
+                                                         Grid.Column="1"
+                                                         Margin="0,-9,0,0">
+                                            <forms:SvgCachedImage Source="next.svg"
+                                                                  HeightRequest="40"/>
+                                            </StackLayout>
+
+                                        </Grid>
+                                    </Frame>
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
@@ -98,14 +138,46 @@
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
 
-                                <StackLayout
-                                    HorizontalOptions="FillAndExpand"
-                                    Orientation="Horizontal"
-                                    VerticalOptions="FillAndExpand">
-                                    <forms:SvgCachedImage Margin="10" Source="{Binding .}" />
 
+                                <StackLayout Orientation="Horizontal"
+                                             Margin="10,0,0,0" >
+                                    <Frame CornerRadius="20"
+                                           BackgroundColor="#F8F8F8">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="60"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="150"/>
+                                                <ColumnDefinition Width="40"/>
+                                            </Grid.ColumnDefinitions>
+                                            <StackLayout Orientation="Vertical"
+                                                VerticalOptions="StartAndExpand"
+                                                         Grid.Column="0">
+                                                <Label Text="{Binding .}"
+                                                       TextColor="Black"
+                                                       HorizontalOptions="Center"
+                                                       VerticalOptions="Start"
+                                                       VerticalTextAlignment="Start">
+                                                    <Label.FontFamily>
+                                                        <OnPlatform x:TypeArguments="x:String">
+                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                        </OnPlatform>
+                                                    </Label.FontFamily>
+
+                                                </Label>
+                                            </StackLayout>
+                                            <StackLayout 
+                                                         HorizontalOptions="Center"
+                                                         Grid.Column="1"
+                                                         Margin="0,-9,0,0">
+                                                <forms:SvgCachedImage Source="next.svg"
+                                                                  HeightRequest="40"/>
+                                            </StackLayout>
+
+                                        </Grid>
+                                    </Frame>
                                 </StackLayout>
-
 
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
@@ -124,7 +196,7 @@
 
 
                     <CollectionView
-                        x:Name="MainCollectionView"
+                        x:Name="CompCollectionView"
                         Grid.Row="5"
                         Grid.Column="0">
                         <CollectionView.ItemsLayout>
@@ -141,17 +213,30 @@
                                         HeightRequest="100"
                                         Source="{Binding ImgUrl}" />
                                     <StackLayout
-                                        Margin="0,-15,0,10"
+                                        Margin="10,-15,0,10"
                                         HorizontalOptions="Center"
                                         Orientation="Vertical">
                                         <Label
                                             FontAttributes="Bold"
                                             Text="{Binding Name}"
-                                            TextColor="Black" />
-                                        <Label
+                                            TextColor="White" >
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                        <Label 
                                             Margin="0,-10,0,0"
                                             Text="{Binding About}"
-                                            TextColor="Black" />
+                                             FontSize="Micro"
+                                            TextColor="Gray" >
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
 
                                     </StackLayout>
                                 </StackLayout>
@@ -171,7 +256,7 @@
                         <forms:SvgCachedImage Aspect="AspectFit" Source="Competition.svg" />
                     </Grid>
                     <CollectionView
-                        x:Name="CompCollectionView"
+                        x:Name="ShowCollectionView"
                         Grid.Row="7"
                         Grid.Column="0"
                         VerticalOptions="FillAndExpand">
@@ -186,19 +271,34 @@
                                         <forms:SvgCachedImage
                                             Margin="10"
                                             HeightRequest="100"
+                                             WidthRequest="100"
                                             Source="{Binding ImgUrl}"
-                                            WidthRequest="100" />
+                                            
+                                            />
                                         <Label
                                             Margin="0,-10,0,0"
                                             FontAttributes="Bold"
                                             HorizontalOptions="Center"
                                             Text="{Binding Name}"
-                                            TextColor="Black" />
+                                            TextColor="White">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
                                         <Label
                                             Margin="0,-10,0,0"
                                             HorizontalOptions="Center"
                                             Text="{Binding About}"
-                                            TextColor="Black" />
+                                            FontSize="Micro"
+                                            TextColor="Gray" >
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
                                     </StackLayout>
                                 </StackLayout>
                             </DataTemplate>

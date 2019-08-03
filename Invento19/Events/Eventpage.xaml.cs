@@ -17,10 +17,12 @@ namespace Invento19.Events
         public Eventpage()
         {
             InitializeComponent();
-         
+
+           
+
             List<string> Workshops = new List<string>
             {
-                "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
+                "Webdevelopment","Webdevelopment Using Python","webdevelopment", "webdevelopment","webdevelopment.svg","webdevelopment.svg"
             };
 
 
@@ -31,7 +33,7 @@ namespace Invento19.Events
 
             List<string> Talks = new List<string>
             {
-               "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
+               "Webdevelopment","Webdevelopment","webdevelopment", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
             };
 
 
@@ -40,34 +42,31 @@ namespace Invento19.Events
 
 
 
-            //List<string> Comp = new List<string>
-            //{
-            //    "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
+         
 
-            //};
-            //List<string> Names = new List<string>
-            //{
-            //    "code","dbmania","inspecta","coderelay","dbmania","inspecta"
-
-            //};
-            //List<string> Abouts = new List<string>
-            //{
-            //    "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
-
-            //};
-
-
-
-
-            //CompCollectionView.ItemsSource = Comp;
-            //CompCollectionView.ItemsSource = Names; 
-            //CompCollectionView.ItemsSource = Abouts;
-
-            List<ProgramModel> CompetionData = new List<ProgramModel>()
+            List<ProgramModel> ShowData = new List<ProgramModel>()
             {
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="inspectra.svg",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="googler.svg",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="dbmania.svg",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="inspectra.svg",
                     Name="Code Relay",
                     About="About"
                 },
@@ -119,12 +118,7 @@ namespace Invento19.Events
                     Name="Code Relay",
                     About="About"
                 },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                }
+              
             };
 
 
@@ -132,93 +126,47 @@ namespace Invento19.Events
             {
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
+                    ImgUrl="inspectra.svg",
+                    Name="Inspectra 2.O",
+                    About="Investigation game"
                 },
+                new ProgramModel()
+                {
+                    ImgUrl="googler.svg",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="dbmania.svg",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+               
                 new ProgramModel()
                 {
                     ImgUrl="coderelay.svg",
                     Name="Code Relay",
-                    About="About"
+                    About="Team Coding"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
+                    ImgUrl="ideaslam.svg",
+                    Name="Idea Slam",
+                    About="Idea Pitching Contest"
                 },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                }
+
             };
 
 
 
             WorkShopCollectionView.ItemsSource = Workshops;
-            CompCollectionView.ItemsSource = CompetionData;
-            MainCollectionView.ItemsSource = EventData;
+            ShowCollectionView.ItemsSource = ShowData;
+            CompCollectionView.ItemsSource = EventData;
             TalksCollectionView.ItemsSource = Talks;
 
 
-            //List<string> Competition = new List<string>
-            //{
-            //    "coderelay.svg","dbmania.svg","inspecta.svg","coderelay.svg","dbmania.svg","inspecta.svg"
-
-
-
-            //};
-            //MainCollectionView.ItemsSource = Competition;
-            //List<string> Name = new List<string>
-            //{
-            //    "code","dbmania","inspecta","coderelay","dbmania","inspecta"
-            //};
-            //List<string> About = new List<string>
-            //{
-            //   "dbmania","inspecta","coderelay","dbmania","inspecta","coderelay"
-            //};
-            //MainCollectionView.ItemsSource = Name;
-
-            //MainCollectionView.ItemsSource = About;
+          
 
         }
         
