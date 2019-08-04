@@ -1,243 +1,207 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-       
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             mc:Ignorable="d"
-            
-             
-             x:Class="Invento19.EventDetail.EventDetailsPage"
-             BackgroundColor="White">
+<ContentPage
+    x:Class="Invento19.EventDetail.EventDetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="White"
+    mc:Ignorable="d">
     <ContentPage.Content>
-       
-            <StackLayout
-           VerticalOptions="FillAndExpand">
+
+        <StackLayout VerticalOptions="FillAndExpand">
 
 
 
 
-            <Frame BackgroundColor="White"
-                                   Margin="10,0,0,0">
+            <Frame Margin="10,0,0,0" BackgroundColor="White">
 
-                <StackLayout
-                            BackgroundColor="White"
-                            HorizontalOptions="StartAndExpand">
-                    <forms:SvgCachedImage Source="path.svg"
-                                      HorizontalOptions="Start"
-                                       
-                                      Aspect="AspectFill">
-
-
-                    </forms:SvgCachedImage>
+                <StackLayout BackgroundColor="White" HorizontalOptions="StartAndExpand">
+                    <forms:SvgCachedImage
+                        Aspect="AspectFill"
+                        HorizontalOptions="Start"
+                        Source="path.svg" />
 
                 </StackLayout>
             </Frame>
 
-            <Frame Margin="10"
-                   HasShadow="False">
+            <Frame Margin="10" HasShadow="False">
 
 
-                    <Grid
-                VerticalOptions="FillAndExpand">
-                        <Grid.RowDefinitions>
-                            <RowDefinition
-                        Height="auto"/>
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
 
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition
-                        Width="*"/>
-                            <ColumnDefinition
-                        Width="*"/>
-                        </Grid.ColumnDefinitions>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
 
 
-                        <StackLayout
-                    
-                    Grid.Row="0"
-                    Grid.Column="0"
-                 
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="StartAndExpand"
-                    >
-
-                            <Label Text="Hall of War"
-                           FontAttributes="Bold"
-                           TextColor="Blue"
-                           FontSize="30"
-                           VerticalOptions="CenterAndExpand">
-                            </Label>
-                            <Label Text="Gaming contest"
-                           TextColor="Brown"
-                           FontSize="14"
-                           VerticalOptions="StartAndExpand"></Label>
-
-                            <StackLayout HeightRequest="40"
-                                 Orientation="Horizontal"
-                                 HorizontalOptions="StartAndExpand">
-                                <forms:SvgCachedImage Source="Group2.svg"
-                               HorizontalOptions="Center"
-                                     HeightRequest="40"
-                                                  WidthRequest="40">
-                                </forms:SvgCachedImage>
-
-                                <StackLayout
-                           HeightRequest="40"
-                            Orientation="Vertical"
-                          HorizontalOptions="FillAndExpand">
-
-                                    <Label 
-                                     Text="6K"
-                                     TextColor="Red"
-                                FontSize="20"
-                                FontAttributes="Bold"
-                                   VerticalOptions="End"
-                                HeightRequest="22"
-                             />
-                                    <Label Text="prize worth"
-                                   FontSize="10"
-                                   TextColor="Black"
-                                   VerticalOptions="Start"
-                                   HeightRequest="14"/>
-                                </StackLayout>
-
-                            </StackLayout>
-
-                        </StackLayout>
-
-
-
-
-                        <StackLayout 
-             
-             VerticalOptions="Center"
-             Grid.Row="0"
-              Grid.Column="1">
-                            <forms:SvgCachedImage Source="gaming.svg"
-                                              VerticalOptions="CenterAndExpand"
-                                              HeightRequest="150"
-                                              WidthRequest="150"
-                                              ></forms:SvgCachedImage>
-                        </StackLayout>
-
-
-                    </Grid>
-                </Frame>
-
-            <Frame HasShadow="False"
-                BackgroundColor="#F8F8F8"
-       CornerRadius="15"
-       Margin="15">
-                <Grid BackgroundColor="#F8F8F8"
-                  VerticalOptions="CenterAndExpand"
-                  HorizontalOptions="CenterAndExpand">
-
-
-                        <Grid.RowDefinitions>
-                            <RowDefinition
-                                    Height="50">
-                            </RowDefinition>
-
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="800"/>
-                            <ColumnDefinition Width="800"/>
-                            <ColumnDefinition Width="500"/>
-                        </Grid.ColumnDefinitions>
-
-                        <StackLayout
-                    Orientation="Horizontal">
-                            <StackLayout >
-                                <Label 
-                       Text="Reg. Fee"
-                  
-                       TextColor="Black"
-                    FontSize="Medium"
-                       HorizontalOptions="Start"
-                       VerticalOptions="Center"
-                        Grid.Row="0"
-                        Grid.Column="0"/>
-                                <Label
-                        Text="100Rs."
-                        FontAttributes="Bold"
-                        FontSize="Medium"
-                        HorizontalOptions="Start"
-                                    VerticalOptions="Center"
-                            TextColor="Blue"
+                    <StackLayout
                         Grid.Row="0"
                         Grid.Column="0"
-                   />
-                            </StackLayout>
-                            <StackLayout
-                                >
-                                <Label 
-                       Text="Date "
-                      TextColor="Black"
-                       FontSize="Medium"
-                       HorizontalOptions="Start"
-                                    VerticalOptions="Center"
-                       Grid.Row="0"
-                       Grid.Column="1"/>
-                                <Label
-                    Text="Sept 1"
-                    FontAttributes="Bold"
-                    FontSize="Medium"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="StartAndExpand">
+
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="30"
+                            Text="Hall of War"
                             TextColor="Blue"
-                    VerticalOptions="Center"
-                                    HorizontalOptions="Start"
-                    Grid.Row="0"
-                    Grid.Column="1"/>
-                            </StackLayout>
-                        </StackLayout>
+                            VerticalOptions="CenterAndExpand" />
+                        <Label
+                            FontSize="14"
+                            Text="Gaming contest"
+                            TextColor="Brown"
+                            VerticalOptions="StartAndExpand" />
 
-                    </Grid>
-                </Frame>
-                <ScrollView
-                HeightRequest="250">
-                    <Frame BackgroundColor="White"
-                           CornerRadius="15"
-                           Margin="15">
                         <StackLayout
-                        
-                    
-                    
-                    BackgroundColor="White"
-                   VerticalOptions="FillAndExpand">
+                            HeightRequest="40"
+                            HorizontalOptions="StartAndExpand"
+                            Orientation="Horizontal">
+                            <forms:SvgCachedImage
+                                HeightRequest="40"
+                                HorizontalOptions="Center"
+                                Source="Group2.svg"
+                                WidthRequest="40" />
 
-                            <Label Text="In 12 November 2007, representatives of the Russian Federal Space Agency (Roscosmos) and ISRO signed an agreement for the two agencies to work together on the Chandrayaan-2 project.[35] ISRO would have the prime responsibility for the orbiter and rover, while Roscosmos was to provide the lander. The Indian government approved the mission in a meeting of the Union Cabinet, held on 18 September 2008 and chaired by Prime Minister Manmohan Singh.[36] The design of the spacecraft was completed in August 2009, with scientists of both countries conducting a joint review.[37][38]
+                            <StackLayout
+                                HeightRequest="40"
+                                HorizontalOptions="FillAndExpand"
+                                Orientation="Vertical">
 
-Although ISRO finalised the payload for Chandrayaan-2 per schedule,[39] the mission was postponed in January 2013[40] and rescheduled to 2016 because Russia was unable to develop the lander on time.[41][42] Roscosmos later withdrew in wake of the failure of the Fobos-Grunt mission to Mars, since the technical aspects connected with the Fobos-Grunt mission were also used in the lunar projects, which needed to be reviewed.[41] When Russia cited its inability to provide the lander even by 2015, India decided to develop the lunar mission independently.[40][43]
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    HeightRequest="22"
+                                    Text="6K"
+                                    TextColor="Red"
+                                    VerticalOptions="End" />
+                                <Label
+                                    FontSize="10"
+                                    HeightRequest="14"
+                                    Text="prize worth"
+                                    TextColor="Black"
+                                    VerticalOptions="Start" />
+                            </StackLayout>
 
-The spacecraft's launch had been scheduled for March 2018, but was first delayed to April and then to October to conduct further tests on the vehicle.[44][45] On 19 June 2018, after the program's fourth Comprehensive Technical Review meeting, a number of changes in configuration and landing sequence were planned for implementation, pushing the launch to the first half of 2019.[46] Two of the lander's legs got minor damage during one of the tests in February 2019.[47]
-
-Chandrayaan-2 launch was initially scheduled for 14 July 2019, 21:21 UTC (15 July 2019 at 02:51 IST local time), with the landing expected on 6 September 2019.[48] However, the launch was aborted due to a technical glitch and rescheduled to 22 July 2019.[49][7][50][51]
-
-On 22 July 2019 at 09:13 UTC (14:43 IST) GSLV MK III M1 on its first operational flight successfully launched Chandrayaan-2.[52]
-
-Objectives
-The primary objectives of Chandrayaan-2 are to demonstrate the ability to soft-land on the lunar surface and operate a robotic rover on the surface. Scientific goals include studies of lunar topography, mineralogy, elemental abundance, the lunar exosphere, and signatures of hydroxyl and water ice.[53] The orbiter will map the lunar surface and help to prepare 3D maps of it. The onboard radar will also map the surface while studying the water ice in the south polar region and thickness of the lunar regolith on the surface.[54]"
-                  TextColor="Black"/>
                         </StackLayout>
 
-                    </Frame>
-                </ScrollView>
-                <Grid>
-                    <Button Text="Register"
-                FontSize="Small" 
-                HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        BackgroundColor="BlueViolet"
-                        TextColor="White"
-                        HeightRequest="50"
-                        WidthRequest="150"
-                        CornerRadius="15"
-                        Clicked="Button_Clicked"/>
-                </Grid>
+                    </StackLayout>
 
-            </StackLayout>
-       
+
+
+
+                    <StackLayout
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        VerticalOptions="Center">
+                        <forms:SvgCachedImage
+                            HeightRequest="150"
+                            Source="gaming.svg"
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150" />
+                    </StackLayout>
+
+
+                </Grid>
+            </Frame>
+
+            <Frame
+                Margin="15"
+                BackgroundColor="#F8F8F8"
+                CornerRadius="15"
+                HasShadow="False">
+                <Grid
+                    BackgroundColor="#F8F8F8"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand">
+
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="800" />
+                        <ColumnDefinition Width="800" />
+                        <ColumnDefinition Width="500" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout>
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                FontSize="Medium"
+                                HorizontalOptions="Start"
+                                Text="Reg. Fee"
+                                TextColor="Black"
+                                VerticalOptions="Center" />
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                HorizontalOptions="Start"
+                                Text="100Rs."
+                                TextColor="Blue"
+                                VerticalOptions="Center" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                FontSize="Medium"
+                                HorizontalOptions="Start"
+                                Text="Date "
+                                TextColor="Black"
+                                VerticalOptions="Center" />
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                HorizontalOptions="Start"
+                                Text="Sept 1"
+                                TextColor="Blue"
+                                VerticalOptions="Center" />
+                        </StackLayout>
+                    </StackLayout>
+
+                </Grid>
+            </Frame>
+            <ScrollView HeightRequest="250">
+                <Frame
+                    Margin="15"
+                    BackgroundColor="White"
+                    CornerRadius="15">
+                    <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand">
+
+                        <Label Text="In 12 November 2007, representatives of the Russian Federal Space Agency (Roscosmos) and ISRO signed an agreement for the two agencies to work together on the Chandrayaan-2 project.[35] ISRO would have the prime responsibility for the orbiter and rover, while Roscosmos was to provide the lander. The Indian government approved the mission in a meeting of the Union Cabinet, held on 18 September 2008 and chaired by Prime Minister Manmohan Singh.[36] The design of the spacecraft was completed in August 2009, with scientists of both countries conducting a joint review.[37][38]  Although ISRO finalised the payload for Chandrayaan-2 per schedule,[39] the mission was postponed in January 2013[40] and rescheduled to 2016 because Russia was unable to develop the lander on time.[41][42] Roscosmos later withdrew in wake of the failure of the Fobos-Grunt mission to Mars, since the technical aspects connected with the Fobos-Grunt mission were also used in the lunar projects, which needed to be reviewed.[41] When Russia cited its inability to provide the lander even by 2015, India decided to develop the lunar mission independently.[40][43]  The spacecraft's launch had been scheduled for March 2018, but was first delayed to April and then to October to conduct further tests on the vehicle.[44][45] On 19 June 2018, after the program's fourth Comprehensive Technical Review meeting, a number of changes in configuration and landing sequence were planned for implementation, pushing the launch to the first half of 2019.[46] Two of the lander's legs got minor damage during one of the tests in February 2019.[47]  Chandrayaan-2 launch was initially scheduled for 14 July 2019, 21:21 UTC (15 July 2019 at 02:51 IST local time), with the landing expected on 6 September 2019.[48] However, the launch was aborted due to a technical glitch and rescheduled to 22 July 2019.[49][7][50][51]  On 22 July 2019 at 09:13 UTC (14:43 IST) GSLV MK III M1 on its first operational flight successfully launched Chandrayaan-2.[52]  Objectives The primary objectives of Chandrayaan-2 are to demonstrate the ability to soft-land on the lunar surface and operate a robotic rover on the surface. Scientific goals include studies of lunar topography, mineralogy, elemental abundance, the lunar exosphere, and signatures of hydroxyl and water ice.[53] The orbiter will map the lunar surface and help to prepare 3D maps of it. The onboard radar will also map the surface while studying the water ice in the south polar region and thickness of the lunar regolith on the surface.[54]" TextColor="Black" />
+                    </StackLayout>
+
+                </Frame>
+            </ScrollView>
+            <Grid>
+                <Button
+                    BackgroundColor="BlueViolet"
+                    Clicked="Button_Clicked"
+                    CornerRadius="15"
+                    FontSize="Small"
+                    HeightRequest="50"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Register"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150" />
+            </Grid>
+
+        </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
