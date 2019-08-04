@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             mc:Ignorable="d"
+             BackgroundImageSource="Android3.png"
+             x:Class="Invento19.SIgnIn.SIgnUp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Transparent">
+
+                <ffSvg:SvgCachedImage Margin="20,20,0,0"
+                                      Source="logo.svg"
+                                      HeightRequest="48"
+                                      HorizontalOptions="Start"
+                                      VerticalOptions="Start"/>
+            </Frame>
+            <Frame Margin="20,0,20,0"
+                   BackgroundColor="Transparent">
+                <StackLayout Padding="0,30,0,0" Spacing="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <StackLayout Grid.Row="0" >
+                            <ffSvg:SvgCachedImage Source="google.svg"/>
+                            <ffSvg:SvgCachedImage Source="facebook.svg"/>
+                        </StackLayout>
+                        <Grid Grid.Row="1"/>
+                        <Label Grid.Column="0"
+                               Grid.Row="2"
+                               Text="Sign Up"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                       >
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
+                                </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+
+                        <StackLayout Grid.Column="1"
+                               Grid.Row="2">
+                            <Label  Text="Log In"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                                      >
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <BoxView BackgroundColor="White"
+                             Margin="3,0,3,0"
+                             HeightRequest="5"
+                             WidthRequest="8"
+                             HorizontalOptions="End"/>
+                        </StackLayout>
+                    </Grid>
+                    
+                    <BoxView BackgroundColor="White"
+                             Margin="3,0,0,50"
+                             HeightRequest="12"
+                             WidthRequest="20"
+                             HorizontalOptions="Start"/>
+                    <Entry Placeholder="Email" PlaceholderColor="#8894A6" TextColor="White">
+                    <Entry.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                        </OnPlatform>
+                    </Entry.FontFamily>
+
+
+                    </Entry>
+                    <Entry Placeholder="Username" PlaceholderColor="#8894A6" TextColor="White">
+                    <Entry.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                        </OnPlatform>
+                    </Entry.FontFamily>
+
+
+                    </Entry>
+                    <Entry Placeholder="Password" PlaceholderColor="#8894A6" TextColor="White">
+                        <Entry.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                            </OnPlatform>
+                        </Entry.FontFamily>
+                  
+
+                    </Entry>
+                    
+
+                </StackLayout>
+            </Frame>
+            <Frame Margin="20,0,20,0"
+                   BackgroundColor="Transparent">
+                <ffSvg:SvgCachedImage Source="go.svg" HeightRequest="36"/>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
