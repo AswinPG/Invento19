@@ -2,6 +2,7 @@
 using Invento19.EventDetail;
 using Invento19.Home;
 using Invento19.SIgnIn;
+using Invento19.Events;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
