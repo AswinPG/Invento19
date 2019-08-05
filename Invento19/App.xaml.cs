@@ -10,7 +10,15 @@ namespace Invento19
     {
         public App()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch(Exception e)
+            {
+                var a = e;
+            }
+            
 
             MainPage = new Eventpage();
         }
