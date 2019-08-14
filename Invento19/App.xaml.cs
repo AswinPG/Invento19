@@ -11,7 +11,7 @@ namespace Invento19
         {
             InitializeComponent();
 
-            MainPage = new Eventpage();
+            MainPage = new NavigationPage(new Eventpage());
         }
 
         protected override void OnStart()

@@ -1,4 +1,5 @@
-﻿using Invento19.Models;
+﻿using Invento19.ListsEvent;
+using Invento19.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,107 +19,170 @@ namespace Invento19.Events
         {
             InitializeComponent();
 
-           
 
-            List<string> Workshops = new List<string>
+
+            List<ProgramModel> WorkShops = new List<ProgramModel>()
             {
-                "Webdevelopment","Webdevelopment Using Python","webdevelopment", "webdevelopment","webdevelopment.svg","webdevelopment.svg"
+               new ProgramModel()
+               {
+                   Type="Talk",
+                   Event="Indroduction to web development"
+
+               },
+                new ProgramModel()
+               {
+                   Type="Workshop",
+                   Event="Indroduction to web development"
+
+               },
+                new ProgramModel()
+               {
+                   Type="Talk",
+                   Event="Indroduction to web development"
+
+               },
+                new ProgramModel()
+               {
+                   Type="Workshop",
+                   Event="Indroduction to web development"
+
+               },
+                new ProgramModel()
+               {
+                   Type="Talk",
+                   Event="Indroduction to web development"
+
+               }
             };
-
-
-
-            
-
-
-
-            List<string> Talks = new List<string>
-            {
-               "Webdevelopment","Webdevelopment","webdevelopment", "webdevelopment.svg","webdevelopment.svg","webdevelopment.svg"
-            };
-
-
-
-            
-
-
-
-         
 
             List<ProgramModel> ShowData = new List<ProgramModel>()
             {
                 new ProgramModel()
                 {
-                    ImgUrl="inspectra.svg",
+                    ImgUrl="aqua.png",
                     Name="Inspectra 2.0",
                     About="About"
                 },
                   new ProgramModel()
                 {
-                    ImgUrl="googler.svg",
+                    ImgUrl="a.png",
                     Name="Googler 2.O",
                     About="Googling Contest"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="dbmania.svg",
+                    ImgUrl="b.png",
                     Name="DBmania",
                     About="Database Trails"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="inspectra.svg",
+                    ImgUrl="c.png",
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="d.png" ,
+                   
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="aqua.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="a.png",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="b.png",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="c.png",
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="d.png" ,
+
+                    Name="Code Relay",
+                    About="About"
+                },
+                 new ProgramModel()
+                {
+                    ImgUrl="aqua.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="a.png",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="b.png",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="c.png",
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="d.png" ,
+
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="aqua.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="a.png",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="b.png",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+                new ProgramModel()
+                {
+                    ImgUrl="c.png",
                     Name="Code Relay",
                     About="About"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
+                    ImgUrl="d.png" ,
+
                     Name="Code Relay",
                     About="About"
                 },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-                new ProgramModel()
-                {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="About"
-                },
-              
+
+
             };
 
 
@@ -126,49 +190,107 @@ namespace Invento19.Events
             {
                 new ProgramModel()
                 {
-                    ImgUrl="inspectra.svg",
+                    ImgUrl="idea1.png",
                     Name="Inspectra 2.O",
                     About="Investigation game"
                 },
-                new ProgramModel()
+                 new ProgramModel()
                 {
-                    ImgUrl="googler.svg",
+                    ImgUrl="aqua.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="a.png",
                     Name="Googler 2.O",
                     About="Googling Contest"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="dbmania.svg",
+                    ImgUrl="b.png",
                     Name="DBmania",
                     About="Database Trails"
                 },
-               
-                new ProgramModel()
+                 new ProgramModel()
                 {
-                    ImgUrl="coderelay.svg",
-                    Name="Code Relay",
-                    About="Team Coding"
+                    ImgUrl="c.png",
+                    Name="Inspectra 2.O",
+                    About="Investigation game"
+                },
+                 new ProgramModel()
+                {
+                    ImgUrl="d.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="aqua.png",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
                 },
                 new ProgramModel()
                 {
-                    ImgUrl="ideaslam.svg",
+                    ImgUrl="idea1.png",
+                    Name="DBmania",
+                    About="Database Trails"
+                },
+                 new ProgramModel()
+                {
+                    ImgUrl="a.png",
+                    Name="Inspectra 2.O",
+                    About="Investigation game"
+                },
+                 new ProgramModel()
+                {
+                    ImgUrl="b.png",
+                    Name="Inspectra 2.0",
+                    About="About"
+                },
+                  new ProgramModel()
+                {
+                    ImgUrl="c.png",
+                    Name="Googler 2.O",
+                    About="Googling Contest"
+                },
+
+                new ProgramModel()
+                {
+                    ImgUrl="d.png",
                     Name="Idea Slam",
                     About="Idea Pitching Contest"
-                },
+                }
 
             };
 
 
 
-            WorkShopCollectionView.ItemsSource = Workshops;
+            
             ShowCollectionView.ItemsSource = ShowData;
             CompCollectionView.ItemsSource = EventData;
-            TalksCollectionView.ItemsSource = Talks;
+            WorkShopCollectionView.ItemsSource = WorkShops;
 
 
-          
+
+
+
 
         }
-        
+
+        private async void OnTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListsPage());
+        }
+
+        private void ShowCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var x = e;
+        }
+
+        //private async void TapOn(object sender, EventArgs e)
+        //{
+        //    await Navigation.PopAsync();
+        //}
     }
 }

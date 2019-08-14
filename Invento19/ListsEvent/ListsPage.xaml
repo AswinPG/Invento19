@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             BackgroundImageSource="Android.png"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:forms1="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             mc:Ignorable="d"
+             x:Class="Invento19.ListsEvent.ListsPage">
+    <ContentPage.Content>
+        <Grid  VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Transparent">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapOn"
+                                          NumberOfTapsRequired="1"/>
+                </StackLayout.GestureRecognizers>
+                <forms:SvgCachedImage
+                    Margin="10"
+                    HeightRequest="15"
+                    HorizontalOptions="Start"
+                    Source="path.svg">
+                   
+                </forms:SvgCachedImage>
+                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Large"
+                        Text="Competitions"
+                        TextColor="White" >
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+            <CollectionView
+                        x:Name="CompCollectionView"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="0,0,0,20">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout
+                                    HorizontalOptions="FillAndExpand"
+                                    Orientation="Vertical"
+                                    VerticalOptions="FillAndExpand">
+                            <forms1:CachedImage
+                                        Margin="10"
+                                        HeightRequest="100"
+                                        Source="{Binding ImgUrl}" />
+                            <StackLayout
+                                        Margin="10,-15,0,10"
+                                        HorizontalOptions="Center"
+                                        Orientation="Vertical">
+                                <Label
+                                            FontAttributes="Bold"
+                                            Text="{Binding Name}"
+                                            TextColor="White" >
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <Label 
+                                            Margin="0,-10,0,0"
+                                            Text="{Binding About}"
+                                             FontSize="Micro"
+                                            TextColor="Gray" >
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
