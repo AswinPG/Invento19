@@ -4,7 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:forms="http://xamarin.com/schemas/2014/forms"
+             
              xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             
              BackgroundImageSource="Android3.png"
              mc:Ignorable="d"
              x:Class="Invento19.Home.HomePage">
@@ -13,17 +18,19 @@
 
             <Frame BackgroundColor="Transparent">
 
-                <forms:CarouselView x:Name="CarouselView" HeightRequest="350" >
-                    <forms:CarouselView.ItemTemplate>
+                <cards:CarouselView x:Name="Car">
+                    <cards:CarouselView.ItemTemplate>
                         <DataTemplate>
-                            <Image Source="{Binding .}" HeightRequest="350" Margin="0,20,0,0"  HorizontalOptions="Center" VerticalOptions="Start"/>
-
+                            <Image Source="{Binding .}" HeightRequest="350" Margin="0,40,0,0"  HorizontalOptions="Center" VerticalOptions="Start"/>
                         </DataTemplate>
-                    </forms:CarouselView.ItemTemplate>
+                    </cards:CarouselView.ItemTemplate>
 
-                </forms:CarouselView>
+                    <controls:LeftArrowControl/>
+                    <controls:RightArrowControl/>
+                    <controls:IndicatorsControl/>
+                </cards:CarouselView>
             </Frame>
-            <Grid Padding="40,10,40,0">
+            <Grid Padding="40,20,40,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>

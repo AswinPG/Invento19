@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Invento19.About.AppTeam">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+            <Frame Margin="20,0,20,0"
+                   BackgroundColor="Transparent">
+            <StackLayout>
+                <Label Text="App Development Team"
+                       FontSize="20" Margin="0,0,0,15"
+                       FontAttributes="Bold"
+                       TextColor="#5D00EF"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                       >
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Image Source="MaskGroup.png"
+                   
+                           HeightRequest="70"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"
+                           />
+
+                        <StackLayout Spacing="-5">
+                        
+                        <Label Text="Manu"
+                               FontSize="15" 
+                               TextColor="#5D00EF"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Co-ordinator"
+                               FontSize="10" 
+                               TextColor="#000000"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1">
+                        <Image Source="MaskGroup.png"
+                   
+                           HeightRequest="70"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"/>
+
+                        <StackLayout Spacing="-5">
+                        
+                        <Label Text="Aswin"
+                               FontSize="15" 
+                               TextColor="#5D00EF"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Developer"
+                               FontSize="10" 
+                               TextColor="#000000"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="2">
+                        <Image Source="MaskGroup.png"
+                   
+                           HeightRequest="70"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"/>
+
+                            <StackLayout Spacing="-5">
+
+                                <Label Text="Rajath"
+                               FontSize="15" 
+                               TextColor="#5D00EF"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Designer"
+                               FontSize="10" 
+                               TextColor="Black"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <Image Source="MaskGroup.png"
+                   
+                           HeightRequest="70"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"
+                           />
+
+                        <StackLayout Spacing="-5">
+
+                            <Label Text="Anjana"
+                               FontSize="15" 
+                               TextColor="#5D00EF"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Text="Developer"
+                               FontSize="10" 
+                               TextColor="#000000"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+                            <StackLayout Grid.Row="1" Grid.Column="1">
+                                <Image Source="MaskGroup.png"
+                   
+                           HeightRequest="70"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"/>
+
+                                <StackLayout Spacing="-5">
+
+                                    <Label Text="Aswathy"
+                               FontSize="15" 
+                               TextColor="#5D00EF"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                    <Label Text="Developer"
+                               FontSize="10" 
+                               TextColor="#000000"
+                               VerticalOptions="Start"
+                               HorizontalOptions="Center">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="Android"
+                                        Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                </StackLayout>
+                            </StackLayout>
+
+
+
+                        
+                    
+                </Grid>
+            </StackLayout>
+        </Frame>
+            
+            
+
+        </StackLayout>
+
+
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

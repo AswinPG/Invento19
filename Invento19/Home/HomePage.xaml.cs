@@ -15,11 +15,13 @@ namespace Invento19.Home
         public HomePage()
         {
             InitializeComponent();
+            
+
             var name = new List<string>
             {
-                "highlights.png", "highlights1.png", "highlights.png"
+                "bandwar1.png", "natya1.png", "projectexpo.png", "queen.png", "robowar.png"
             };
-            CarouselView.ItemsSource = name;
+            Car.ItemsSource = name;
         }
     }
 }
