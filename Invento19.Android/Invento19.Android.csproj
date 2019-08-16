@@ -52,6 +52,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin">
+      <Version>5.2.0</Version>
+    </PackageReference>
     <PackageReference Include="ThriveGmbH.BottomNavigationBar.XF">
       <Version>1.0.2</Version>
     </PackageReference>
@@ -247,8 +250,8 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\path.svg" />
-    </ItemGroup>
-    <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\highlights1.png" />
   </ItemGroup>
   <ItemGroup>

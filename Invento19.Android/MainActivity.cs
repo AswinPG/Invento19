@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Platform;
 using Xamarin.Forms;
+using CarouselView.FormsPlugin.Android;
 
 namespace Invento19.Droid
 {
@@ -23,9 +24,10 @@ namespace Invento19.Droid
             Forms.SetFlags("CollectionView_Experimental");
 
 
-            Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            CarouselViewRenderer.Init();
             CachedImageRenderer.Init(true);
             LoadApplication(new App());
         }

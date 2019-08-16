@@ -19,7 +19,7 @@ namespace Invento19.Home
             {
                 "highlights.png", "highlights1.png", "highlights.png"
             };
-            CarouselView.ItemsSource = name;
+            //CarouselView.ItemsSource = name;
         }
     }
 }

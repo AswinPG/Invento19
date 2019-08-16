@@ -4,18 +4,16 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    BackgroundImageSource="Android.png"
     xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-   
-    >
+    BackgroundImageSource="Android.png"
+    mc:Ignorable="d">
 
 
 
     <ContentPage.Content>
 
-        <Grid  VerticalOptions="FillAndExpand">
+        <Grid VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="*" />
@@ -23,8 +21,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Transparent">
+            <StackLayout BackgroundColor="Transparent" Orientation="Horizontal">
                 <forms:SvgCachedImage
                     Margin="10"
                     HeightRequest="15"
@@ -77,40 +74,39 @@
 
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <StackLayout Orientation="Horizontal"
-                                             Margin="10,0,0,0" >
-                                    <Frame CornerRadius="20"
-                                           BackgroundColor="#F8F8F8">
+                                <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                                    <Frame BackgroundColor="#F8F8F8" CornerRadius="20">
                                         <Grid>
                                             <Grid.RowDefinitions>
-                                                <RowDefinition Height="60"/>
+                                                <RowDefinition Height="60" />
                                             </Grid.RowDefinitions>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="150"/>
-                                                <ColumnDefinition Width="40"/>
+                                                <ColumnDefinition Width="150" />
+                                                <ColumnDefinition Width="40" />
                                             </Grid.ColumnDefinitions>
-                                            <StackLayout Orientation="Vertical"
-                                                VerticalOptions="StartAndExpand"
-                                                         Grid.Column="0">
-                                                <Label Text="{Binding .}"
-                                                       TextColor="Black"
-                                                       HorizontalOptions="Center"
-                                                       VerticalOptions="Start"
-                                                       VerticalTextAlignment="Start">
+                                            <StackLayout
+                                                Grid.Column="0"
+                                                Orientation="Vertical"
+                                                VerticalOptions="StartAndExpand">
+                                                <Label
+                                                    HorizontalOptions="Center"
+                                                    Text="{Binding .}"
+                                                    TextColor="Black"
+                                                    VerticalOptions="Start"
+                                                    VerticalTextAlignment="Start">
                                                     <Label.FontFamily>
                                                         <OnPlatform x:TypeArguments="x:String">
-                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                         </OnPlatform>
                                                     </Label.FontFamily>
-                                                   
+
                                                 </Label>
                                             </StackLayout>
-                                            <StackLayout 
-                                                         HorizontalOptions="Center"
-                                                         Grid.Column="1"
-                                                         Margin="0,-9,0,0">
-                                            <forms:SvgCachedImage Source="next.svg"
-                                                                  HeightRequest="40"/>
+                                            <StackLayout
+                                                Grid.Column="1"
+                                                Margin="0,-9,0,0"
+                                                HorizontalOptions="Center">
+                                                <forms:SvgCachedImage HeightRequest="40" Source="next.svg" />
                                             </StackLayout>
 
                                         </Grid>
@@ -139,40 +135,39 @@
                             <DataTemplate>
 
 
-                                <StackLayout Orientation="Horizontal"
-                                             Margin="10,0,0,0" >
-                                    <Frame CornerRadius="20"
-                                           BackgroundColor="#F8F8F8">
+                                <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                                    <Frame BackgroundColor="#F8F8F8" CornerRadius="20">
                                         <Grid>
                                             <Grid.RowDefinitions>
-                                                <RowDefinition Height="60"/>
+                                                <RowDefinition Height="60" />
                                             </Grid.RowDefinitions>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="150"/>
-                                                <ColumnDefinition Width="40"/>
+                                                <ColumnDefinition Width="150" />
+                                                <ColumnDefinition Width="40" />
                                             </Grid.ColumnDefinitions>
-                                            <StackLayout Orientation="Vertical"
-                                                VerticalOptions="StartAndExpand"
-                                                         Grid.Column="0">
-                                                <Label Text="{Binding .}"
-                                                       TextColor="Black"
-                                                       HorizontalOptions="Center"
-                                                       VerticalOptions="Start"
-                                                       VerticalTextAlignment="Start">
+                                            <StackLayout
+                                                Grid.Column="0"
+                                                Orientation="Vertical"
+                                                VerticalOptions="StartAndExpand">
+                                                <Label
+                                                    HorizontalOptions="Center"
+                                                    Text="{Binding .}"
+                                                    TextColor="Black"
+                                                    VerticalOptions="Start"
+                                                    VerticalTextAlignment="Start">
                                                     <Label.FontFamily>
                                                         <OnPlatform x:TypeArguments="x:String">
-                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                            <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                         </OnPlatform>
                                                     </Label.FontFamily>
 
                                                 </Label>
                                             </StackLayout>
-                                            <StackLayout 
-                                                         HorizontalOptions="Center"
-                                                         Grid.Column="1"
-                                                         Margin="0,-9,0,0">
-                                                <forms:SvgCachedImage Source="next.svg"
-                                                                  HeightRequest="40"/>
+                                            <StackLayout
+                                                Grid.Column="1"
+                                                Margin="0,-9,0,0"
+                                                HorizontalOptions="Center">
+                                                <forms:SvgCachedImage HeightRequest="40" Source="next.svg" />
                                             </StackLayout>
 
                                         </Grid>
@@ -219,21 +214,21 @@
                                         <Label
                                             FontAttributes="Bold"
                                             Text="{Binding Name}"
-                                            TextColor="White" >
+                                            TextColor="White">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
-                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                 </OnPlatform>
                                             </Label.FontFamily>
                                         </Label>
-                                        <Label 
+                                        <Label
                                             Margin="0,-10,0,0"
+                                            FontSize="Micro"
                                             Text="{Binding About}"
-                                             FontSize="Micro"
-                                            TextColor="Gray" >
+                                            TextColor="Gray">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
-                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                 </OnPlatform>
                                             </Label.FontFamily>
                                         </Label>
@@ -271,10 +266,8 @@
                                         <forms:SvgCachedImage
                                             Margin="10"
                                             HeightRequest="100"
-                                             WidthRequest="100"
                                             Source="{Binding ImgUrl}"
-                                            
-                                            />
+                                            WidthRequest="100" />
                                         <Label
                                             Margin="0,-10,0,0"
                                             FontAttributes="Bold"
@@ -283,19 +276,19 @@
                                             TextColor="White">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
-                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                 </OnPlatform>
                                             </Label.FontFamily>
                                         </Label>
                                         <Label
                                             Margin="0,-10,0,0"
+                                            FontSize="Micro"
                                             HorizontalOptions="Center"
                                             Text="{Binding About}"
-                                            FontSize="Micro"
-                                            TextColor="Gray" >
+                                            TextColor="Gray">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
-                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold"></On>
+                                                    <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
                                                 </OnPlatform>
                                             </Label.FontFamily>
                                         </Label>
