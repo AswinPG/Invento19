@@ -1,11 +1,7 @@
-﻿using System;
-using Invento19.EventDetail;
-using Invento19.Events;
-using Invento19.Home;
-using Invento19.About;
+﻿using Invento19.Home;
 using Invento19.SIgnIn;
+using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Invento19
 {
@@ -21,9 +17,9 @@ namespace Invento19
             {
                 var a = e;
             }
-            
 
-            MainPage = new HomePage();
+
+            MainPage = new NavigationPage(new LogIn());
         }
 
         protected override void OnStart()

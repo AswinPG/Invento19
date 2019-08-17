@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<forms:ContentPage
+<ContentPage
     x:Class="Invento19.Home.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -7,43 +7,40 @@
     xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-    xmlns:forms="http://xamarin.com/schemas/2014/forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     BackgroundImageSource="Android3.png"
+    NavigationPage.HasNavigationBar="False"
     mc:Ignorable="d">
-    <forms:ContentPage.Content>
-        <forms:StackLayout>
+    <ContentPage.Content>
+        <StackLayout>
 
-            <forms:Frame BackgroundColor="Transparent">
+            <Frame BackgroundColor="Transparent">
 
                 <cards:CarouselView x:Name="Car">
                     <cards:CarouselView.ItemTemplate>
-                        <forms:DataTemplate>
-                            <forms:Image
+                        <DataTemplate>
+                            <Image
                                 Margin="0,40,0,0"
                                 HeightRequest="350"
                                 HorizontalOptions="Center"
                                 Source="{Binding .}"
                                 VerticalOptions="Start" />
-                        </forms:DataTemplate>
+                        </DataTemplate>
                     </cards:CarouselView.ItemTemplate>
-
-                    <controls:LeftArrowControl />
-                    <controls:RightArrowControl />
                     <controls:IndicatorsControl />
                 </cards:CarouselView>
-            </forms:Frame>
-            <forms:Grid Padding="40,20,40,0">
-                <forms:Grid.RowDefinitions>
-                    <forms:RowDefinition Height="Auto" />
-                    <forms:RowDefinition Height="Auto" />
-                    <forms:RowDefinition Height="Auto" />
-                </forms:Grid.RowDefinitions>
-                <forms:Grid.ColumnDefinitions>
-                    <forms:ColumnDefinition Width="*" />
-                    <forms:ColumnDefinition Width="*" />
-                    <forms:ColumnDefinition Width="*" />
-                </forms:Grid.ColumnDefinitions>
+            </Frame>
+            <Grid Padding="40,20,40,15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
                 <ffSvg:SvgCachedImage
                     Grid.Row="0"
                     Grid.Column="0"
@@ -90,8 +87,8 @@
                     HorizontalOptions="Center"
                     Source="me.svg"
                     VerticalOptions="Center" />
-            </forms:Grid>
+            </Grid>
 
-        </forms:StackLayout>
-    </forms:ContentPage.Content>
-</forms:ContentPage>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

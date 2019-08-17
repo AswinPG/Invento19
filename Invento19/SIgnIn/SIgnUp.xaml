@@ -1,129 +1,151 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             mc:Ignorable="d"
-             BackgroundImageSource="Android3.png"
-             x:Class="Invento19.SIgnIn.SIgnUp">
+<ContentPage
+    x:Class="Invento19.SIgnIn.SIgnUp"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundImageSource="Android3.png"
+    NavigationPage.HasNavigationBar="False"
+    mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="Transparent">
 
-                <ffSvg:SvgCachedImage Margin="20,20,0,0"
-                                      Source="logo.svg"
-                                      HeightRequest="48"
-                                      HorizontalOptions="Start"
-                                      VerticalOptions="Start"/>
+                <ffSvg:SvgCachedImage
+                    Margin="20,20,0,0"
+                    HeightRequest="48"
+                    HorizontalOptions="Start"
+                    Source="logo.svg"
+                    VerticalOptions="Start" />
             </Frame>
-            <Frame Margin="20,0,20,0"
-                   BackgroundColor="Transparent">
+            <Frame Margin="20,0,20,0" BackgroundColor="Transparent">
                 <StackLayout Padding="0,50,0,0" Spacing="10">
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"></RowDefinition>
-                            <RowDefinition Height="20"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
 
                         </Grid.RowDefinitions>
-                        <StackLayout Grid.Row="0"  Spacing="20" >
-                            <ffSvg:SvgCachedImage Source="google.svg"/>
-                            <ffSvg:SvgCachedImage Source="facebook.svg"/>
+                        <StackLayout Grid.Row="0" Spacing="20">
+                            <ffSvg:SvgCachedImage Source="google.svg" />
+                            <ffSvg:SvgCachedImage Source="facebook.svg" />
                         </StackLayout>
-                        <Grid Grid.Row="1"/>
-                        <Label Grid.Column="0"
-                               Grid.Row="2"
-                               Text="Sign Up"
-                       FontSize="40"
-                       FontAttributes="Bold"
-                       TextColor="White"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                       >
+                        <Grid Grid.Row="1" />
+                        <Label
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            FontSize="40"
+                            HorizontalOptions="Start"
+                            Text="Sign Up"
+                            TextColor="White"
+                            VerticalOptions="Start">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
                                 </OnPlatform>
-                                </Label.FontFamily>
-                            </Label>
+                            </Label.FontFamily>
+                        </Label>
 
-                        <StackLayout Grid.Column="1"
-                               Grid.Row="2">
-                            <Label  Text="Have an account?"
-                                    FontSize="9"
-                                    TextColor="White"
-                                    HorizontalOptions="End"
-                                    Margin="0,0,0,-10"
-                                    
-                                      >
+                        <StackLayout Grid.Row="2" Grid.Column="1">
+                            <Label
+                                Margin="0,0,0,-10"
+                                FontSize="9"
+                                HorizontalOptions="End"
+                                Text="Have an account?"
+                                TextColor="White">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label  Text="Log In"
-                       FontSize="26"
-                       FontAttributes="Bold"
-                       TextColor="White"
-                       VerticalOptions="Center"
-                       HorizontalOptions="End"
-                                      >
+                            <Label
+                                x:Name="SignInLabel"
+                                FontAttributes="Bold"
+                                FontSize="26"
+                                HorizontalOptions="End"
+                                Text="Log In"
+                                TextColor="White"
+                                VerticalOptions="Center">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
                                     </OnPlatform>
                                 </Label.FontFamily>
+
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SignInTapped" />
+                                </Label.GestureRecognizers>
                             </Label>
-                            <BoxView BackgroundColor="White"
-                             Margin="3,0,3,0"
-                             HeightRequest="5"
-                             WidthRequest="8"
-                             HorizontalOptions="End"/>
+                            <BoxView
+                                Margin="3,0,3,0"
+                                BackgroundColor="White"
+                                HeightRequest="5"
+                                HorizontalOptions="End"
+                                WidthRequest="8" />
                         </StackLayout>
                     </Grid>
-                    
-                    <BoxView BackgroundColor="White"
-                             Margin="3,0,0,50"
-                             HeightRequest="12"
-                             WidthRequest="20"
-                             HorizontalOptions="Start"/>
-                    <Entry Placeholder="Email" PlaceholderColor="#8894A6" TextColor="White">
-                    <Entry.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
-                        </OnPlatform>
-                    </Entry.FontFamily>
 
-
-                    </Entry>
-                    <Entry Placeholder="Username" PlaceholderColor="#8894A6" TextColor="White">
-                    <Entry.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
-                        </OnPlatform>
-                    </Entry.FontFamily>
-
-
-                    </Entry>
-                    <Entry Placeholder="Password" PlaceholderColor="#8894A6" TextColor="White">
+                    <BoxView
+                        Margin="0,0,0,50"
+                        BackgroundColor="White"
+                        HeightRequest="12"
+                        HorizontalOptions="Start"
+                        WidthRequest="20" />
+                    <Entry
+                        Placeholder="Email"
+                        PlaceholderColor="#8894A6"
+                        TextColor="White">
                         <Entry.FontFamily>
                             <OnPlatform x:TypeArguments="x:String">
                                 <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
                             </OnPlatform>
                         </Entry.FontFamily>
-                  
+
 
                     </Entry>
-                    
+                    <Entry
+                        Placeholder="Username"
+                        PlaceholderColor="#8894A6"
+                        TextColor="White">
+                        <Entry.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                            </OnPlatform>
+                        </Entry.FontFamily>
+
+
+                    </Entry>
+                    <Entry
+                        Placeholder="Password"
+                        PlaceholderColor="#8894A6"
+                        TextColor="White">
+                        <Entry.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                            </OnPlatform>
+                        </Entry.FontFamily>
+
+
+                    </Entry>
+
 
                 </StackLayout>
             </Frame>
-            <Frame Margin="20,0,20,0"
-                   BackgroundColor="Transparent">
-                <ffSvg:SvgCachedImage Source="go.svg" HeightRequest="36"/>
+            <Frame Margin="20,0,20,0" BackgroundColor="Transparent">
+                <ffSvg:SvgCachedImage
+                    x:Name="GoBut"
+                    HeightRequest="36"
+                    Source="go.svg">
 
+                    <ffSvg:SvgCachedImage.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="GoTapped" />
+                    </ffSvg:SvgCachedImage.GestureRecognizers>
+                </ffSvg:SvgCachedImage>
             </Frame>
         </StackLayout>
     </ContentPage.Content>

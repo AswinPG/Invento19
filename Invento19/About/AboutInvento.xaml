@@ -1,37 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="Invento19.About.AboutInvento">
+<ContentPage
+    x:Class="Invento19.About.AboutInvento"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationPage.HasNavigationBar="False"
+    mc:Ignorable="d">
     <ContentPage.Content>
         <ScrollView>
 
             <StackLayout Spacing="1">
-                <Frame Margin="20,0,20,0"
-                   BackgroundColor="Transparent">
+                <Frame Margin="20,0,20,0" BackgroundColor="Transparent">
                     <StackLayout>
-                        <Label Text="About Invento"
-                       FontSize="20" Margin="0,0,0,15"
-                       FontAttributes="Bold"
-                       TextColor="#5D00EF"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                       >
+                        <Label
+                            Margin="0,0,0,15"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Start"
+                            Text="About Invento"
+                            TextColor="#5D00EF"
+                            VerticalOptions="Start">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Lorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula liberotaucibus eros molestie in. Sed elit tortor, mattetur Donec venenatistrum aadipiscing elit. Cras posuere et urna eu vestibulum. Proin suscipit nulla eu consectetur auctor. Orci"
-                               Margin="0,0,0,15"
-                               FontSize="15" 
-                               TextColor="#000000"
-                               VerticalOptions="Start"
-                               HorizontalOptions="Center"
-                               HorizontalTextAlignment="Center">
+                        <Label
+                            Margin="0,0,0,15"
+                            FontSize="15"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Start"
+                            Text="Lorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula liberotaucibus eros molestie in. Sed elit tortor, mattetur Donec venenatistrum aadipiscing elit. Cras posuere et urna eu vestibulum. Proin suscipit nulla eu consectetur auctor. Orci"
+                            TextColor="#000000"
+                            VerticalOptions="Start">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
@@ -41,29 +44,30 @@
 
                     </StackLayout>
                 </Frame>
-                <Frame Margin="20,0,20,0"
-                   BackgroundColor="Transparent">
+                <Frame Margin="20,0,20,0" BackgroundColor="Transparent">
                     <StackLayout>
-                        <Label Text="About GEC Palakkad"
-                       FontSize="20" Margin="0,0,0,15"
-                       FontAttributes="Bold"
-                       TextColor="#5D00EF"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                       >
+                        <Label
+                            Margin="0,0,0,15"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Start"
+                            Text="About GEC Palakkad"
+                            TextColor="#5D00EF"
+                            VerticalOptions="Start">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="Android" Value="Montserrat-ExtraBold.ttf#Montserrat-ExtraBold" />
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Lorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula liberotaucibus eros molestie in. Sed elit tortor, mattetur Donec venenatistrum aadipiscing elit. Cras posuere et urna eu vestibulum. Proin suscipit nulla eu consectetur auctor. Orci"
-                               Margin="0,0,0,15"
-                               FontSize="15" 
-                               TextColor="#000000"
-                               VerticalOptions="Start"
-                               HorizontalOptions="Center"
-                               HorizontalTextAlignment="Center">
+                        <Label
+                            Margin="0,0,0,15"
+                            FontSize="15"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Start"
+                            Text="Lorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula libeLorem ipsum dolor sit ametempus est tempus suscipit a in arcu. Proit, coonec venenatistrum ante at interdum. Secontes, nascetur ridiculus mus. Suspendet urna massa, quis vehicula liberotaucibus eros molestie in. Sed elit tortor, mattetur Donec venenatistrum aadipiscing elit. Cras posuere et urna eu vestibulum. Proin suscipit nulla eu consectetur auctor. Orci"
+                            TextColor="#000000"
+                            VerticalOptions="Start">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />

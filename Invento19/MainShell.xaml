@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="Invento19.MainShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:About="clr-namespace:Invento19.About"
+    xmlns:Hom="clr-namespace:Invento19.Home"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FlyoutBackgroundColor="#0B3446"
+    Shell.NavBarIsVisible="False"
+    mc:Ignorable="d">
+
+    <Shell.FlyoutHeader>
+        <!--  Place new controls here  -->
+        <Grid BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Image
+                Grid.Column="0"
+                Margin="20"
+                Source="DP.png"
+                VerticalOptions="Center" />
+            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    Text="UserName"
+                    TextColor="White" />
+                <Label Text="College" TextColor="White" />
+            </StackLayout>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <TabBar>
+        <Tab Title="Home" Icon="Hom.png">
+            <ShellContent>
+                <Hom:HomePage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="About" Icon="Abus.png">
+            <ShellContent>
+                <About:AboutInvento />
+            </ShellContent>
+        </Tab>
+        <Tab Title="Devs" Icon="Dev.png">
+            <ShellContent>
+                <About:AppTeam />
+            </ShellContent>
+        </Tab>
+    </TabBar>
+</Shell>
