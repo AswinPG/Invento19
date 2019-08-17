@@ -19,7 +19,7 @@ namespace Invento19.EventDetail
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+                Error
         }
     }
 }
