@@ -1,70 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<forms:ContentPage
-    x:Class="Invento19.Home.HomePage"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
-    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-    xmlns:forms="http://xamarin.com/schemas/2014/forms"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundImageSource="Android3.png"
-    mc:Ignorable="d">
-    <forms:ContentPage.Content>
-        <forms:StackLayout>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="http://xamarin.com/schemas/2014/forms"
+             
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             
+             BackgroundImageSource="Android3.png"
+             mc:Ignorable="d"
+             x:Class="Invento19.Home.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
 
             <forms:Frame BackgroundColor="Transparent">
 
-                <controls:CarouselViewControl
-                    x:Name="CarouselView"
-                    HeightRequest="350"
-                    Orientation="Horizontal">
-                    <controls:CarouselViewControl.ItemTemplate>
-                        <forms:DataTemplate>
-                            <forms:Image
-                                Margin="0,20,0,0"
-                                HeightRequest="350"
-                                HorizontalOptions="Center"
-                                Source="{Binding .}"
-                                VerticalOptions="Start" />
+                <cards:CarouselView x:Name="Car">
+                    <cards:CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding .}" HeightRequest="350" Margin="0,40,0,0"  HorizontalOptions="Center" VerticalOptions="Start"/>
+                        </DataTemplate>
+                    </cards:CarouselView.ItemTemplate>
 
-                        </forms:DataTemplate>
-                    </controls:CarouselViewControl.ItemTemplate>
-
-                </controls:CarouselViewControl>
-            </forms:Frame>
-            <forms:Grid Padding="40,10,40,0">
-                <forms:Grid.RowDefinitions>
-                    <forms:RowDefinition Height="Auto" />
-                    <forms:RowDefinition Height="Auto" />
-                    <forms:RowDefinition Height="Auto" />
-                </forms:Grid.RowDefinitions>
-                <forms:Grid.ColumnDefinitions>
-                    <forms:ColumnDefinition Width="*" />
-                    <forms:ColumnDefinition Width="*" />
-                    <forms:ColumnDefinition Width="*" />
-                </forms:Grid.ColumnDefinitions>
-                <ffSvg:SvgCachedImage
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    HeightRequest="80"
-                    HorizontalOptions="Center"
-                    Source="general.svg"
-                    VerticalOptions="Center" />
-                <ffSvg:SvgCachedImage
-                    Grid.Row="0"
-                    Grid.Column="1"
-                    HeightRequest="80"
-                    HorizontalOptions="Center"
-                    Source="cse.svg"
-                    VerticalOptions="Center" />
-                <ffSvg:SvgCachedImage
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    HeightRequest="80"
-                    HorizontalOptions="Center"
-                    Source="ece.svg"
-                    VerticalOptions="Center" />
+                    <controls:LeftArrowControl/>
+                    <controls:RightArrowControl/>
+                    <controls:IndicatorsControl/>
+                </cards:CarouselView>
+            </Frame>
+            <Grid Padding="40,20,40,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <ffSvg:SvgCachedImage Source="general.svg" HeightRequest="80" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center"></ffSvg:SvgCachedImage>
+                <ffSvg:SvgCachedImage Source="cse.svg" HeightRequest="80" Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center"></ffSvg:SvgCachedImage>
+                <ffSvg:SvgCachedImage Source="ece.svg" HeightRequest="80" Grid.Column="2" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center"></ffSvg:SvgCachedImage>
 
                 <ffSvg:SvgCachedImage
                     Grid.Row="1"

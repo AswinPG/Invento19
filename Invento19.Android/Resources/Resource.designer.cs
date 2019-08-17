@@ -5369,6 +5369,2880 @@ namespace Invento19.Droid
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Invento19.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::Invento19.Droid.Resource.Styleable.ViewPagerIndicator;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Invento19.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::PanCardView.Droid.Resource.Animation.abc_fade_in = global::Invento19.Droid.Resource.Animation.abc_fade_in;
+			global::PanCardView.Droid.Resource.Animation.abc_fade_out = global::Invento19.Droid.Resource.Animation.abc_fade_out;
+			global::PanCardView.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Invento19.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_popup_enter = global::Invento19.Droid.Resource.Animation.abc_popup_enter;
+			global::PanCardView.Droid.Resource.Animation.abc_popup_exit = global::Invento19.Droid.Resource.Animation.abc_popup_exit;
+			global::PanCardView.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Invento19.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_in_bottom = global::Invento19.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_in_top = global::Invento19.Droid.Resource.Animation.abc_slide_in_top;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_out_bottom = global::Invento19.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_out_top = global::Invento19.Droid.Resource.Animation.abc_slide_out_top;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_enter = global::Invento19.Droid.Resource.Animation.abc_tooltip_enter;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_exit = global::Invento19.Droid.Resource.Animation.abc_tooltip_exit;
+			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Invento19.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Invento19.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PanCardView.Droid.Resource.Animation.design_snackbar_in = global::Invento19.Droid.Resource.Animation.design_snackbar_in;
+			global::PanCardView.Droid.Resource.Animation.design_snackbar_out = global::Invento19.Droid.Resource.Animation.design_snackbar_out;
+			global::PanCardView.Droid.Resource.Animator.design_appbar_state_list_animator = global::Invento19.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::PanCardView.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Invento19.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.design_fab_show_motion_spec = global::Invento19.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Invento19.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Invento19.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Invento19.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Invento19.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Invento19.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Invento19.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Invento19.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::PanCardView.Droid.Resource.Attribute.actionBarDivider = global::Invento19.Droid.Resource.Attribute.actionBarDivider;
+			global::PanCardView.Droid.Resource.Attribute.actionBarItemBackground = global::Invento19.Droid.Resource.Attribute.actionBarItemBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionBarPopupTheme = global::Invento19.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionBarSize = global::Invento19.Droid.Resource.Attribute.actionBarSize;
+			global::PanCardView.Droid.Resource.Attribute.actionBarSplitStyle = global::Invento19.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarStyle = global::Invento19.Droid.Resource.Attribute.actionBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabBarStyle = global::Invento19.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabStyle = global::Invento19.Droid.Resource.Attribute.actionBarTabStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabTextStyle = global::Invento19.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTheme = global::Invento19.Droid.Resource.Attribute.actionBarTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionBarWidgetTheme = global::Invento19.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionButtonStyle = global::Invento19.Droid.Resource.Attribute.actionButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionDropDownStyle = global::Invento19.Droid.Resource.Attribute.actionDropDownStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionLayout = global::Invento19.Droid.Resource.Attribute.actionLayout;
+			global::PanCardView.Droid.Resource.Attribute.actionMenuTextAppearance = global::Invento19.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.actionMenuTextColor = global::Invento19.Droid.Resource.Attribute.actionMenuTextColor;
+			global::PanCardView.Droid.Resource.Attribute.actionModeBackground = global::Invento19.Droid.Resource.Attribute.actionModeBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Invento19.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCloseDrawable = global::Invento19.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCopyDrawable = global::Invento19.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCutDrawable = global::Invento19.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeFindDrawable = global::Invento19.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModePasteDrawable = global::Invento19.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Invento19.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Invento19.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeShareDrawable = global::Invento19.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeSplitBackground = global::Invento19.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionModeStyle = global::Invento19.Droid.Resource.Attribute.actionModeStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Invento19.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Invento19.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Invento19.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionProviderClass = global::Invento19.Droid.Resource.Attribute.actionProviderClass;
+			global::PanCardView.Droid.Resource.Attribute.actionViewClass = global::Invento19.Droid.Resource.Attribute.actionViewClass;
+			global::PanCardView.Droid.Resource.Attribute.activityChooserViewStyle = global::Invento19.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Invento19.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogCenterButtons = global::Invento19.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogStyle = global::Invento19.Droid.Resource.Attribute.alertDialogStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogTheme = global::Invento19.Droid.Resource.Attribute.alertDialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.allowStacking = global::Invento19.Droid.Resource.Attribute.allowStacking;
+			global::PanCardView.Droid.Resource.Attribute.alpha = global::Invento19.Droid.Resource.Attribute.alpha;
+			global::PanCardView.Droid.Resource.Attribute.alphabeticModifiers = global::Invento19.Droid.Resource.Attribute.alphabeticModifiers;
+			global::PanCardView.Droid.Resource.Attribute.arrowHeadLength = global::Invento19.Droid.Resource.Attribute.arrowHeadLength;
+			global::PanCardView.Droid.Resource.Attribute.arrowShaftLength = global::Invento19.Droid.Resource.Attribute.arrowShaftLength;
+			global::PanCardView.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Invento19.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Invento19.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeMinTextSize = global::Invento19.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::PanCardView.Droid.Resource.Attribute.autoSizePresetSizes = global::Invento19.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeStepGranularity = global::Invento19.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeTextType = global::Invento19.Droid.Resource.Attribute.autoSizeTextType;
+			global::PanCardView.Droid.Resource.Attribute.background = global::Invento19.Droid.Resource.Attribute.background;
+			global::PanCardView.Droid.Resource.Attribute.backgroundSplit = global::Invento19.Droid.Resource.Attribute.backgroundSplit;
+			global::PanCardView.Droid.Resource.Attribute.backgroundStacked = global::Invento19.Droid.Resource.Attribute.backgroundStacked;
+			global::PanCardView.Droid.Resource.Attribute.backgroundTint = global::Invento19.Droid.Resource.Attribute.backgroundTint;
+			global::PanCardView.Droid.Resource.Attribute.backgroundTintMode = global::Invento19.Droid.Resource.Attribute.backgroundTintMode;
+			global::PanCardView.Droid.Resource.Attribute.barLength = global::Invento19.Droid.Resource.Attribute.barLength;
+			global::PanCardView.Droid.Resource.Attribute.behavior_autoHide = global::Invento19.Droid.Resource.Attribute.behavior_autoHide;
+			global::PanCardView.Droid.Resource.Attribute.behavior_fitToContents = global::Invento19.Droid.Resource.Attribute.behavior_fitToContents;
+			global::PanCardView.Droid.Resource.Attribute.behavior_hideable = global::Invento19.Droid.Resource.Attribute.behavior_hideable;
+			global::PanCardView.Droid.Resource.Attribute.behavior_overlapTop = global::Invento19.Droid.Resource.Attribute.behavior_overlapTop;
+			global::PanCardView.Droid.Resource.Attribute.behavior_peekHeight = global::Invento19.Droid.Resource.Attribute.behavior_peekHeight;
+			global::PanCardView.Droid.Resource.Attribute.behavior_skipCollapsed = global::Invento19.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::PanCardView.Droid.Resource.Attribute.borderWidth = global::Invento19.Droid.Resource.Attribute.borderWidth;
+			global::PanCardView.Droid.Resource.Attribute.borderlessButtonStyle = global::Invento19.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomAppBarStyle = global::Invento19.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomNavigationStyle = global::Invento19.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Invento19.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.bottomSheetStyle = global::Invento19.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundColor = global::Invento19.Droid.Resource.Attribute.boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundMode = global::Invento19.Droid.Resource.Attribute.boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Invento19.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Invento19.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Invento19.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Invento19.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Invento19.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeColor = global::Invento19.Droid.Resource.Attribute.boxStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeWidth = global::Invento19.Droid.Resource.Attribute.boxStrokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarButtonStyle = global::Invento19.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Invento19.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Invento19.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Invento19.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarStyle = global::Invento19.Droid.Resource.Attribute.buttonBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonGravity = global::Invento19.Droid.Resource.Attribute.buttonGravity;
+			global::PanCardView.Droid.Resource.Attribute.buttonIconDimen = global::Invento19.Droid.Resource.Attribute.buttonIconDimen;
+			global::PanCardView.Droid.Resource.Attribute.buttonPanelSideLayout = global::Invento19.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::PanCardView.Droid.Resource.Attribute.buttonStyle = global::Invento19.Droid.Resource.Attribute.buttonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonStyleSmall = global::Invento19.Droid.Resource.Attribute.buttonStyleSmall;
+			global::PanCardView.Droid.Resource.Attribute.buttonTint = global::Invento19.Droid.Resource.Attribute.buttonTint;
+			global::PanCardView.Droid.Resource.Attribute.buttonTintMode = global::Invento19.Droid.Resource.Attribute.buttonTintMode;
+			global::PanCardView.Droid.Resource.Attribute.cardBackgroundColor = global::Invento19.Droid.Resource.Attribute.cardBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.cardCornerRadius = global::Invento19.Droid.Resource.Attribute.cardCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.cardElevation = global::Invento19.Droid.Resource.Attribute.cardElevation;
+			global::PanCardView.Droid.Resource.Attribute.cardMaxElevation = global::Invento19.Droid.Resource.Attribute.cardMaxElevation;
+			global::PanCardView.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Invento19.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::PanCardView.Droid.Resource.Attribute.cardUseCompatPadding = global::Invento19.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.cardViewStyle = global::Invento19.Droid.Resource.Attribute.cardViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.checkboxStyle = global::Invento19.Droid.Resource.Attribute.checkboxStyle;
+			global::PanCardView.Droid.Resource.Attribute.checkedChip = global::Invento19.Droid.Resource.Attribute.checkedChip;
+			global::PanCardView.Droid.Resource.Attribute.checkedIcon = global::Invento19.Droid.Resource.Attribute.checkedIcon;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconEnabled = global::Invento19.Droid.Resource.Attribute.checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconVisible = global::Invento19.Droid.Resource.Attribute.checkedIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.checkedTextViewStyle = global::Invento19.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipBackgroundColor = global::Invento19.Droid.Resource.Attribute.chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.chipCornerRadius = global::Invento19.Droid.Resource.Attribute.chipCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.chipEndPadding = global::Invento19.Droid.Resource.Attribute.chipEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipGroupStyle = global::Invento19.Droid.Resource.Attribute.chipGroupStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipIcon = global::Invento19.Droid.Resource.Attribute.chipIcon;
+			global::PanCardView.Droid.Resource.Attribute.chipIconEnabled = global::Invento19.Droid.Resource.Attribute.chipIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.chipIconSize = global::Invento19.Droid.Resource.Attribute.chipIconSize;
+			global::PanCardView.Droid.Resource.Attribute.chipIconTint = global::Invento19.Droid.Resource.Attribute.chipIconTint;
+			global::PanCardView.Droid.Resource.Attribute.chipIconVisible = global::Invento19.Droid.Resource.Attribute.chipIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.chipMinHeight = global::Invento19.Droid.Resource.Attribute.chipMinHeight;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacing = global::Invento19.Droid.Resource.Attribute.chipSpacing;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingHorizontal = global::Invento19.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingVertical = global::Invento19.Droid.Resource.Attribute.chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Attribute.chipStandaloneStyle = global::Invento19.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipStartPadding = global::Invento19.Droid.Resource.Attribute.chipStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeColor = global::Invento19.Droid.Resource.Attribute.chipStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeWidth = global::Invento19.Droid.Resource.Attribute.chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.chipStyle = global::Invento19.Droid.Resource.Attribute.chipStyle;
+			global::PanCardView.Droid.Resource.Attribute.closeIcon = global::Invento19.Droid.Resource.Attribute.closeIcon;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEnabled = global::Invento19.Droid.Resource.Attribute.closeIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEndPadding = global::Invento19.Droid.Resource.Attribute.closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconSize = global::Invento19.Droid.Resource.Attribute.closeIconSize;
+			global::PanCardView.Droid.Resource.Attribute.closeIconStartPadding = global::Invento19.Droid.Resource.Attribute.closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconTint = global::Invento19.Droid.Resource.Attribute.closeIconTint;
+			global::PanCardView.Droid.Resource.Attribute.closeIconVisible = global::Invento19.Droid.Resource.Attribute.closeIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.closeItemLayout = global::Invento19.Droid.Resource.Attribute.closeItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.collapseContentDescription = global::Invento19.Droid.Resource.Attribute.collapseContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.collapseIcon = global::Invento19.Droid.Resource.Attribute.collapseIcon;
+			global::PanCardView.Droid.Resource.Attribute.collapsedTitleGravity = global::Invento19.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::PanCardView.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Invento19.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.color = global::Invento19.Droid.Resource.Attribute.color;
+			global::PanCardView.Droid.Resource.Attribute.colorAccent = global::Invento19.Droid.Resource.Attribute.colorAccent;
+			global::PanCardView.Droid.Resource.Attribute.colorBackgroundFloating = global::Invento19.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Attribute.colorButtonNormal = global::Invento19.Droid.Resource.Attribute.colorButtonNormal;
+			global::PanCardView.Droid.Resource.Attribute.colorControlActivated = global::Invento19.Droid.Resource.Attribute.colorControlActivated;
+			global::PanCardView.Droid.Resource.Attribute.colorControlHighlight = global::Invento19.Droid.Resource.Attribute.colorControlHighlight;
+			global::PanCardView.Droid.Resource.Attribute.colorControlNormal = global::Invento19.Droid.Resource.Attribute.colorControlNormal;
+			global::PanCardView.Droid.Resource.Attribute.colorError = global::Invento19.Droid.Resource.Attribute.colorError;
+			global::PanCardView.Droid.Resource.Attribute.colorPrimary = global::Invento19.Droid.Resource.Attribute.colorPrimary;
+			global::PanCardView.Droid.Resource.Attribute.colorPrimaryDark = global::Invento19.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Attribute.colorSecondary = global::Invento19.Droid.Resource.Attribute.colorSecondary;
+			global::PanCardView.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Invento19.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::PanCardView.Droid.Resource.Attribute.commitIcon = global::Invento19.Droid.Resource.Attribute.commitIcon;
+			global::PanCardView.Droid.Resource.Attribute.contentDescription = global::Invento19.Droid.Resource.Attribute.contentDescription;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetEnd = global::Invento19.Droid.Resource.Attribute.contentInsetEnd;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetEndWithActions = global::Invento19.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetLeft = global::Invento19.Droid.Resource.Attribute.contentInsetLeft;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetRight = global::Invento19.Droid.Resource.Attribute.contentInsetRight;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetStart = global::Invento19.Droid.Resource.Attribute.contentInsetStart;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Invento19.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Attribute.contentPadding = global::Invento19.Droid.Resource.Attribute.contentPadding;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingBottom = global::Invento19.Droid.Resource.Attribute.contentPaddingBottom;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingLeft = global::Invento19.Droid.Resource.Attribute.contentPaddingLeft;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingRight = global::Invento19.Droid.Resource.Attribute.contentPaddingRight;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingTop = global::Invento19.Droid.Resource.Attribute.contentPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.contentScrim = global::Invento19.Droid.Resource.Attribute.contentScrim;
+			global::PanCardView.Droid.Resource.Attribute.controlBackground = global::Invento19.Droid.Resource.Attribute.controlBackground;
+			global::PanCardView.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Invento19.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::PanCardView.Droid.Resource.Attribute.cornerRadius = global::Invento19.Droid.Resource.Attribute.cornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.counterEnabled = global::Invento19.Droid.Resource.Attribute.counterEnabled;
+			global::PanCardView.Droid.Resource.Attribute.counterMaxLength = global::Invento19.Droid.Resource.Attribute.counterMaxLength;
+			global::PanCardView.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Invento19.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.counterTextAppearance = global::Invento19.Droid.Resource.Attribute.counterTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.customNavigationLayout = global::Invento19.Droid.Resource.Attribute.customNavigationLayout;
+			global::PanCardView.Droid.Resource.Attribute.defaultQueryHint = global::Invento19.Droid.Resource.Attribute.defaultQueryHint;
+			global::PanCardView.Droid.Resource.Attribute.dialogCornerRadius = global::Invento19.Droid.Resource.Attribute.dialogCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.dialogPreferredPadding = global::Invento19.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::PanCardView.Droid.Resource.Attribute.dialogTheme = global::Invento19.Droid.Resource.Attribute.dialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.displayOptions = global::Invento19.Droid.Resource.Attribute.displayOptions;
+			global::PanCardView.Droid.Resource.Attribute.divider = global::Invento19.Droid.Resource.Attribute.divider;
+			global::PanCardView.Droid.Resource.Attribute.dividerHorizontal = global::Invento19.Droid.Resource.Attribute.dividerHorizontal;
+			global::PanCardView.Droid.Resource.Attribute.dividerPadding = global::Invento19.Droid.Resource.Attribute.dividerPadding;
+			global::PanCardView.Droid.Resource.Attribute.dividerVertical = global::Invento19.Droid.Resource.Attribute.dividerVertical;
+			global::PanCardView.Droid.Resource.Attribute.drawableSize = global::Invento19.Droid.Resource.Attribute.drawableSize;
+			global::PanCardView.Droid.Resource.Attribute.drawerArrowStyle = global::Invento19.Droid.Resource.Attribute.drawerArrowStyle;
+			global::PanCardView.Droid.Resource.Attribute.dropDownListViewStyle = global::Invento19.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Invento19.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Attribute.editTextBackground = global::Invento19.Droid.Resource.Attribute.editTextBackground;
+			global::PanCardView.Droid.Resource.Attribute.editTextColor = global::Invento19.Droid.Resource.Attribute.editTextColor;
+			global::PanCardView.Droid.Resource.Attribute.editTextStyle = global::Invento19.Droid.Resource.Attribute.editTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.elevation = global::Invento19.Droid.Resource.Attribute.elevation;
+			global::PanCardView.Droid.Resource.Attribute.enforceMaterialTheme = global::Invento19.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Attribute.enforceTextAppearance = global::Invento19.Droid.Resource.Attribute.enforceTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.errorEnabled = global::Invento19.Droid.Resource.Attribute.errorEnabled;
+			global::PanCardView.Droid.Resource.Attribute.errorTextAppearance = global::Invento19.Droid.Resource.Attribute.errorTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Invento19.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PanCardView.Droid.Resource.Attribute.expanded = global::Invento19.Droid.Resource.Attribute.expanded;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleGravity = global::Invento19.Droid.Resource.Attribute.expandedTitleGravity;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMargin = global::Invento19.Droid.Resource.Attribute.expandedTitleMargin;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Invento19.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Invento19.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginStart = global::Invento19.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginTop = global::Invento19.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Invento19.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Invento19.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fabAlignmentMode = global::Invento19.Droid.Resource.Attribute.fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleMargin = global::Invento19.Droid.Resource.Attribute.fabCradleMargin;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Invento19.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Invento19.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Attribute.fabCustomSize = global::Invento19.Droid.Resource.Attribute.fabCustomSize;
+			global::PanCardView.Droid.Resource.Attribute.fabSize = global::Invento19.Droid.Resource.Attribute.fabSize;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollEnabled = global::Invento19.Droid.Resource.Attribute.fastScrollEnabled;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Invento19.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Invento19.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Invento19.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Invento19.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Invento19.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::PanCardView.Droid.Resource.Attribute.floatingActionButtonStyle = global::Invento19.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.font = global::Invento19.Droid.Resource.Attribute.font;
+			global::PanCardView.Droid.Resource.Attribute.fontFamily = global::Invento19.Droid.Resource.Attribute.fontFamily;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderAuthority = global::Invento19.Droid.Resource.Attribute.fontProviderAuthority;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderCerts = global::Invento19.Droid.Resource.Attribute.fontProviderCerts;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Invento19.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Invento19.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderPackage = global::Invento19.Droid.Resource.Attribute.fontProviderPackage;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderQuery = global::Invento19.Droid.Resource.Attribute.fontProviderQuery;
+			global::PanCardView.Droid.Resource.Attribute.fontStyle = global::Invento19.Droid.Resource.Attribute.fontStyle;
+			global::PanCardView.Droid.Resource.Attribute.fontVariationSettings = global::Invento19.Droid.Resource.Attribute.fontVariationSettings;
+			global::PanCardView.Droid.Resource.Attribute.fontWeight = global::Invento19.Droid.Resource.Attribute.fontWeight;
+			global::PanCardView.Droid.Resource.Attribute.foregroundInsidePadding = global::Invento19.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::PanCardView.Droid.Resource.Attribute.gapBetweenBars = global::Invento19.Droid.Resource.Attribute.gapBetweenBars;
+			global::PanCardView.Droid.Resource.Attribute.goIcon = global::Invento19.Droid.Resource.Attribute.goIcon;
+			global::PanCardView.Droid.Resource.Attribute.headerLayout = global::Invento19.Droid.Resource.Attribute.headerLayout;
+			global::PanCardView.Droid.Resource.Attribute.height = global::Invento19.Droid.Resource.Attribute.height;
+			global::PanCardView.Droid.Resource.Attribute.helperText = global::Invento19.Droid.Resource.Attribute.helperText;
+			global::PanCardView.Droid.Resource.Attribute.helperTextEnabled = global::Invento19.Droid.Resource.Attribute.helperTextEnabled;
+			global::PanCardView.Droid.Resource.Attribute.helperTextTextAppearance = global::Invento19.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.hideMotionSpec = global::Invento19.Droid.Resource.Attribute.hideMotionSpec;
+			global::PanCardView.Droid.Resource.Attribute.hideOnContentScroll = global::Invento19.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PanCardView.Droid.Resource.Attribute.hideOnScroll = global::Invento19.Droid.Resource.Attribute.hideOnScroll;
+			global::PanCardView.Droid.Resource.Attribute.hintAnimationEnabled = global::Invento19.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::PanCardView.Droid.Resource.Attribute.hintEnabled = global::Invento19.Droid.Resource.Attribute.hintEnabled;
+			global::PanCardView.Droid.Resource.Attribute.hintTextAppearance = global::Invento19.Droid.Resource.Attribute.hintTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.homeAsUpIndicator = global::Invento19.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Attribute.homeLayout = global::Invento19.Droid.Resource.Attribute.homeLayout;
+			global::PanCardView.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Invento19.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::PanCardView.Droid.Resource.Attribute.icon = global::Invento19.Droid.Resource.Attribute.icon;
+			global::PanCardView.Droid.Resource.Attribute.iconEndPadding = global::Invento19.Droid.Resource.Attribute.iconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconGravity = global::Invento19.Droid.Resource.Attribute.iconGravity;
+			global::PanCardView.Droid.Resource.Attribute.iconPadding = global::Invento19.Droid.Resource.Attribute.iconPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconSize = global::Invento19.Droid.Resource.Attribute.iconSize;
+			global::PanCardView.Droid.Resource.Attribute.iconStartPadding = global::Invento19.Droid.Resource.Attribute.iconStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconTint = global::Invento19.Droid.Resource.Attribute.iconTint;
+			global::PanCardView.Droid.Resource.Attribute.iconTintMode = global::Invento19.Droid.Resource.Attribute.iconTintMode;
+			global::PanCardView.Droid.Resource.Attribute.iconifiedByDefault = global::Invento19.Droid.Resource.Attribute.iconifiedByDefault;
+			global::PanCardView.Droid.Resource.Attribute.imageButtonStyle = global::Invento19.Droid.Resource.Attribute.imageButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.indeterminateProgressStyle = global::Invento19.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::PanCardView.Droid.Resource.Attribute.initialActivityCount = global::Invento19.Droid.Resource.Attribute.initialActivityCount;
+			global::PanCardView.Droid.Resource.Attribute.insetForeground = global::Invento19.Droid.Resource.Attribute.insetForeground;
+			global::PanCardView.Droid.Resource.Attribute.isLightTheme = global::Invento19.Droid.Resource.Attribute.isLightTheme;
+			global::PanCardView.Droid.Resource.Attribute.itemBackground = global::Invento19.Droid.Resource.Attribute.itemBackground;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalPadding = global::Invento19.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Invento19.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Attribute.itemIconPadding = global::Invento19.Droid.Resource.Attribute.itemIconPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemIconSize = global::Invento19.Droid.Resource.Attribute.itemIconSize;
+			global::PanCardView.Droid.Resource.Attribute.itemIconTint = global::Invento19.Droid.Resource.Attribute.itemIconTint;
+			global::PanCardView.Droid.Resource.Attribute.itemPadding = global::Invento19.Droid.Resource.Attribute.itemPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemSpacing = global::Invento19.Droid.Resource.Attribute.itemSpacing;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearance = global::Invento19.Droid.Resource.Attribute.itemTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceActive = global::Invento19.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Invento19.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::PanCardView.Droid.Resource.Attribute.itemTextColor = global::Invento19.Droid.Resource.Attribute.itemTextColor;
+			global::PanCardView.Droid.Resource.Attribute.keylines = global::Invento19.Droid.Resource.Attribute.keylines;
+			global::PanCardView.Droid.Resource.Attribute.labelVisibilityMode = global::Invento19.Droid.Resource.Attribute.labelVisibilityMode;
+			global::PanCardView.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Invento19.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::PanCardView.Droid.Resource.Attribute.layout = global::Invento19.Droid.Resource.Attribute.layout;
+			global::PanCardView.Droid.Resource.Attribute.layoutManager = global::Invento19.Droid.Resource.Attribute.layoutManager;
+			global::PanCardView.Droid.Resource.Attribute.layout_anchor = global::Invento19.Droid.Resource.Attribute.layout_anchor;
+			global::PanCardView.Droid.Resource.Attribute.layout_anchorGravity = global::Invento19.Droid.Resource.Attribute.layout_anchorGravity;
+			global::PanCardView.Droid.Resource.Attribute.layout_behavior = global::Invento19.Droid.Resource.Attribute.layout_behavior;
+			global::PanCardView.Droid.Resource.Attribute.layout_collapseMode = global::Invento19.Droid.Resource.Attribute.layout_collapseMode;
+			global::PanCardView.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Invento19.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PanCardView.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Invento19.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::PanCardView.Droid.Resource.Attribute.layout_insetEdge = global::Invento19.Droid.Resource.Attribute.layout_insetEdge;
+			global::PanCardView.Droid.Resource.Attribute.layout_keyline = global::Invento19.Droid.Resource.Attribute.layout_keyline;
+			global::PanCardView.Droid.Resource.Attribute.layout_scrollFlags = global::Invento19.Droid.Resource.Attribute.layout_scrollFlags;
+			global::PanCardView.Droid.Resource.Attribute.layout_scrollInterpolator = global::Invento19.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PanCardView.Droid.Resource.Attribute.liftOnScroll = global::Invento19.Droid.Resource.Attribute.liftOnScroll;
+			global::PanCardView.Droid.Resource.Attribute.lineHeight = global::Invento19.Droid.Resource.Attribute.lineHeight;
+			global::PanCardView.Droid.Resource.Attribute.lineSpacing = global::Invento19.Droid.Resource.Attribute.lineSpacing;
+			global::PanCardView.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Invento19.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PanCardView.Droid.Resource.Attribute.listDividerAlertDialog = global::Invento19.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::PanCardView.Droid.Resource.Attribute.listItemLayout = global::Invento19.Droid.Resource.Attribute.listItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.listLayout = global::Invento19.Droid.Resource.Attribute.listLayout;
+			global::PanCardView.Droid.Resource.Attribute.listMenuViewStyle = global::Invento19.Droid.Resource.Attribute.listMenuViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.listPopupWindowStyle = global::Invento19.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeight = global::Invento19.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Invento19.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Invento19.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Invento19.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Invento19.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PanCardView.Droid.Resource.Attribute.logo = global::Invento19.Droid.Resource.Attribute.logo;
+			global::PanCardView.Droid.Resource.Attribute.logoDescription = global::Invento19.Droid.Resource.Attribute.logoDescription;
+			global::PanCardView.Droid.Resource.Attribute.materialButtonStyle = global::Invento19.Droid.Resource.Attribute.materialButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.materialCardViewStyle = global::Invento19.Droid.Resource.Attribute.materialCardViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.maxActionInlineWidth = global::Invento19.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::PanCardView.Droid.Resource.Attribute.maxButtonHeight = global::Invento19.Droid.Resource.Attribute.maxButtonHeight;
+			global::PanCardView.Droid.Resource.Attribute.maxImageSize = global::Invento19.Droid.Resource.Attribute.maxImageSize;
+			global::PanCardView.Droid.Resource.Attribute.measureWithLargestChild = global::Invento19.Droid.Resource.Attribute.measureWithLargestChild;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Invento19.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteButtonTint = global::Invento19.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Invento19.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::Invento19.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::Invento19.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteStopDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteTheme = global::Invento19.Droid.Resource.Attribute.mediaRouteTheme;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::Invento19.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.menu = global::Invento19.Droid.Resource.Attribute.menu;
+			global::PanCardView.Droid.Resource.Attribute.multiChoiceItemLayout = global::Invento19.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.navigationContentDescription = global::Invento19.Droid.Resource.Attribute.navigationContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.navigationIcon = global::Invento19.Droid.Resource.Attribute.navigationIcon;
+			global::PanCardView.Droid.Resource.Attribute.navigationMode = global::Invento19.Droid.Resource.Attribute.navigationMode;
+			global::PanCardView.Droid.Resource.Attribute.navigationViewStyle = global::Invento19.Droid.Resource.Attribute.navigationViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.numericModifiers = global::Invento19.Droid.Resource.Attribute.numericModifiers;
+			global::PanCardView.Droid.Resource.Attribute.overlapAnchor = global::Invento19.Droid.Resource.Attribute.overlapAnchor;
+			global::PanCardView.Droid.Resource.Attribute.paddingBottomNoButtons = global::Invento19.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::PanCardView.Droid.Resource.Attribute.paddingEnd = global::Invento19.Droid.Resource.Attribute.paddingEnd;
+			global::PanCardView.Droid.Resource.Attribute.paddingStart = global::Invento19.Droid.Resource.Attribute.paddingStart;
+			global::PanCardView.Droid.Resource.Attribute.paddingTopNoTitle = global::Invento19.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::PanCardView.Droid.Resource.Attribute.panelBackground = global::Invento19.Droid.Resource.Attribute.panelBackground;
+			global::PanCardView.Droid.Resource.Attribute.panelMenuListTheme = global::Invento19.Droid.Resource.Attribute.panelMenuListTheme;
+			global::PanCardView.Droid.Resource.Attribute.panelMenuListWidth = global::Invento19.Droid.Resource.Attribute.panelMenuListWidth;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleContentDescription = global::Invento19.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleDrawable = global::Invento19.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleEnabled = global::Invento19.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleTint = global::Invento19.Droid.Resource.Attribute.passwordToggleTint;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleTintMode = global::Invento19.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::PanCardView.Droid.Resource.Attribute.popupMenuStyle = global::Invento19.Droid.Resource.Attribute.popupMenuStyle;
+			global::PanCardView.Droid.Resource.Attribute.popupTheme = global::Invento19.Droid.Resource.Attribute.popupTheme;
+			global::PanCardView.Droid.Resource.Attribute.popupWindowStyle = global::Invento19.Droid.Resource.Attribute.popupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.preserveIconSpacing = global::Invento19.Droid.Resource.Attribute.preserveIconSpacing;
+			global::PanCardView.Droid.Resource.Attribute.pressedTranslationZ = global::Invento19.Droid.Resource.Attribute.pressedTranslationZ;
+			global::PanCardView.Droid.Resource.Attribute.progressBarPadding = global::Invento19.Droid.Resource.Attribute.progressBarPadding;
+			global::PanCardView.Droid.Resource.Attribute.progressBarStyle = global::Invento19.Droid.Resource.Attribute.progressBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.queryBackground = global::Invento19.Droid.Resource.Attribute.queryBackground;
+			global::PanCardView.Droid.Resource.Attribute.queryHint = global::Invento19.Droid.Resource.Attribute.queryHint;
+			global::PanCardView.Droid.Resource.Attribute.radioButtonStyle = global::Invento19.Droid.Resource.Attribute.radioButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyle = global::Invento19.Droid.Resource.Attribute.ratingBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Invento19.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyleSmall = global::Invento19.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::PanCardView.Droid.Resource.Attribute.reverseLayout = global::Invento19.Droid.Resource.Attribute.reverseLayout;
+			global::PanCardView.Droid.Resource.Attribute.rippleColor = global::Invento19.Droid.Resource.Attribute.rippleColor;
+			global::PanCardView.Droid.Resource.Attribute.scrimAnimationDuration = global::Invento19.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::PanCardView.Droid.Resource.Attribute.scrimBackground = global::Invento19.Droid.Resource.Attribute.scrimBackground;
+			global::PanCardView.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Invento19.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::PanCardView.Droid.Resource.Attribute.searchHintIcon = global::Invento19.Droid.Resource.Attribute.searchHintIcon;
+			global::PanCardView.Droid.Resource.Attribute.searchIcon = global::Invento19.Droid.Resource.Attribute.searchIcon;
+			global::PanCardView.Droid.Resource.Attribute.searchViewStyle = global::Invento19.Droid.Resource.Attribute.searchViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.seekBarStyle = global::Invento19.Droid.Resource.Attribute.seekBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.selectableItemBackground = global::Invento19.Droid.Resource.Attribute.selectableItemBackground;
+			global::PanCardView.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Invento19.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PanCardView.Droid.Resource.Attribute.showAsAction = global::Invento19.Droid.Resource.Attribute.showAsAction;
+			global::PanCardView.Droid.Resource.Attribute.showDividers = global::Invento19.Droid.Resource.Attribute.showDividers;
+			global::PanCardView.Droid.Resource.Attribute.showMotionSpec = global::Invento19.Droid.Resource.Attribute.showMotionSpec;
+			global::PanCardView.Droid.Resource.Attribute.showText = global::Invento19.Droid.Resource.Attribute.showText;
+			global::PanCardView.Droid.Resource.Attribute.showTitle = global::Invento19.Droid.Resource.Attribute.showTitle;
+			global::PanCardView.Droid.Resource.Attribute.singleChoiceItemLayout = global::Invento19.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.singleLine = global::Invento19.Droid.Resource.Attribute.singleLine;
+			global::PanCardView.Droid.Resource.Attribute.singleSelection = global::Invento19.Droid.Resource.Attribute.singleSelection;
+			global::PanCardView.Droid.Resource.Attribute.snackbarButtonStyle = global::Invento19.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.snackbarStyle = global::Invento19.Droid.Resource.Attribute.snackbarStyle;
+			global::PanCardView.Droid.Resource.Attribute.spanCount = global::Invento19.Droid.Resource.Attribute.spanCount;
+			global::PanCardView.Droid.Resource.Attribute.spinBars = global::Invento19.Droid.Resource.Attribute.spinBars;
+			global::PanCardView.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Invento19.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PanCardView.Droid.Resource.Attribute.spinnerStyle = global::Invento19.Droid.Resource.Attribute.spinnerStyle;
+			global::PanCardView.Droid.Resource.Attribute.splitTrack = global::Invento19.Droid.Resource.Attribute.splitTrack;
+			global::PanCardView.Droid.Resource.Attribute.srcCompat = global::Invento19.Droid.Resource.Attribute.srcCompat;
+			global::PanCardView.Droid.Resource.Attribute.stackFromEnd = global::Invento19.Droid.Resource.Attribute.stackFromEnd;
+			global::PanCardView.Droid.Resource.Attribute.state_above_anchor = global::Invento19.Droid.Resource.Attribute.state_above_anchor;
+			global::PanCardView.Droid.Resource.Attribute.state_collapsed = global::Invento19.Droid.Resource.Attribute.state_collapsed;
+			global::PanCardView.Droid.Resource.Attribute.state_collapsible = global::Invento19.Droid.Resource.Attribute.state_collapsible;
+			global::PanCardView.Droid.Resource.Attribute.state_liftable = global::Invento19.Droid.Resource.Attribute.state_liftable;
+			global::PanCardView.Droid.Resource.Attribute.state_lifted = global::Invento19.Droid.Resource.Attribute.state_lifted;
+			global::PanCardView.Droid.Resource.Attribute.statusBarBackground = global::Invento19.Droid.Resource.Attribute.statusBarBackground;
+			global::PanCardView.Droid.Resource.Attribute.statusBarScrim = global::Invento19.Droid.Resource.Attribute.statusBarScrim;
+			global::PanCardView.Droid.Resource.Attribute.strokeColor = global::Invento19.Droid.Resource.Attribute.strokeColor;
+			global::PanCardView.Droid.Resource.Attribute.strokeWidth = global::Invento19.Droid.Resource.Attribute.strokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.subMenuArrow = global::Invento19.Droid.Resource.Attribute.subMenuArrow;
+			global::PanCardView.Droid.Resource.Attribute.submitBackground = global::Invento19.Droid.Resource.Attribute.submitBackground;
+			global::PanCardView.Droid.Resource.Attribute.subtitle = global::Invento19.Droid.Resource.Attribute.subtitle;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextAppearance = global::Invento19.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextColor = global::Invento19.Droid.Resource.Attribute.subtitleTextColor;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextStyle = global::Invento19.Droid.Resource.Attribute.subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.suggestionRowLayout = global::Invento19.Droid.Resource.Attribute.suggestionRowLayout;
+			global::PanCardView.Droid.Resource.Attribute.switchMinWidth = global::Invento19.Droid.Resource.Attribute.switchMinWidth;
+			global::PanCardView.Droid.Resource.Attribute.switchPadding = global::Invento19.Droid.Resource.Attribute.switchPadding;
+			global::PanCardView.Droid.Resource.Attribute.switchStyle = global::Invento19.Droid.Resource.Attribute.switchStyle;
+			global::PanCardView.Droid.Resource.Attribute.switchTextAppearance = global::Invento19.Droid.Resource.Attribute.switchTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.tabBackground = global::Invento19.Droid.Resource.Attribute.tabBackground;
+			global::PanCardView.Droid.Resource.Attribute.tabContentStart = global::Invento19.Droid.Resource.Attribute.tabContentStart;
+			global::PanCardView.Droid.Resource.Attribute.tabGravity = global::Invento19.Droid.Resource.Attribute.tabGravity;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTint = global::Invento19.Droid.Resource.Attribute.tabIconTint;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTintMode = global::Invento19.Droid.Resource.Attribute.tabIconTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicator = global::Invento19.Droid.Resource.Attribute.tabIndicator;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Invento19.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorColor = global::Invento19.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Invento19.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorGravity = global::Invento19.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorHeight = global::Invento19.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Attribute.tabInlineLabel = global::Invento19.Droid.Resource.Attribute.tabInlineLabel;
+			global::PanCardView.Droid.Resource.Attribute.tabMaxWidth = global::Invento19.Droid.Resource.Attribute.tabMaxWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabMinWidth = global::Invento19.Droid.Resource.Attribute.tabMinWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabMode = global::Invento19.Droid.Resource.Attribute.tabMode;
+			global::PanCardView.Droid.Resource.Attribute.tabPadding = global::Invento19.Droid.Resource.Attribute.tabPadding;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingBottom = global::Invento19.Droid.Resource.Attribute.tabPaddingBottom;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingEnd = global::Invento19.Droid.Resource.Attribute.tabPaddingEnd;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingStart = global::Invento19.Droid.Resource.Attribute.tabPaddingStart;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingTop = global::Invento19.Droid.Resource.Attribute.tabPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.tabRippleColor = global::Invento19.Droid.Resource.Attribute.tabRippleColor;
+			global::PanCardView.Droid.Resource.Attribute.tabSelectedTextColor = global::Invento19.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabStyle = global::Invento19.Droid.Resource.Attribute.tabStyle;
+			global::PanCardView.Droid.Resource.Attribute.tabTextAppearance = global::Invento19.Droid.Resource.Attribute.tabTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.tabTextColor = global::Invento19.Droid.Resource.Attribute.tabTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabUnboundedRipple = global::Invento19.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::PanCardView.Droid.Resource.Attribute.textAllCaps = global::Invento19.Droid.Resource.Attribute.textAllCaps;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody1 = global::Invento19.Droid.Resource.Attribute.textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody2 = global::Invento19.Droid.Resource.Attribute.textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceButton = global::Invento19.Droid.Resource.Attribute.textAppearanceButton;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceCaption = global::Invento19.Droid.Resource.Attribute.textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Invento19.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Invento19.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItem = global::Invento19.Droid.Resource.Attribute.textAppearanceListItem;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Invento19.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Invento19.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceOverline = global::Invento19.Droid.Resource.Attribute.textAppearanceOverline;
+			global::PanCardView.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Invento19.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Invento19.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Invento19.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Invento19.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Invento19.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Invento19.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::PanCardView.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Invento19.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::PanCardView.Droid.Resource.Attribute.textColorSearchUrl = global::Invento19.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PanCardView.Droid.Resource.Attribute.textEndPadding = global::Invento19.Droid.Resource.Attribute.textEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.textInputStyle = global::Invento19.Droid.Resource.Attribute.textInputStyle;
+			global::PanCardView.Droid.Resource.Attribute.textStartPadding = global::Invento19.Droid.Resource.Attribute.textStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.theme = global::Invento19.Droid.Resource.Attribute.theme;
+			global::PanCardView.Droid.Resource.Attribute.thickness = global::Invento19.Droid.Resource.Attribute.thickness;
+			global::PanCardView.Droid.Resource.Attribute.thumbTextPadding = global::Invento19.Droid.Resource.Attribute.thumbTextPadding;
+			global::PanCardView.Droid.Resource.Attribute.thumbTint = global::Invento19.Droid.Resource.Attribute.thumbTint;
+			global::PanCardView.Droid.Resource.Attribute.thumbTintMode = global::Invento19.Droid.Resource.Attribute.thumbTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tickMark = global::Invento19.Droid.Resource.Attribute.tickMark;
+			global::PanCardView.Droid.Resource.Attribute.tickMarkTint = global::Invento19.Droid.Resource.Attribute.tickMarkTint;
+			global::PanCardView.Droid.Resource.Attribute.tickMarkTintMode = global::Invento19.Droid.Resource.Attribute.tickMarkTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tint = global::Invento19.Droid.Resource.Attribute.tint;
+			global::PanCardView.Droid.Resource.Attribute.tintMode = global::Invento19.Droid.Resource.Attribute.tintMode;
+			global::PanCardView.Droid.Resource.Attribute.title = global::Invento19.Droid.Resource.Attribute.title;
+			global::PanCardView.Droid.Resource.Attribute.titleEnabled = global::Invento19.Droid.Resource.Attribute.titleEnabled;
+			global::PanCardView.Droid.Resource.Attribute.titleMargin = global::Invento19.Droid.Resource.Attribute.titleMargin;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginBottom = global::Invento19.Droid.Resource.Attribute.titleMarginBottom;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginEnd = global::Invento19.Droid.Resource.Attribute.titleMarginEnd;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginStart = global::Invento19.Droid.Resource.Attribute.titleMarginStart;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginTop = global::Invento19.Droid.Resource.Attribute.titleMarginTop;
+			global::PanCardView.Droid.Resource.Attribute.titleMargins = global::Invento19.Droid.Resource.Attribute.titleMargins;
+			global::PanCardView.Droid.Resource.Attribute.titleTextAppearance = global::Invento19.Droid.Resource.Attribute.titleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.titleTextColor = global::Invento19.Droid.Resource.Attribute.titleTextColor;
+			global::PanCardView.Droid.Resource.Attribute.titleTextStyle = global::Invento19.Droid.Resource.Attribute.titleTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.toolbarId = global::Invento19.Droid.Resource.Attribute.toolbarId;
+			global::PanCardView.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Invento19.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.toolbarStyle = global::Invento19.Droid.Resource.Attribute.toolbarStyle;
+			global::PanCardView.Droid.Resource.Attribute.tooltipForegroundColor = global::Invento19.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::PanCardView.Droid.Resource.Attribute.tooltipFrameBackground = global::Invento19.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::PanCardView.Droid.Resource.Attribute.tooltipText = global::Invento19.Droid.Resource.Attribute.tooltipText;
+			global::PanCardView.Droid.Resource.Attribute.track = global::Invento19.Droid.Resource.Attribute.track;
+			global::PanCardView.Droid.Resource.Attribute.trackTint = global::Invento19.Droid.Resource.Attribute.trackTint;
+			global::PanCardView.Droid.Resource.Attribute.trackTintMode = global::Invento19.Droid.Resource.Attribute.trackTintMode;
+			global::PanCardView.Droid.Resource.Attribute.ttcIndex = global::Invento19.Droid.Resource.Attribute.ttcIndex;
+			global::PanCardView.Droid.Resource.Attribute.useCompatPadding = global::Invento19.Droid.Resource.Attribute.useCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.viewInflaterClass = global::Invento19.Droid.Resource.Attribute.viewInflaterClass;
+			global::PanCardView.Droid.Resource.Attribute.voiceIcon = global::Invento19.Droid.Resource.Attribute.voiceIcon;
+			global::PanCardView.Droid.Resource.Attribute.windowActionBar = global::Invento19.Droid.Resource.Attribute.windowActionBar;
+			global::PanCardView.Droid.Resource.Attribute.windowActionBarOverlay = global::Invento19.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::PanCardView.Droid.Resource.Attribute.windowActionModeOverlay = global::Invento19.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedHeightMajor = global::Invento19.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedHeightMinor = global::Invento19.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedWidthMajor = global::Invento19.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedWidthMinor = global::Invento19.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowMinWidthMajor = global::Invento19.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowMinWidthMinor = global::Invento19.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowNoTitle = global::Invento19.Droid.Resource.Attribute.windowNoTitle;
+			global::PanCardView.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Invento19.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PanCardView.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Invento19.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PanCardView.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Invento19.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PanCardView.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Invento19.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Invento19.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Invento19.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Invento19.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::PanCardView.Droid.Resource.Color.abc_btn_colored_text_material = global::Invento19.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::PanCardView.Droid.Resource.Color.abc_color_highlight_material = global::Invento19.Droid.Resource.Color.abc_color_highlight_material;
+			global::PanCardView.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Invento19.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_hint_foreground_material_light = global::Invento19.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_input_method_navigation_guard = global::Invento19.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Invento19.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Invento19.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_material_dark = global::Invento19.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_material_light = global::Invento19.Droid.Resource.Color.abc_primary_text_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text = global::Invento19.Droid.Resource.Color.abc_search_url_text;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_normal = global::Invento19.Droid.Resource.Color.abc_search_url_text_normal;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_pressed = global::Invento19.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_selected = global::Invento19.Droid.Resource.Color.abc_search_url_text_selected;
+			global::PanCardView.Droid.Resource.Color.abc_secondary_text_material_dark = global::Invento19.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_secondary_text_material_light = global::Invento19.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_tint_btn_checkable = global::Invento19.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::PanCardView.Droid.Resource.Color.abc_tint_default = global::Invento19.Droid.Resource.Color.abc_tint_default;
+			global::PanCardView.Droid.Resource.Color.abc_tint_edittext = global::Invento19.Droid.Resource.Color.abc_tint_edittext;
+			global::PanCardView.Droid.Resource.Color.abc_tint_seek_thumb = global::Invento19.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::PanCardView.Droid.Resource.Color.abc_tint_spinner = global::Invento19.Droid.Resource.Color.abc_tint_spinner;
+			global::PanCardView.Droid.Resource.Color.abc_tint_switch_track = global::Invento19.Droid.Resource.Color.abc_tint_switch_track;
+			global::PanCardView.Droid.Resource.Color.accent_material_dark = global::Invento19.Droid.Resource.Color.accent_material_dark;
+			global::PanCardView.Droid.Resource.Color.accent_material_light = global::Invento19.Droid.Resource.Color.accent_material_light;
+			global::PanCardView.Droid.Resource.Color.background_floating_material_dark = global::Invento19.Droid.Resource.Color.background_floating_material_dark;
+			global::PanCardView.Droid.Resource.Color.background_floating_material_light = global::Invento19.Droid.Resource.Color.background_floating_material_light;
+			global::PanCardView.Droid.Resource.Color.background_material_dark = global::Invento19.Droid.Resource.Color.background_material_dark;
+			global::PanCardView.Droid.Resource.Color.background_material_light = global::Invento19.Droid.Resource.Color.background_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Invento19.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Invento19.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Invento19.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Invento19.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_material_dark = global::Invento19.Droid.Resource.Color.bright_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_material_light = global::Invento19.Droid.Resource.Color.bright_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.button_material_dark = global::Invento19.Droid.Resource.Color.button_material_dark;
+			global::PanCardView.Droid.Resource.Color.button_material_light = global::Invento19.Droid.Resource.Color.button_material_light;
+			global::PanCardView.Droid.Resource.Color.cardview_dark_background = global::Invento19.Droid.Resource.Color.cardview_dark_background;
+			global::PanCardView.Droid.Resource.Color.cardview_light_background = global::Invento19.Droid.Resource.Color.cardview_light_background;
+			global::PanCardView.Droid.Resource.Color.cardview_shadow_end_color = global::Invento19.Droid.Resource.Color.cardview_shadow_end_color;
+			global::PanCardView.Droid.Resource.Color.cardview_shadow_start_color = global::Invento19.Droid.Resource.Color.cardview_shadow_start_color;
+			global::PanCardView.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Invento19.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary = global::Invento19.Droid.Resource.Color.design_default_color_primary;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary_dark = global::Invento19.Droid.Resource.Color.design_default_color_primary_dark;
+			global::PanCardView.Droid.Resource.Color.design_error = global::Invento19.Droid.Resource.Color.design_error;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_end_color = global::Invento19.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_mid_color = global::Invento19.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_start_color = global::Invento19.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Invento19.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Invento19.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Invento19.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Invento19.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PanCardView.Droid.Resource.Color.design_snackbar_background_color = global::Invento19.Droid.Resource.Color.design_snackbar_background_color;
+			global::PanCardView.Droid.Resource.Color.design_tint_password_toggle = global::Invento19.Droid.Resource.Color.design_tint_password_toggle;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Invento19.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Invento19.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_material_dark = global::Invento19.Droid.Resource.Color.dim_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_material_light = global::Invento19.Droid.Resource.Color.dim_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.error_color_material_dark = global::Invento19.Droid.Resource.Color.error_color_material_dark;
+			global::PanCardView.Droid.Resource.Color.error_color_material_light = global::Invento19.Droid.Resource.Color.error_color_material_light;
+			global::PanCardView.Droid.Resource.Color.foreground_material_dark = global::Invento19.Droid.Resource.Color.foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.foreground_material_light = global::Invento19.Droid.Resource.Color.foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.highlighted_text_material_dark = global::Invento19.Droid.Resource.Color.highlighted_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.highlighted_text_material_light = global::Invento19.Droid.Resource.Color.highlighted_text_material_light;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_800 = global::Invento19.Droid.Resource.Color.material_blue_grey_800;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_900 = global::Invento19.Droid.Resource.Color.material_blue_grey_900;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_950 = global::Invento19.Droid.Resource.Color.material_blue_grey_950;
+			global::PanCardView.Droid.Resource.Color.material_deep_teal_200 = global::Invento19.Droid.Resource.Color.material_deep_teal_200;
+			global::PanCardView.Droid.Resource.Color.material_deep_teal_500 = global::Invento19.Droid.Resource.Color.material_deep_teal_500;
+			global::PanCardView.Droid.Resource.Color.material_grey_100 = global::Invento19.Droid.Resource.Color.material_grey_100;
+			global::PanCardView.Droid.Resource.Color.material_grey_300 = global::Invento19.Droid.Resource.Color.material_grey_300;
+			global::PanCardView.Droid.Resource.Color.material_grey_50 = global::Invento19.Droid.Resource.Color.material_grey_50;
+			global::PanCardView.Droid.Resource.Color.material_grey_600 = global::Invento19.Droid.Resource.Color.material_grey_600;
+			global::PanCardView.Droid.Resource.Color.material_grey_800 = global::Invento19.Droid.Resource.Color.material_grey_800;
+			global::PanCardView.Droid.Resource.Color.material_grey_850 = global::Invento19.Droid.Resource.Color.material_grey_850;
+			global::PanCardView.Droid.Resource.Color.material_grey_900 = global::Invento19.Droid.Resource.Color.material_grey_900;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Invento19.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Invento19.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Invento19.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Invento19.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Invento19.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Invento19.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Invento19.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Invento19.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_background_color = global::Invento19.Droid.Resource.Color.mtrl_chip_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Invento19.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_text_color = global::Invento19.Droid.Resource.Color.mtrl_chip_text_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_fab_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_scrim_color = global::Invento19.Droid.Resource.Color.mtrl_scrim_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Invento19.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Invento19.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Invento19.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Invento19.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Invento19.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Invento19.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Invento19.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Invento19.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Invento19.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::PanCardView.Droid.Resource.Color.notification_action_color_filter = global::Invento19.Droid.Resource.Color.notification_action_color_filter;
+			global::PanCardView.Droid.Resource.Color.notification_icon_bg_color = global::Invento19.Droid.Resource.Color.notification_icon_bg_color;
+			global::PanCardView.Droid.Resource.Color.notification_material_background_media_default_color = global::Invento19.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::PanCardView.Droid.Resource.Color.primary_dark_material_dark = global::Invento19.Droid.Resource.Color.primary_dark_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_dark_material_light = global::Invento19.Droid.Resource.Color.primary_dark_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_material_dark = global::Invento19.Droid.Resource.Color.primary_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_material_light = global::Invento19.Droid.Resource.Color.primary_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_text_default_material_dark = global::Invento19.Droid.Resource.Color.primary_text_default_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_text_default_material_light = global::Invento19.Droid.Resource.Color.primary_text_default_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_text_disabled_material_dark = global::Invento19.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_text_disabled_material_light = global::Invento19.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.ripple_material_dark = global::Invento19.Droid.Resource.Color.ripple_material_dark;
+			global::PanCardView.Droid.Resource.Color.ripple_material_light = global::Invento19.Droid.Resource.Color.ripple_material_light;
+			global::PanCardView.Droid.Resource.Color.secondary_text_default_material_dark = global::Invento19.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::PanCardView.Droid.Resource.Color.secondary_text_default_material_light = global::Invento19.Droid.Resource.Color.secondary_text_default_material_light;
+			global::PanCardView.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Invento19.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.secondary_text_disabled_material_light = global::Invento19.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Invento19.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Invento19.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_material_dark = global::Invento19.Droid.Resource.Color.switch_thumb_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_material_light = global::Invento19.Droid.Resource.Color.switch_thumb_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Invento19.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_normal_material_light = global::Invento19.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::PanCardView.Droid.Resource.Color.tooltip_background_dark = global::Invento19.Droid.Resource.Color.tooltip_background_dark;
+			global::PanCardView.Droid.Resource.Color.tooltip_background_light = global::Invento19.Droid.Resource.Color.tooltip_background_light;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Invento19.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Invento19.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Invento19.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Invento19.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Invento19.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Invento19.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Invento19.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Invento19.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Invento19.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Invento19.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Invento19.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Invento19.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Invento19.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Invento19.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Invento19.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_corner_material = global::Invento19.Droid.Resource.Dimension.abc_control_corner_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_inset_material = global::Invento19.Droid.Resource.Dimension.abc_control_inset_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_padding_material = global::Invento19.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Invento19.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Invento19.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Invento19.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Invento19.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Invento19.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Invento19.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Invento19.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Invento19.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Invento19.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_padding_material = global::Invento19.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Invento19.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Invento19.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Invento19.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Invento19.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Invento19.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Invento19.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Invento19.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Invento19.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Invento19.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Invento19.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_floating_window_z = global::Invento19.Droid.Resource.Dimension.abc_floating_window_z;
+			global::PanCardView.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Invento19.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Invento19.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Invento19.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Invento19.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Invento19.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Invento19.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Invento19.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Invento19.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_switch_padding = global::Invento19.Droid.Resource.Dimension.abc_switch_padding;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_button_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_caption_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_headline_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_large_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_medium_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_menu_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_small_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Invento19.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_title_material = global::Invento19.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Invento19.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PanCardView.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Invento19.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PanCardView.Droid.Resource.Dimension.cardview_default_elevation = global::Invento19.Droid.Resource.Dimension.cardview_default_elevation;
+			global::PanCardView.Droid.Resource.Dimension.cardview_default_radius = global::Invento19.Droid.Resource.Dimension.cardview_default_radius;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Invento19.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Invento19.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Invento19.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Invento19.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_control_corner_material = global::Invento19.Droid.Resource.Dimension.compat_control_corner_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Invento19.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Invento19.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_appbar_elevation = global::Invento19.Droid.Resource.Dimension.design_appbar_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_height = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Invento19.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Invento19.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Invento19.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_border_width = global::Invento19.Droid.Resource.Dimension.design_fab_border_width;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_elevation = global::Invento19.Droid.Resource.Dimension.design_fab_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_image_size = global::Invento19.Droid.Resource.Dimension.design_fab_image_size;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_size_mini = global::Invento19.Droid.Resource.Dimension.design_fab_size_mini;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_size_normal = global::Invento19.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Invento19.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Invento19.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_elevation = global::Invento19.Droid.Resource.Dimension.design_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_padding = global::Invento19.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_size = global::Invento19.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Invento19.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Invento19.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_max_width = global::Invento19.Droid.Resource.Dimension.design_navigation_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Invento19.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Invento19.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Invento19.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Invento19.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_elevation = global::Invento19.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Invento19.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_max_width = global::Invento19.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_min_width = global::Invento19.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Invento19.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Invento19.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Invento19.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_text_size = global::Invento19.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_max_width = global::Invento19.Droid.Resource.Dimension.design_tab_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Invento19.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size = global::Invento19.Droid.Resource.Dimension.design_tab_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size_2line = global::Invento19.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PanCardView.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Invento19.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Invento19.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_light = global::Invento19.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_default_thickness = global::Invento19.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_margin = global::Invento19.Droid.Resource.Dimension.fastscroll_margin;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_minimum_range = global::Invento19.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Invento19.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Invento19.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_light = global::Invento19.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.hint_alpha_material_dark = global::Invento19.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.hint_alpha_material_light = global::Invento19.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Invento19.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Invento19.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Invento19.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Invento19.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Invento19.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Invento19.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Invento19.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Invento19.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Invento19.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Invento19.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Invento19.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Invento19.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Invento19.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Invento19.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Invento19.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Invento19.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Invento19.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Invento19.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Invento19.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Invento19.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_elevation = global::Invento19.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Invento19.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Invento19.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Invento19.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Invento19.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_inset = global::Invento19.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Invento19.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Invento19.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Invento19.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Invento19.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Invento19.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Invento19.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Invento19.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Invento19.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Invento19.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Invento19.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_size = global::Invento19.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_z = global::Invento19.Droid.Resource.Dimension.mtrl_btn_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_elevation = global::Invento19.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_spacing = global::Invento19.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Invento19.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_text_size = global::Invento19.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_elevation = global::Invento19.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Invento19.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Invento19.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Invento19.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Invento19.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Invento19.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Invento19.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Invento19.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Invento19.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Invento19.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::PanCardView.Droid.Resource.Dimension.notification_action_icon_size = global::Invento19.Droid.Resource.Dimension.notification_action_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_action_text_size = global::Invento19.Droid.Resource.Dimension.notification_action_text_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_big_circle_margin = global::Invento19.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::PanCardView.Droid.Resource.Dimension.notification_content_margin_start = global::Invento19.Droid.Resource.Dimension.notification_content_margin_start;
+			global::PanCardView.Droid.Resource.Dimension.notification_large_icon_height = global::Invento19.Droid.Resource.Dimension.notification_large_icon_height;
+			global::PanCardView.Droid.Resource.Dimension.notification_large_icon_width = global::Invento19.Droid.Resource.Dimension.notification_large_icon_width;
+			global::PanCardView.Droid.Resource.Dimension.notification_main_column_padding_top = global::Invento19.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.notification_media_narrow_margin = global::Invento19.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::PanCardView.Droid.Resource.Dimension.notification_right_icon_size = global::Invento19.Droid.Resource.Dimension.notification_right_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_right_side_padding_top = global::Invento19.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Invento19.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::PanCardView.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Invento19.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::PanCardView.Droid.Resource.Dimension.notification_subtext_size = global::Invento19.Droid.Resource.Dimension.notification_subtext_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_top_pad = global::Invento19.Droid.Resource.Dimension.notification_top_pad;
+			global::PanCardView.Droid.Resource.Dimension.notification_top_pad_large_text = global::Invento19.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_corner_radius = global::Invento19.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_outline_width = global::Invento19.Droid.Resource.Dimension.subtitle_outline_width;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_offset = global::Invento19.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_radius = global::Invento19.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_corner_radius = global::Invento19.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Invento19.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_margin = global::Invento19.Droid.Resource.Dimension.tooltip_margin;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Invento19.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Invento19.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_vertical_padding = global::Invento19.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Invento19.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Invento19.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::PanCardView.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Invento19.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_borderless_material = global::Invento19.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_material = global::Invento19.Droid.Resource.Drawable.abc_btn_check_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Invento19.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Invento19.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_colored_material = global::Invento19.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Invento19.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_material = global::Invento19.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Invento19.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Invento19.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Invento19.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Invento19.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Invento19.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_top_material = global::Invento19.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_control_background_material = global::Invento19.Droid.Resource.Drawable.abc_control_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_dialog_material_background = global::Invento19.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::PanCardView.Droid.Resource.Drawable.abc_edit_text_material = global::Invento19.Droid.Resource.Drawable.abc_edit_text_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Invento19.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Invento19.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_clear_material = global::Invento19.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Invento19.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_search_api_material = global::Invento19.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Invento19.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Invento19.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Invento19.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_light = global::Invento19.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_material = global::Invento19.Droid.Resource.Drawable.abc_list_divider_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_focused_holo = global::Invento19.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Invento19.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Invento19.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Invento19.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Invento19.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Invento19.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Invento19.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Invento19.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Invento19.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Invento19.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Invento19.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PanCardView.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Invento19.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Invento19.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_material = global::Invento19.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Invento19.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Invento19.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Invento19.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Invento19.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Invento19.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_track_material = global::Invento19.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Invento19.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Invento19.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_switch_thumb_material = global::Invento19.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_tab_indicator_material = global::Invento19.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_cursor_material = global::Invento19.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Invento19.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Invento19.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_material = global::Invento19.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_vector_test = global::Invento19.Droid.Resource.Drawable.abc_vector_test;
+			global::PanCardView.Droid.Resource.Drawable.avd_hide_password = global::Invento19.Droid.Resource.Drawable.avd_hide_password;
+			global::PanCardView.Droid.Resource.Drawable.avd_hide_password_1 = global::Invento19.Droid.Resource.Drawable.avd_hide_password_1;
+			global::PanCardView.Droid.Resource.Drawable.avd_hide_password_2 = global::Invento19.Droid.Resource.Drawable.avd_hide_password_2;
+			global::PanCardView.Droid.Resource.Drawable.avd_hide_password_3 = global::Invento19.Droid.Resource.Drawable.avd_hide_password_3;
+			global::PanCardView.Droid.Resource.Drawable.avd_show_password = global::Invento19.Droid.Resource.Drawable.avd_show_password;
+			global::PanCardView.Droid.Resource.Drawable.avd_show_password_1 = global::Invento19.Droid.Resource.Drawable.avd_show_password_1;
+			global::PanCardView.Droid.Resource.Drawable.avd_show_password_2 = global::Invento19.Droid.Resource.Drawable.avd_show_password_2;
+			global::PanCardView.Droid.Resource.Drawable.avd_show_password_3 = global::Invento19.Droid.Resource.Drawable.avd_show_password_3;
+			global::PanCardView.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Invento19.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::PanCardView.Droid.Resource.Drawable.design_fab_background = global::Invento19.Droid.Resource.Drawable.design_fab_background;
+			global::PanCardView.Droid.Resource.Drawable.design_ic_visibility = global::Invento19.Droid.Resource.Drawable.design_ic_visibility;
+			global::PanCardView.Droid.Resource.Drawable.design_ic_visibility_off = global::Invento19.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::PanCardView.Droid.Resource.Drawable.design_password_eye = global::Invento19.Droid.Resource.Drawable.design_password_eye;
+			global::PanCardView.Droid.Resource.Drawable.design_snackbar_background = global::Invento19.Droid.Resource.Drawable.design_snackbar_background;
+			global::PanCardView.Droid.Resource.Drawable.ic_audiotrack_dark = global::Invento19.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_audiotrack_light = global::Invento19.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_dialog_close_dark = global::Invento19.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_dialog_close_light = global::Invento19.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_00 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_01 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_02 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_03 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_04 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_05 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_06 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_07 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_08 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_09 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_10 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_11 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_12 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_13 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_14 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_15 = global::Invento19.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_00 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_00;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_01 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_01;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_02 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_02;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_03 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_03;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_04 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_04;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_05 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_05;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_06 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_06;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_07 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_07;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_08 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_08;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_09 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_09;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_10 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_10;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_11 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_11;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_12 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_12;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_13 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_13;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_14 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_14;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_15 = global::Invento19.Droid.Resource.Drawable.ic_group_expand_15;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_pause_dark = global::Invento19.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_pause_light = global::Invento19.Droid.Resource.Drawable.ic_media_pause_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_play_dark = global::Invento19.Droid.Resource.Drawable.ic_media_play_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_play_light = global::Invento19.Droid.Resource.Drawable.ic_media_play_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_stop_dark = global::Invento19.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_stop_light = global::Invento19.Droid.Resource.Drawable.ic_media_stop_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::Invento19.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::Invento19.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_grey = global::Invento19.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Invento19.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Invento19.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Invento19.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::Invento19.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Invento19.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::Invento19.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::Invento19.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::Invento19.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_tv_light = global::Invento19.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connected_dark = global::Invento19.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connected_light = global::Invento19.Droid.Resource.Drawable.mr_button_connected_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connecting_dark = global::Invento19.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connecting_light = global::Invento19.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_dark = global::Invento19.Droid.Resource.Drawable.mr_button_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_light = global::Invento19.Droid.Resource.Drawable.mr_button_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_close_dark = global::Invento19.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_close_light = global::Invento19.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::Invento19.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_material_background_light = global::Invento19.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_group_collapse = global::Invento19.Droid.Resource.Drawable.mr_group_collapse;
+			global::PanCardView.Droid.Resource.Drawable.mr_group_expand = global::Invento19.Droid.Resource.Drawable.mr_group_expand;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_pause_dark = global::Invento19.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_pause_light = global::Invento19.Droid.Resource.Drawable.mr_media_pause_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_play_dark = global::Invento19.Droid.Resource.Drawable.mr_media_play_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_play_light = global::Invento19.Droid.Resource.Drawable.mr_media_play_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_stop_dark = global::Invento19.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_stop_light = global::Invento19.Droid.Resource.Drawable.mr_media_stop_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Invento19.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::Invento19.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_snackbar_background = global::Invento19.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Invento19.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::PanCardView.Droid.Resource.Drawable.navigation_empty_icon = global::Invento19.Droid.Resource.Drawable.navigation_empty_icon;
+			global::PanCardView.Droid.Resource.Drawable.notification_action_background = global::Invento19.Droid.Resource.Drawable.notification_action_background;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg = global::Invento19.Droid.Resource.Drawable.notification_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low = global::Invento19.Droid.Resource.Drawable.notification_bg_low;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low_normal = global::Invento19.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low_pressed = global::Invento19.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_normal = global::Invento19.Droid.Resource.Drawable.notification_bg_normal;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Invento19.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::PanCardView.Droid.Resource.Drawable.notification_icon_background = global::Invento19.Droid.Resource.Drawable.notification_icon_background;
+			global::PanCardView.Droid.Resource.Drawable.notification_template_icon_bg = global::Invento19.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Invento19.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_tile_bg = global::Invento19.Droid.Resource.Drawable.notification_tile_bg;
+			global::PanCardView.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Invento19.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::PanCardView.Droid.Resource.Drawable.tooltip_frame_dark = global::Invento19.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::PanCardView.Droid.Resource.Drawable.tooltip_frame_light = global::Invento19.Droid.Resource.Drawable.tooltip_frame_light;
+			global::PanCardView.Droid.Resource.Id.ALT = global::Invento19.Droid.Resource.Id.ALT;
+			global::PanCardView.Droid.Resource.Id.CTRL = global::Invento19.Droid.Resource.Id.CTRL;
+			global::PanCardView.Droid.Resource.Id.FUNCTION = global::Invento19.Droid.Resource.Id.FUNCTION;
+			global::PanCardView.Droid.Resource.Id.META = global::Invento19.Droid.Resource.Id.META;
+			global::PanCardView.Droid.Resource.Id.SHIFT = global::Invento19.Droid.Resource.Id.SHIFT;
+			global::PanCardView.Droid.Resource.Id.SYM = global::Invento19.Droid.Resource.Id.SYM;
+			global::PanCardView.Droid.Resource.Id.action0 = global::Invento19.Droid.Resource.Id.action0;
+			global::PanCardView.Droid.Resource.Id.action_bar = global::Invento19.Droid.Resource.Id.action_bar;
+			global::PanCardView.Droid.Resource.Id.action_bar_activity_content = global::Invento19.Droid.Resource.Id.action_bar_activity_content;
+			global::PanCardView.Droid.Resource.Id.action_bar_container = global::Invento19.Droid.Resource.Id.action_bar_container;
+			global::PanCardView.Droid.Resource.Id.action_bar_root = global::Invento19.Droid.Resource.Id.action_bar_root;
+			global::PanCardView.Droid.Resource.Id.action_bar_spinner = global::Invento19.Droid.Resource.Id.action_bar_spinner;
+			global::PanCardView.Droid.Resource.Id.action_bar_subtitle = global::Invento19.Droid.Resource.Id.action_bar_subtitle;
+			global::PanCardView.Droid.Resource.Id.action_bar_title = global::Invento19.Droid.Resource.Id.action_bar_title;
+			global::PanCardView.Droid.Resource.Id.action_container = global::Invento19.Droid.Resource.Id.action_container;
+			global::PanCardView.Droid.Resource.Id.action_context_bar = global::Invento19.Droid.Resource.Id.action_context_bar;
+			global::PanCardView.Droid.Resource.Id.action_divider = global::Invento19.Droid.Resource.Id.action_divider;
+			global::PanCardView.Droid.Resource.Id.action_image = global::Invento19.Droid.Resource.Id.action_image;
+			global::PanCardView.Droid.Resource.Id.action_menu_divider = global::Invento19.Droid.Resource.Id.action_menu_divider;
+			global::PanCardView.Droid.Resource.Id.action_menu_presenter = global::Invento19.Droid.Resource.Id.action_menu_presenter;
+			global::PanCardView.Droid.Resource.Id.action_mode_bar = global::Invento19.Droid.Resource.Id.action_mode_bar;
+			global::PanCardView.Droid.Resource.Id.action_mode_bar_stub = global::Invento19.Droid.Resource.Id.action_mode_bar_stub;
+			global::PanCardView.Droid.Resource.Id.action_mode_close_button = global::Invento19.Droid.Resource.Id.action_mode_close_button;
+			global::PanCardView.Droid.Resource.Id.action_text = global::Invento19.Droid.Resource.Id.action_text;
+			global::PanCardView.Droid.Resource.Id.actions = global::Invento19.Droid.Resource.Id.actions;
+			global::PanCardView.Droid.Resource.Id.activity_chooser_view_content = global::Invento19.Droid.Resource.Id.activity_chooser_view_content;
+			global::PanCardView.Droid.Resource.Id.add = global::Invento19.Droid.Resource.Id.add;
+			global::PanCardView.Droid.Resource.Id.alertTitle = global::Invento19.Droid.Resource.Id.alertTitle;
+			global::PanCardView.Droid.Resource.Id.all = global::Invento19.Droid.Resource.Id.all;
+			global::PanCardView.Droid.Resource.Id.always = global::Invento19.Droid.Resource.Id.always;
+			global::PanCardView.Droid.Resource.Id.async = global::Invento19.Droid.Resource.Id.async;
+			global::PanCardView.Droid.Resource.Id.auto = global::Invento19.Droid.Resource.Id.auto;
+			global::PanCardView.Droid.Resource.Id.beginning = global::Invento19.Droid.Resource.Id.beginning;
+			global::PanCardView.Droid.Resource.Id.blocking = global::Invento19.Droid.Resource.Id.blocking;
+			global::PanCardView.Droid.Resource.Id.bottom = global::Invento19.Droid.Resource.Id.bottom;
+			global::PanCardView.Droid.Resource.Id.buttonPanel = global::Invento19.Droid.Resource.Id.buttonPanel;
+			global::PanCardView.Droid.Resource.Id.cancel_action = global::Invento19.Droid.Resource.Id.cancel_action;
+			global::PanCardView.Droid.Resource.Id.center = global::Invento19.Droid.Resource.Id.center;
+			global::PanCardView.Droid.Resource.Id.center_horizontal = global::Invento19.Droid.Resource.Id.center_horizontal;
+			global::PanCardView.Droid.Resource.Id.center_vertical = global::Invento19.Droid.Resource.Id.center_vertical;
+			global::PanCardView.Droid.Resource.Id.checkbox = global::Invento19.Droid.Resource.Id.checkbox;
+			global::PanCardView.Droid.Resource.Id.chronometer = global::Invento19.Droid.Resource.Id.chronometer;
+			global::PanCardView.Droid.Resource.Id.clip_horizontal = global::Invento19.Droid.Resource.Id.clip_horizontal;
+			global::PanCardView.Droid.Resource.Id.clip_vertical = global::Invento19.Droid.Resource.Id.clip_vertical;
+			global::PanCardView.Droid.Resource.Id.collapseActionView = global::Invento19.Droid.Resource.Id.collapseActionView;
+			global::PanCardView.Droid.Resource.Id.container = global::Invento19.Droid.Resource.Id.container;
+			global::PanCardView.Droid.Resource.Id.content = global::Invento19.Droid.Resource.Id.content;
+			global::PanCardView.Droid.Resource.Id.contentPanel = global::Invento19.Droid.Resource.Id.contentPanel;
+			global::PanCardView.Droid.Resource.Id.coordinator = global::Invento19.Droid.Resource.Id.coordinator;
+			global::PanCardView.Droid.Resource.Id.custom = global::Invento19.Droid.Resource.Id.custom;
+			global::PanCardView.Droid.Resource.Id.customPanel = global::Invento19.Droid.Resource.Id.customPanel;
+			global::PanCardView.Droid.Resource.Id.decor_content_parent = global::Invento19.Droid.Resource.Id.decor_content_parent;
+			global::PanCardView.Droid.Resource.Id.default_activity_button = global::Invento19.Droid.Resource.Id.default_activity_button;
+			global::PanCardView.Droid.Resource.Id.design_bottom_sheet = global::Invento19.Droid.Resource.Id.design_bottom_sheet;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_action_area = global::Invento19.Droid.Resource.Id.design_menu_item_action_area;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_action_area_stub = global::Invento19.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_text = global::Invento19.Droid.Resource.Id.design_menu_item_text;
+			global::PanCardView.Droid.Resource.Id.design_navigation_view = global::Invento19.Droid.Resource.Id.design_navigation_view;
+			global::PanCardView.Droid.Resource.Id.disableHome = global::Invento19.Droid.Resource.Id.disableHome;
+			global::PanCardView.Droid.Resource.Id.edit_query = global::Invento19.Droid.Resource.Id.edit_query;
+			global::PanCardView.Droid.Resource.Id.end = global::Invento19.Droid.Resource.Id.end;
+			global::PanCardView.Droid.Resource.Id.end_padder = global::Invento19.Droid.Resource.Id.end_padder;
+			global::PanCardView.Droid.Resource.Id.enterAlways = global::Invento19.Droid.Resource.Id.enterAlways;
+			global::PanCardView.Droid.Resource.Id.enterAlwaysCollapsed = global::Invento19.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::PanCardView.Droid.Resource.Id.exitUntilCollapsed = global::Invento19.Droid.Resource.Id.exitUntilCollapsed;
+			global::PanCardView.Droid.Resource.Id.expand_activities_button = global::Invento19.Droid.Resource.Id.expand_activities_button;
+			global::PanCardView.Droid.Resource.Id.expanded_menu = global::Invento19.Droid.Resource.Id.expanded_menu;
+			global::PanCardView.Droid.Resource.Id.fill = global::Invento19.Droid.Resource.Id.fill;
+			global::PanCardView.Droid.Resource.Id.fill_horizontal = global::Invento19.Droid.Resource.Id.fill_horizontal;
+			global::PanCardView.Droid.Resource.Id.fill_vertical = global::Invento19.Droid.Resource.Id.fill_vertical;
+			global::PanCardView.Droid.Resource.Id.filled = global::Invento19.Droid.Resource.Id.filled;
+			global::PanCardView.Droid.Resource.Id.@fixed = global::Invento19.Droid.Resource.Id.@fixed;
+			global::PanCardView.Droid.Resource.Id.forever = global::Invento19.Droid.Resource.Id.forever;
+			global::PanCardView.Droid.Resource.Id.ghost_view = global::Invento19.Droid.Resource.Id.ghost_view;
+			global::PanCardView.Droid.Resource.Id.group_divider = global::Invento19.Droid.Resource.Id.group_divider;
+			global::PanCardView.Droid.Resource.Id.home = global::Invento19.Droid.Resource.Id.home;
+			global::PanCardView.Droid.Resource.Id.homeAsUp = global::Invento19.Droid.Resource.Id.homeAsUp;
+			global::PanCardView.Droid.Resource.Id.icon = global::Invento19.Droid.Resource.Id.icon;
+			global::PanCardView.Droid.Resource.Id.icon_group = global::Invento19.Droid.Resource.Id.icon_group;
+			global::PanCardView.Droid.Resource.Id.ifRoom = global::Invento19.Droid.Resource.Id.ifRoom;
+			global::PanCardView.Droid.Resource.Id.image = global::Invento19.Droid.Resource.Id.image;
+			global::PanCardView.Droid.Resource.Id.info = global::Invento19.Droid.Resource.Id.info;
+			global::PanCardView.Droid.Resource.Id.italic = global::Invento19.Droid.Resource.Id.italic;
+			global::PanCardView.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Invento19.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PanCardView.Droid.Resource.Id.labeled = global::Invento19.Droid.Resource.Id.labeled;
+			global::PanCardView.Droid.Resource.Id.largeLabel = global::Invento19.Droid.Resource.Id.largeLabel;
+			global::PanCardView.Droid.Resource.Id.left = global::Invento19.Droid.Resource.Id.left;
+			global::PanCardView.Droid.Resource.Id.line1 = global::Invento19.Droid.Resource.Id.line1;
+			global::PanCardView.Droid.Resource.Id.line3 = global::Invento19.Droid.Resource.Id.line3;
+			global::PanCardView.Droid.Resource.Id.listMode = global::Invento19.Droid.Resource.Id.listMode;
+			global::PanCardView.Droid.Resource.Id.list_item = global::Invento19.Droid.Resource.Id.list_item;
+			global::PanCardView.Droid.Resource.Id.masked = global::Invento19.Droid.Resource.Id.masked;
+			global::PanCardView.Droid.Resource.Id.media_actions = global::Invento19.Droid.Resource.Id.media_actions;
+			global::PanCardView.Droid.Resource.Id.message = global::Invento19.Droid.Resource.Id.message;
+			global::PanCardView.Droid.Resource.Id.middle = global::Invento19.Droid.Resource.Id.middle;
+			global::PanCardView.Droid.Resource.Id.mini = global::Invento19.Droid.Resource.Id.mini;
+			global::PanCardView.Droid.Resource.Id.mr_art = global::Invento19.Droid.Resource.Id.mr_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_checkbox = global::Invento19.Droid.Resource.Id.mr_cast_checkbox;
+			global::PanCardView.Droid.Resource.Id.mr_cast_close_button = global::Invento19.Droid.Resource.Id.mr_cast_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_icon = global::Invento19.Droid.Resource.Id.mr_cast_group_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_name = global::Invento19.Droid.Resource.Id.mr_cast_group_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_list = global::Invento19.Droid.Resource.Id.mr_cast_list;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta = global::Invento19.Droid.Resource.Id.mr_cast_meta;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_art = global::Invento19.Droid.Resource.Id.mr_cast_meta_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_subtitle = global::Invento19.Droid.Resource.Id.mr_cast_meta_subtitle;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_title = global::Invento19.Droid.Resource.Id.mr_cast_meta_title;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_icon = global::Invento19.Droid.Resource.Id.mr_cast_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_name = global::Invento19.Droid.Resource.Id.mr_cast_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_stop_button = global::Invento19.Droid.Resource.Id.mr_cast_stop_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_layout = global::Invento19.Droid.Resource.Id.mr_cast_volume_layout;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_slider = global::Invento19.Droid.Resource.Id.mr_cast_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_list = global::Invento19.Droid.Resource.Id.mr_chooser_list;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_desc = global::Invento19.Droid.Resource.Id.mr_chooser_route_desc;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_icon = global::Invento19.Droid.Resource.Id.mr_chooser_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_name = global::Invento19.Droid.Resource.Id.mr_chooser_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_title = global::Invento19.Droid.Resource.Id.mr_chooser_title;
+			global::PanCardView.Droid.Resource.Id.mr_close = global::Invento19.Droid.Resource.Id.mr_close;
+			global::PanCardView.Droid.Resource.Id.mr_control_divider = global::Invento19.Droid.Resource.Id.mr_control_divider;
+			global::PanCardView.Droid.Resource.Id.mr_control_playback_ctrl = global::Invento19.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::PanCardView.Droid.Resource.Id.mr_control_subtitle = global::Invento19.Droid.Resource.Id.mr_control_subtitle;
+			global::PanCardView.Droid.Resource.Id.mr_control_title = global::Invento19.Droid.Resource.Id.mr_control_title;
+			global::PanCardView.Droid.Resource.Id.mr_control_title_container = global::Invento19.Droid.Resource.Id.mr_control_title_container;
+			global::PanCardView.Droid.Resource.Id.mr_custom_control = global::Invento19.Droid.Resource.Id.mr_custom_control;
+			global::PanCardView.Droid.Resource.Id.mr_default_control = global::Invento19.Droid.Resource.Id.mr_default_control;
+			global::PanCardView.Droid.Resource.Id.mr_dialog_area = global::Invento19.Droid.Resource.Id.mr_dialog_area;
+			global::PanCardView.Droid.Resource.Id.mr_dialog_header_name = global::Invento19.Droid.Resource.Id.mr_dialog_header_name;
+			global::PanCardView.Droid.Resource.Id.mr_expandable_area = global::Invento19.Droid.Resource.Id.mr_expandable_area;
+			global::PanCardView.Droid.Resource.Id.mr_group_expand_collapse = global::Invento19.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_route_name = global::Invento19.Droid.Resource.Id.mr_group_volume_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_slider = global::Invento19.Droid.Resource.Id.mr_group_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mr_media_main_control = global::Invento19.Droid.Resource.Id.mr_media_main_control;
+			global::PanCardView.Droid.Resource.Id.mr_name = global::Invento19.Droid.Resource.Id.mr_name;
+			global::PanCardView.Droid.Resource.Id.mr_picker_close_button = global::Invento19.Droid.Resource.Id.mr_picker_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_picker_list = global::Invento19.Droid.Resource.Id.mr_picker_list;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_icon = global::Invento19.Droid.Resource.Id.mr_picker_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_name = global::Invento19.Droid.Resource.Id.mr_picker_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_playback_control = global::Invento19.Droid.Resource.Id.mr_playback_control;
+			global::PanCardView.Droid.Resource.Id.mr_title_bar = global::Invento19.Droid.Resource.Id.mr_title_bar;
+			global::PanCardView.Droid.Resource.Id.mr_volume_control = global::Invento19.Droid.Resource.Id.mr_volume_control;
+			global::PanCardView.Droid.Resource.Id.mr_volume_group_list = global::Invento19.Droid.Resource.Id.mr_volume_group_list;
+			global::PanCardView.Droid.Resource.Id.mr_volume_item_icon = global::Invento19.Droid.Resource.Id.mr_volume_item_icon;
+			global::PanCardView.Droid.Resource.Id.mr_volume_slider = global::Invento19.Droid.Resource.Id.mr_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mtrl_child_content_container = global::Invento19.Droid.Resource.Id.mtrl_child_content_container;
+			global::PanCardView.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Invento19.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::PanCardView.Droid.Resource.Id.multiply = global::Invento19.Droid.Resource.Id.multiply;
+			global::PanCardView.Droid.Resource.Id.navigation_header_container = global::Invento19.Droid.Resource.Id.navigation_header_container;
+			global::PanCardView.Droid.Resource.Id.never = global::Invento19.Droid.Resource.Id.never;
+			global::PanCardView.Droid.Resource.Id.none = global::Invento19.Droid.Resource.Id.none;
+			global::PanCardView.Droid.Resource.Id.normal = global::Invento19.Droid.Resource.Id.normal;
+			global::PanCardView.Droid.Resource.Id.notification_background = global::Invento19.Droid.Resource.Id.notification_background;
+			global::PanCardView.Droid.Resource.Id.notification_main_column = global::Invento19.Droid.Resource.Id.notification_main_column;
+			global::PanCardView.Droid.Resource.Id.notification_main_column_container = global::Invento19.Droid.Resource.Id.notification_main_column_container;
+			global::PanCardView.Droid.Resource.Id.outline = global::Invento19.Droid.Resource.Id.outline;
+			global::PanCardView.Droid.Resource.Id.parallax = global::Invento19.Droid.Resource.Id.parallax;
+			global::PanCardView.Droid.Resource.Id.parentPanel = global::Invento19.Droid.Resource.Id.parentPanel;
+			global::PanCardView.Droid.Resource.Id.parent_matrix = global::Invento19.Droid.Resource.Id.parent_matrix;
+			global::PanCardView.Droid.Resource.Id.pin = global::Invento19.Droid.Resource.Id.pin;
+			global::PanCardView.Droid.Resource.Id.progress_circular = global::Invento19.Droid.Resource.Id.progress_circular;
+			global::PanCardView.Droid.Resource.Id.progress_horizontal = global::Invento19.Droid.Resource.Id.progress_horizontal;
+			global::PanCardView.Droid.Resource.Id.radio = global::Invento19.Droid.Resource.Id.radio;
+			global::PanCardView.Droid.Resource.Id.right = global::Invento19.Droid.Resource.Id.right;
+			global::PanCardView.Droid.Resource.Id.right_icon = global::Invento19.Droid.Resource.Id.right_icon;
+			global::PanCardView.Droid.Resource.Id.right_side = global::Invento19.Droid.Resource.Id.right_side;
+			global::PanCardView.Droid.Resource.Id.save_image_matrix = global::Invento19.Droid.Resource.Id.save_image_matrix;
+			global::PanCardView.Droid.Resource.Id.save_non_transition_alpha = global::Invento19.Droid.Resource.Id.save_non_transition_alpha;
+			global::PanCardView.Droid.Resource.Id.save_scale_type = global::Invento19.Droid.Resource.Id.save_scale_type;
+			global::PanCardView.Droid.Resource.Id.screen = global::Invento19.Droid.Resource.Id.screen;
+			global::PanCardView.Droid.Resource.Id.scroll = global::Invento19.Droid.Resource.Id.scroll;
+			global::PanCardView.Droid.Resource.Id.scrollIndicatorDown = global::Invento19.Droid.Resource.Id.scrollIndicatorDown;
+			global::PanCardView.Droid.Resource.Id.scrollIndicatorUp = global::Invento19.Droid.Resource.Id.scrollIndicatorUp;
+			global::PanCardView.Droid.Resource.Id.scrollView = global::Invento19.Droid.Resource.Id.scrollView;
+			global::PanCardView.Droid.Resource.Id.scrollable = global::Invento19.Droid.Resource.Id.scrollable;
+			global::PanCardView.Droid.Resource.Id.search_badge = global::Invento19.Droid.Resource.Id.search_badge;
+			global::PanCardView.Droid.Resource.Id.search_bar = global::Invento19.Droid.Resource.Id.search_bar;
+			global::PanCardView.Droid.Resource.Id.search_button = global::Invento19.Droid.Resource.Id.search_button;
+			global::PanCardView.Droid.Resource.Id.search_close_btn = global::Invento19.Droid.Resource.Id.search_close_btn;
+			global::PanCardView.Droid.Resource.Id.search_edit_frame = global::Invento19.Droid.Resource.Id.search_edit_frame;
+			global::PanCardView.Droid.Resource.Id.search_go_btn = global::Invento19.Droid.Resource.Id.search_go_btn;
+			global::PanCardView.Droid.Resource.Id.search_mag_icon = global::Invento19.Droid.Resource.Id.search_mag_icon;
+			global::PanCardView.Droid.Resource.Id.search_plate = global::Invento19.Droid.Resource.Id.search_plate;
+			global::PanCardView.Droid.Resource.Id.search_src_text = global::Invento19.Droid.Resource.Id.search_src_text;
+			global::PanCardView.Droid.Resource.Id.search_voice_btn = global::Invento19.Droid.Resource.Id.search_voice_btn;
+			global::PanCardView.Droid.Resource.Id.select_dialog_listview = global::Invento19.Droid.Resource.Id.select_dialog_listview;
+			global::PanCardView.Droid.Resource.Id.selected = global::Invento19.Droid.Resource.Id.selected;
+			global::PanCardView.Droid.Resource.Id.shortcut = global::Invento19.Droid.Resource.Id.shortcut;
+			global::PanCardView.Droid.Resource.Id.showCustom = global::Invento19.Droid.Resource.Id.showCustom;
+			global::PanCardView.Droid.Resource.Id.showHome = global::Invento19.Droid.Resource.Id.showHome;
+			global::PanCardView.Droid.Resource.Id.showTitle = global::Invento19.Droid.Resource.Id.showTitle;
+			global::PanCardView.Droid.Resource.Id.smallLabel = global::Invento19.Droid.Resource.Id.smallLabel;
+			global::PanCardView.Droid.Resource.Id.snackbar_action = global::Invento19.Droid.Resource.Id.snackbar_action;
+			global::PanCardView.Droid.Resource.Id.snackbar_text = global::Invento19.Droid.Resource.Id.snackbar_text;
+			global::PanCardView.Droid.Resource.Id.snap = global::Invento19.Droid.Resource.Id.snap;
+			global::PanCardView.Droid.Resource.Id.snapMargins = global::Invento19.Droid.Resource.Id.snapMargins;
+			global::PanCardView.Droid.Resource.Id.spacer = global::Invento19.Droid.Resource.Id.spacer;
+			global::PanCardView.Droid.Resource.Id.split_action_bar = global::Invento19.Droid.Resource.Id.split_action_bar;
+			global::PanCardView.Droid.Resource.Id.src_atop = global::Invento19.Droid.Resource.Id.src_atop;
+			global::PanCardView.Droid.Resource.Id.src_in = global::Invento19.Droid.Resource.Id.src_in;
+			global::PanCardView.Droid.Resource.Id.src_over = global::Invento19.Droid.Resource.Id.src_over;
+			global::PanCardView.Droid.Resource.Id.start = global::Invento19.Droid.Resource.Id.start;
+			global::PanCardView.Droid.Resource.Id.status_bar_latest_event_content = global::Invento19.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PanCardView.Droid.Resource.Id.stretch = global::Invento19.Droid.Resource.Id.stretch;
+			global::PanCardView.Droid.Resource.Id.submenuarrow = global::Invento19.Droid.Resource.Id.submenuarrow;
+			global::PanCardView.Droid.Resource.Id.submit_area = global::Invento19.Droid.Resource.Id.submit_area;
+			global::PanCardView.Droid.Resource.Id.tabMode = global::Invento19.Droid.Resource.Id.tabMode;
+			global::PanCardView.Droid.Resource.Id.tag_transition_group = global::Invento19.Droid.Resource.Id.tag_transition_group;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Invento19.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_listeners = global::Invento19.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::PanCardView.Droid.Resource.Id.text = global::Invento19.Droid.Resource.Id.text;
+			global::PanCardView.Droid.Resource.Id.text2 = global::Invento19.Droid.Resource.Id.text2;
+			global::PanCardView.Droid.Resource.Id.textSpacerNoButtons = global::Invento19.Droid.Resource.Id.textSpacerNoButtons;
+			global::PanCardView.Droid.Resource.Id.textSpacerNoTitle = global::Invento19.Droid.Resource.Id.textSpacerNoTitle;
+			global::PanCardView.Droid.Resource.Id.textStart = global::Invento19.Droid.Resource.Id.textStart;
+			global::PanCardView.Droid.Resource.Id.text_input_password_toggle = global::Invento19.Droid.Resource.Id.text_input_password_toggle;
+			global::PanCardView.Droid.Resource.Id.textinput_counter = global::Invento19.Droid.Resource.Id.textinput_counter;
+			global::PanCardView.Droid.Resource.Id.textinput_error = global::Invento19.Droid.Resource.Id.textinput_error;
+			global::PanCardView.Droid.Resource.Id.textinput_helper_text = global::Invento19.Droid.Resource.Id.textinput_helper_text;
+			global::PanCardView.Droid.Resource.Id.time = global::Invento19.Droid.Resource.Id.time;
+			global::PanCardView.Droid.Resource.Id.title = global::Invento19.Droid.Resource.Id.title;
+			global::PanCardView.Droid.Resource.Id.titleDividerNoCustom = global::Invento19.Droid.Resource.Id.titleDividerNoCustom;
+			global::PanCardView.Droid.Resource.Id.title_template = global::Invento19.Droid.Resource.Id.title_template;
+			global::PanCardView.Droid.Resource.Id.top = global::Invento19.Droid.Resource.Id.top;
+			global::PanCardView.Droid.Resource.Id.topPanel = global::Invento19.Droid.Resource.Id.topPanel;
+			global::PanCardView.Droid.Resource.Id.touch_outside = global::Invento19.Droid.Resource.Id.touch_outside;
+			global::PanCardView.Droid.Resource.Id.transition_current_scene = global::Invento19.Droid.Resource.Id.transition_current_scene;
+			global::PanCardView.Droid.Resource.Id.transition_layout_save = global::Invento19.Droid.Resource.Id.transition_layout_save;
+			global::PanCardView.Droid.Resource.Id.transition_position = global::Invento19.Droid.Resource.Id.transition_position;
+			global::PanCardView.Droid.Resource.Id.transition_scene_layoutid_cache = global::Invento19.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::PanCardView.Droid.Resource.Id.transition_transform = global::Invento19.Droid.Resource.Id.transition_transform;
+			global::PanCardView.Droid.Resource.Id.uniform = global::Invento19.Droid.Resource.Id.uniform;
+			global::PanCardView.Droid.Resource.Id.unlabeled = global::Invento19.Droid.Resource.Id.unlabeled;
+			global::PanCardView.Droid.Resource.Id.up = global::Invento19.Droid.Resource.Id.up;
+			global::PanCardView.Droid.Resource.Id.useLogo = global::Invento19.Droid.Resource.Id.useLogo;
+			global::PanCardView.Droid.Resource.Id.view_offset_helper = global::Invento19.Droid.Resource.Id.view_offset_helper;
+			global::PanCardView.Droid.Resource.Id.visible = global::Invento19.Droid.Resource.Id.visible;
+			global::PanCardView.Droid.Resource.Id.volume_item_container = global::Invento19.Droid.Resource.Id.volume_item_container;
+			global::PanCardView.Droid.Resource.Id.withText = global::Invento19.Droid.Resource.Id.withText;
+			global::PanCardView.Droid.Resource.Id.wrap_content = global::Invento19.Droid.Resource.Id.wrap_content;
+			global::PanCardView.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Invento19.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::PanCardView.Droid.Resource.Integer.abc_config_activityShortDur = global::Invento19.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::PanCardView.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Invento19.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::PanCardView.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Invento19.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::PanCardView.Droid.Resource.Integer.cancel_button_image_alpha = global::Invento19.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::PanCardView.Droid.Resource.Integer.config_tooltipAnimTime = global::Invento19.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::PanCardView.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Invento19.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PanCardView.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Invento19.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.hide_password_duration = global::Invento19.Droid.Resource.Integer.hide_password_duration;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Invento19.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Invento19.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Invento19.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_update_routes_delay_ms = global::Invento19.Droid.Resource.Integer.mr_update_routes_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Invento19.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Invento19.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Invento19.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::PanCardView.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Invento19.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.show_password_duration = global::Invento19.Droid.Resource.Integer.show_password_duration;
+			global::PanCardView.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Invento19.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PanCardView.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Invento19.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Invento19.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Invento19.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Invento19.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear = global::Invento19.Droid.Resource.Interpolator.mtrl_linear;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Invento19.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::PanCardView.Droid.Resource.Layout.abc_action_bar_title_item = global::Invento19.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::PanCardView.Droid.Resource.Layout.abc_action_bar_up_container = global::Invento19.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::PanCardView.Droid.Resource.Layout.abc_action_menu_item_layout = global::Invento19.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_action_menu_layout = global::Invento19.Droid.Resource.Layout.abc_action_menu_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_action_mode_bar = global::Invento19.Droid.Resource.Layout.abc_action_mode_bar;
+			global::PanCardView.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Invento19.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::PanCardView.Droid.Resource.Layout.abc_activity_chooser_view = global::Invento19.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::PanCardView.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Invento19.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Invento19.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_material = global::Invento19.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Invento19.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::PanCardView.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Invento19.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_dialog_title_material = global::Invento19.Droid.Resource.Layout.abc_dialog_title_material;
+			global::PanCardView.Droid.Resource.Layout.abc_expanded_menu_layout = global::Invento19.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Invento19.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_icon = global::Invento19.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_layout = global::Invento19.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_radio = global::Invento19.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::PanCardView.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Invento19.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Invento19.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_content_include = global::Invento19.Droid.Resource.Layout.abc_screen_content_include;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_simple = global::Invento19.Droid.Resource.Layout.abc_screen_simple;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Invento19.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_toolbar = global::Invento19.Droid.Resource.Layout.abc_screen_toolbar;
+			global::PanCardView.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Invento19.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PanCardView.Droid.Resource.Layout.abc_search_view = global::Invento19.Droid.Resource.Layout.abc_search_view;
+			global::PanCardView.Droid.Resource.Layout.abc_select_dialog_material = global::Invento19.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PanCardView.Droid.Resource.Layout.abc_tooltip = global::Invento19.Droid.Resource.Layout.abc_tooltip;
+			global::PanCardView.Droid.Resource.Layout.design_bottom_navigation_item = global::Invento19.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::PanCardView.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Invento19.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::PanCardView.Droid.Resource.Layout.design_layout_snackbar = global::Invento19.Droid.Resource.Layout.design_layout_snackbar;
+			global::PanCardView.Droid.Resource.Layout.design_layout_snackbar_include = global::Invento19.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::PanCardView.Droid.Resource.Layout.design_layout_tab_icon = global::Invento19.Droid.Resource.Layout.design_layout_tab_icon;
+			global::PanCardView.Droid.Resource.Layout.design_layout_tab_text = global::Invento19.Droid.Resource.Layout.design_layout_tab_text;
+			global::PanCardView.Droid.Resource.Layout.design_menu_item_action_area = global::Invento19.Droid.Resource.Layout.design_menu_item_action_area;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item = global::Invento19.Droid.Resource.Layout.design_navigation_item;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_header = global::Invento19.Droid.Resource.Layout.design_navigation_item_header;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_separator = global::Invento19.Droid.Resource.Layout.design_navigation_item_separator;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_subheader = global::Invento19.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_menu = global::Invento19.Droid.Resource.Layout.design_navigation_menu;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_menu_item = global::Invento19.Droid.Resource.Layout.design_navigation_menu_item;
+			global::PanCardView.Droid.Resource.Layout.design_text_input_password_icon = global::Invento19.Droid.Resource.Layout.design_text_input_password_icon;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_dialog = global::Invento19.Droid.Resource.Layout.mr_cast_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_item = global::Invento19.Droid.Resource.Layout.mr_cast_group_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_volume_item = global::Invento19.Droid.Resource.Layout.mr_cast_group_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_media_metadata = global::Invento19.Droid.Resource.Layout.mr_cast_media_metadata;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_route_item = global::Invento19.Droid.Resource.Layout.mr_cast_route_item;
+			global::PanCardView.Droid.Resource.Layout.mr_chooser_dialog = global::Invento19.Droid.Resource.Layout.mr_chooser_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_chooser_list_item = global::Invento19.Droid.Resource.Layout.mr_chooser_list_item;
+			global::PanCardView.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Invento19.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::PanCardView.Droid.Resource.Layout.mr_controller_volume_item = global::Invento19.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_dialog_header_item = global::Invento19.Droid.Resource.Layout.mr_dialog_header_item;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_dialog = global::Invento19.Droid.Resource.Layout.mr_picker_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_route_item = global::Invento19.Droid.Resource.Layout.mr_picker_route_item;
+			global::PanCardView.Droid.Resource.Layout.mr_playback_control = global::Invento19.Droid.Resource.Layout.mr_playback_control;
+			global::PanCardView.Droid.Resource.Layout.mr_volume_control = global::Invento19.Droid.Resource.Layout.mr_volume_control;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar = global::Invento19.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Invento19.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::PanCardView.Droid.Resource.Layout.notification_action = global::Invento19.Droid.Resource.Layout.notification_action;
+			global::PanCardView.Droid.Resource.Layout.notification_action_tombstone = global::Invento19.Droid.Resource.Layout.notification_action_tombstone;
+			global::PanCardView.Droid.Resource.Layout.notification_media_action = global::Invento19.Droid.Resource.Layout.notification_media_action;
+			global::PanCardView.Droid.Resource.Layout.notification_media_cancel_action = global::Invento19.Droid.Resource.Layout.notification_media_cancel_action;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media = global::Invento19.Droid.Resource.Layout.notification_template_big_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_custom = global::Invento19.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_narrow = global::Invento19.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Invento19.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_custom_big = global::Invento19.Droid.Resource.Layout.notification_template_custom_big;
+			global::PanCardView.Droid.Resource.Layout.notification_template_icon_group = global::Invento19.Droid.Resource.Layout.notification_template_icon_group;
+			global::PanCardView.Droid.Resource.Layout.notification_template_lines_media = global::Invento19.Droid.Resource.Layout.notification_template_lines_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_media = global::Invento19.Droid.Resource.Layout.notification_template_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_media_custom = global::Invento19.Droid.Resource.Layout.notification_template_media_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_part_chronometer = global::Invento19.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::PanCardView.Droid.Resource.Layout.notification_template_part_time = global::Invento19.Droid.Resource.Layout.notification_template_part_time;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_item_material = global::Invento19.Droid.Resource.Layout.select_dialog_item_material;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_multichoice_material = global::Invento19.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Invento19.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::PanCardView.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Invento19.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PanCardView.Droid.Resource.String.abc_action_bar_home_description = global::Invento19.Droid.Resource.String.abc_action_bar_home_description;
+			global::PanCardView.Droid.Resource.String.abc_action_bar_up_description = global::Invento19.Droid.Resource.String.abc_action_bar_up_description;
+			global::PanCardView.Droid.Resource.String.abc_action_menu_overflow_description = global::Invento19.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::PanCardView.Droid.Resource.String.abc_action_mode_done = global::Invento19.Droid.Resource.String.abc_action_mode_done;
+			global::PanCardView.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Invento19.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::PanCardView.Droid.Resource.String.abc_activitychooserview_choose_application = global::Invento19.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::PanCardView.Droid.Resource.String.abc_capital_off = global::Invento19.Droid.Resource.String.abc_capital_off;
+			global::PanCardView.Droid.Resource.String.abc_capital_on = global::Invento19.Droid.Resource.String.abc_capital_on;
+			global::PanCardView.Droid.Resource.String.abc_font_family_body_1_material = global::Invento19.Droid.Resource.String.abc_font_family_body_1_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_body_2_material = global::Invento19.Droid.Resource.String.abc_font_family_body_2_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_button_material = global::Invento19.Droid.Resource.String.abc_font_family_button_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_caption_material = global::Invento19.Droid.Resource.String.abc_font_family_caption_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_1_material = global::Invento19.Droid.Resource.String.abc_font_family_display_1_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_2_material = global::Invento19.Droid.Resource.String.abc_font_family_display_2_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_3_material = global::Invento19.Droid.Resource.String.abc_font_family_display_3_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_4_material = global::Invento19.Droid.Resource.String.abc_font_family_display_4_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_headline_material = global::Invento19.Droid.Resource.String.abc_font_family_headline_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_menu_material = global::Invento19.Droid.Resource.String.abc_font_family_menu_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_subhead_material = global::Invento19.Droid.Resource.String.abc_font_family_subhead_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_title_material = global::Invento19.Droid.Resource.String.abc_font_family_title_material;
+			global::PanCardView.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_function_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_space_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Invento19.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_prepend_shortcut_label = global::Invento19.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_search_hint = global::Invento19.Droid.Resource.String.abc_search_hint;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_clear = global::Invento19.Droid.Resource.String.abc_searchview_description_clear;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_query = global::Invento19.Droid.Resource.String.abc_searchview_description_query;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_search = global::Invento19.Droid.Resource.String.abc_searchview_description_search;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_submit = global::Invento19.Droid.Resource.String.abc_searchview_description_submit;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_voice = global::Invento19.Droid.Resource.String.abc_searchview_description_voice;
+			global::PanCardView.Droid.Resource.String.abc_shareactionprovider_share_with = global::Invento19.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::PanCardView.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Invento19.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PanCardView.Droid.Resource.String.abc_toolbar_collapse_description = global::Invento19.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::PanCardView.Droid.Resource.String.appbar_scrolling_view_behavior = global::Invento19.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::PanCardView.Droid.Resource.String.bottom_sheet_behavior = global::Invento19.Droid.Resource.String.bottom_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.character_counter_content_description = global::Invento19.Droid.Resource.String.character_counter_content_description;
+			global::PanCardView.Droid.Resource.String.character_counter_pattern = global::Invento19.Droid.Resource.String.character_counter_pattern;
+			global::PanCardView.Droid.Resource.String.fab_transformation_scrim_behavior = global::Invento19.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::PanCardView.Droid.Resource.String.fab_transformation_sheet_behavior = global::Invento19.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Invento19.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::PanCardView.Droid.Resource.String.library_name = global::Invento19.Droid.Resource.String.library_name;
+			global::PanCardView.Droid.Resource.String.mr_button_content_description = global::Invento19.Droid.Resource.String.mr_button_content_description;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_connected = global::Invento19.Droid.Resource.String.mr_cast_button_connected;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_connecting = global::Invento19.Droid.Resource.String.mr_cast_button_connecting;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_disconnected = global::Invento19.Droid.Resource.String.mr_cast_button_disconnected;
+			global::PanCardView.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::Invento19.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::PanCardView.Droid.Resource.String.mr_chooser_searching = global::Invento19.Droid.Resource.String.mr_chooser_searching;
+			global::PanCardView.Droid.Resource.String.mr_chooser_title = global::Invento19.Droid.Resource.String.mr_chooser_title;
+			global::PanCardView.Droid.Resource.String.mr_controller_album_art = global::Invento19.Droid.Resource.String.mr_controller_album_art;
+			global::PanCardView.Droid.Resource.String.mr_controller_casting_screen = global::Invento19.Droid.Resource.String.mr_controller_casting_screen;
+			global::PanCardView.Droid.Resource.String.mr_controller_close_description = global::Invento19.Droid.Resource.String.mr_controller_close_description;
+			global::PanCardView.Droid.Resource.String.mr_controller_collapse_group = global::Invento19.Droid.Resource.String.mr_controller_collapse_group;
+			global::PanCardView.Droid.Resource.String.mr_controller_disconnect = global::Invento19.Droid.Resource.String.mr_controller_disconnect;
+			global::PanCardView.Droid.Resource.String.mr_controller_expand_group = global::Invento19.Droid.Resource.String.mr_controller_expand_group;
+			global::PanCardView.Droid.Resource.String.mr_controller_no_info_available = global::Invento19.Droid.Resource.String.mr_controller_no_info_available;
+			global::PanCardView.Droid.Resource.String.mr_controller_no_media_selected = global::Invento19.Droid.Resource.String.mr_controller_no_media_selected;
+			global::PanCardView.Droid.Resource.String.mr_controller_pause = global::Invento19.Droid.Resource.String.mr_controller_pause;
+			global::PanCardView.Droid.Resource.String.mr_controller_play = global::Invento19.Droid.Resource.String.mr_controller_play;
+			global::PanCardView.Droid.Resource.String.mr_controller_stop = global::Invento19.Droid.Resource.String.mr_controller_stop;
+			global::PanCardView.Droid.Resource.String.mr_controller_stop_casting = global::Invento19.Droid.Resource.String.mr_controller_stop_casting;
+			global::PanCardView.Droid.Resource.String.mr_controller_volume_slider = global::Invento19.Droid.Resource.String.mr_controller_volume_slider;
+			global::PanCardView.Droid.Resource.String.mr_dialog_device_header = global::Invento19.Droid.Resource.String.mr_dialog_device_header;
+			global::PanCardView.Droid.Resource.String.mr_dialog_route_header = global::Invento19.Droid.Resource.String.mr_dialog_route_header;
+			global::PanCardView.Droid.Resource.String.mr_system_route_name = global::Invento19.Droid.Resource.String.mr_system_route_name;
+			global::PanCardView.Droid.Resource.String.mr_user_route_category_name = global::Invento19.Droid.Resource.String.mr_user_route_category_name;
+			global::PanCardView.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Invento19.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::PanCardView.Droid.Resource.String.password_toggle_content_description = global::Invento19.Droid.Resource.String.password_toggle_content_description;
+			global::PanCardView.Droid.Resource.String.path_password_eye = global::Invento19.Droid.Resource.String.path_password_eye;
+			global::PanCardView.Droid.Resource.String.path_password_eye_mask_strike_through = global::Invento19.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::PanCardView.Droid.Resource.String.path_password_eye_mask_visible = global::Invento19.Droid.Resource.String.path_password_eye_mask_visible;
+			global::PanCardView.Droid.Resource.String.path_password_strike_through = global::Invento19.Droid.Resource.String.path_password_strike_through;
+			global::PanCardView.Droid.Resource.String.search_menu_title = global::Invento19.Droid.Resource.String.search_menu_title;
+			global::PanCardView.Droid.Resource.String.status_bar_notification_info_overflow = global::Invento19.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::PanCardView.Droid.Resource.Style.AlertDialog_AppCompat = global::Invento19.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::PanCardView.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Invento19.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Invento19.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Invento19.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Invento19.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Invento19.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Invento19.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Invento19.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Base_CardView = global::Invento19.Droid.Resource.Style.Base_CardView;
+			global::PanCardView.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Invento19.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Invento19.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Invento19.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Invento19.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Invento19.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Invento19.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Invento19.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Invento19.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Invento19.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Invento19.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Invento19.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Invento19.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Invento19.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Invento19.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Invento19.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Invento19.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Invento19.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Invento19.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Invento19.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Invento19.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::PanCardView.Droid.Resource.Style.CardView = global::Invento19.Droid.Resource.Style.CardView;
+			global::PanCardView.Droid.Resource.Style.CardView_Dark = global::Invento19.Droid.Resource.Style.CardView_Dark;
+			global::PanCardView.Droid.Resource.Style.CardView_Light = global::Invento19.Droid.Resource.Style.CardView_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_AppCompat = global::Invento19.Droid.Resource.Style.Platform_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_AppCompat_Light = global::Invento19.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents = global::Invento19.Droid.Resource.Style.Platform_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Invento19.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Invento19.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Invento19.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Invento19.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Invento19.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_V21_AppCompat = global::Invento19.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Invento19.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_V25_AppCompat = global::Invento19.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Invento19.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Invento19.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Invento19.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Invento19.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PanCardView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Invento19.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Invento19.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Invento19.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Invento19.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Invento19.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Error = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Invento19.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Hint = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Tab = global::Invento19.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Invento19.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Invento19.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Invento19.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::Invento19.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Invento19.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Invento19.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Invento19.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat = global::Invento19.Droid.Resource.Style.Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Invento19.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_Design = global::Invento19.Droid.Resource.Style.Theme_Design;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Invento19.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light = global::Invento19.Droid.Resource.Style.Theme_Design_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Invento19.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Invento19.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter = global::Invento19.Droid.Resource.Style.Theme_MediaRouter;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light = global::Invento19.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Invento19.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Invento19.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Invento19.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Invento19.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Invento19.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Invento19.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Invento19.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Invento19.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Invento19.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Invento19.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Invento19.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_EditText = global::Invento19.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Invento19.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Invento19.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Invento19.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Invento19.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Invento19.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Invento19.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Invento19.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Invento19.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Invento19.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PanCardView.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Invento19.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::PanCardView.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Invento19.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Invento19.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Invento19.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Invento19.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Invento19.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Invento19.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_NavigationView = global::Invento19.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Invento19.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_Snackbar = global::Invento19.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_TabLayout = global::Invento19.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Invento19.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Invento19.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Invento19.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Invento19.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PanCardView.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Invento19.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar = global::Invento19.Droid.Resource.Styleable.ActionBar;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_background = global::Invento19.Droid.Resource.Styleable.ActionBar_background;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Invento19.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Invento19.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Invento19.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Invento19.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_displayOptions = global::Invento19.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_divider = global::Invento19.Droid.Resource.Styleable.ActionBar_divider;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_elevation = global::Invento19.Droid.Resource.Styleable.ActionBar_elevation;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_height = global::Invento19.Droid.Resource.Styleable.ActionBar_height;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Invento19.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Invento19.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_homeLayout = global::Invento19.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_icon = global::Invento19.Droid.Resource.Styleable.ActionBar_icon;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Invento19.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_itemPadding = global::Invento19.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_logo = global::Invento19.Droid.Resource.Styleable.ActionBar_logo;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_navigationMode = global::Invento19.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_popupTheme = global::Invento19.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Invento19.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Invento19.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_subtitle = global::Invento19.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Invento19.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_title = global::Invento19.Droid.Resource.Styleable.ActionBar_title;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Invento19.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBarLayout = global::Invento19.Droid.Resource.Styleable.ActionBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Invento19.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuItemView = global::Invento19.Droid.Resource.Styleable.ActionMenuItemView;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Invento19.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuView = global::Invento19.Droid.Resource.Styleable.ActionMenuView;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode = global::Invento19.Droid.Resource.Styleable.ActionMode;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_background = global::Invento19.Droid.Resource.Styleable.ActionMode_background;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Invento19.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Invento19.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_height = global::Invento19.Droid.Resource.Styleable.ActionMode_height;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Invento19.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Invento19.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView = global::Invento19.Droid.Resource.Styleable.ActivityChooserView;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Invento19.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Invento19.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog = global::Invento19.Droid.Resource.Styleable.AlertDialog;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_android_layout = global::Invento19.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Invento19.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Invento19.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Invento19.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listLayout = global::Invento19.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Invento19.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_showTitle = global::Invento19.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Invento19.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Invento19.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout = global::Invento19.Droid.Resource.Styleable.AppBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_background = global::Invento19.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Invento19.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Invento19.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_elevation = global::Invento19.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_expanded = global::Invento19.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Invento19.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates = global::Invento19.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Invento19.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Invento19.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Invento19.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Invento19.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout = global::Invento19.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Invento19.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Invento19.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView = global::Invento19.Droid.Resource.Styleable.AppCompatImageView;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Invento19.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Invento19.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_tint = global::Invento19.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Invento19.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar = global::Invento19.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Invento19.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Invento19.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Invento19.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Invento19.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Invento19.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView = global::Invento19.Droid.Resource.Styleable.AppCompatTextView;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Invento19.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Invento19.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar = global::Invento19.Droid.Resource.Styleable.BottomAppBar;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Invento19.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Invento19.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Invento19.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Invento19.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Invento19.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Invento19.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView = global::Invento19.Droid.Resource.Styleable.BottomNavigationView;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_menu = global::Invento19.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Invento19.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Invento19.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Invento19.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Invento19.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Invento19.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::PanCardView.Droid.Resource.Styleable.ButtonBarLayout = global::Invento19.Droid.Resource.Styleable.ButtonBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Invento19.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PanCardView.Droid.Resource.Styleable.CardView = global::Invento19.Droid.Resource.Styleable.CardView;
+			global::PanCardView.Droid.Resource.Styleable.CardView_android_minHeight = global::Invento19.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.CardView_android_minWidth = global::Invento19.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Invento19.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Invento19.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardElevation = global::Invento19.Droid.Resource.Styleable.CardView_cardElevation;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Invento19.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Invento19.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Invento19.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPadding = global::Invento19.Droid.Resource.Styleable.CardView_contentPadding;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Invento19.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Invento19.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Invento19.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Invento19.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.Chip = global::Invento19.Droid.Resource.Styleable.Chip;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_checkable = global::Invento19.Droid.Resource.Styleable.Chip_android_checkable;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_ellipsize = global::Invento19.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_maxWidth = global::Invento19.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_text = global::Invento19.Droid.Resource.Styleable.Chip_android_text;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_textAppearance = global::Invento19.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIcon = global::Invento19.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Invento19.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Invento19.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Invento19.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Invento19.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipEndPadding = global::Invento19.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIcon = global::Invento19.Droid.Resource.Styleable.Chip_chipIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Invento19.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconSize = global::Invento19.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconTint = global::Invento19.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconVisible = global::Invento19.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipMinHeight = global::Invento19.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStartPadding = global::Invento19.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Invento19.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Invento19.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIcon = global::Invento19.Droid.Resource.Styleable.Chip_closeIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Invento19.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Invento19.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconSize = global::Invento19.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Invento19.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconTint = global::Invento19.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconVisible = global::Invento19.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Invento19.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconEndPadding = global::Invento19.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconStartPadding = global::Invento19.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_rippleColor = global::Invento19.Droid.Resource.Styleable.Chip_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_showMotionSpec = global::Invento19.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textEndPadding = global::Invento19.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textStartPadding = global::Invento19.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup = global::Invento19.Droid.Resource.Styleable.ChipGroup;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Invento19.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Invento19.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Invento19.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Invento19.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleLine = global::Invento19.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Invento19.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Invento19.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem = global::Invento19.Droid.Resource.Styleable.ColorStateListItem;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Invento19.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Invento19.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Invento19.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton = global::Invento19.Droid.Resource.Styleable.CompoundButton;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_android_button = global::Invento19.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Invento19.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Invento19.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Invento19.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme = global::Invento19.Droid.Resource.Styleable.DesignTheme;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Invento19.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Invento19.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Invento19.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton = global::Invento19.Droid.Resource.Styleable.FloatingActionButton;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Invento19.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout = global::Invento19.Droid.Resource.Styleable.FlowLayout;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Invento19.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Invento19.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily = global::Invento19.Droid.Resource.Styleable.FontFamily;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Invento19.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont = global::Invento19.Droid.Resource.Styleable.FontFamilyFont;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_font = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Invento19.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout = global::Invento19.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Invento19.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Invento19.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Invento19.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor = global::Invento19.Droid.Resource.Styleable.GradientColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Invento19.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerX = global::Invento19.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerY = global::Invento19.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endColor = global::Invento19.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endX = global::Invento19.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endY = global::Invento19.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Invento19.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startColor = global::Invento19.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startX = global::Invento19.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startY = global::Invento19.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Invento19.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_type = global::Invento19.Droid.Resource.Styleable.GradientColor_android_type;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem = global::Invento19.Droid.Resource.Styleable.GradientColorItem;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_color = global::Invento19.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Invento19.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Invento19.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow = global::Invento19.Droid.Resource.Styleable.ListPopupWindow;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Invento19.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Invento19.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton = global::Invento19.Droid.Resource.Styleable.MaterialButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Invento19.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Invento19.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Invento19.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Invento19.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Invento19.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Invento19.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Invento19.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_icon = global::Invento19.Droid.Resource.Styleable.MaterialButton_icon;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Invento19.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Invento19.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconSize = global::Invento19.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTint = global::Invento19.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Invento19.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Invento19.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Invento19.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Invento19.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView = global::Invento19.Droid.Resource.Styleable.MaterialCardView;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Invento19.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Invento19.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Invento19.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton = global::Invento19.Droid.Resource.Styleable.MediaRouteButton;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Invento19.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Invento19.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Invento19.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::Invento19.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup = global::Invento19.Droid.Resource.Styleable.MenuGroup;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_id = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_visible = global::Invento19.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem = global::Invento19.Droid.Resource.Styleable.MenuItem;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionLayout = global::Invento19.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Invento19.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Invento19.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Invento19.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Invento19.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_checkable = global::Invento19.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_checked = global::Invento19.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_enabled = global::Invento19.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_icon = global::Invento19.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_id = global::Invento19.Droid.Resource.Styleable.MenuItem_android_id;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Invento19.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Invento19.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_onClick = global::Invento19.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Invento19.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_title = global::Invento19.Droid.Resource.Styleable.MenuItem_android_title;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Invento19.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_visible = global::Invento19.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_contentDescription = global::Invento19.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_iconTint = global::Invento19.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Invento19.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Invento19.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_showAsAction = global::Invento19.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_tooltipText = global::Invento19.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::PanCardView.Droid.Resource.Styleable.MenuView = global::Invento19.Droid.Resource.Styleable.MenuView;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Invento19.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Invento19.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Invento19.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Invento19.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Invento19.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Invento19.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Invento19.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Invento19.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Invento19.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView = global::Invento19.Droid.Resource.Styleable.NavigationView;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_background = global::Invento19.Droid.Resource.Styleable.NavigationView_android_background;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Invento19.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Invento19.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_elevation = global::Invento19.Droid.Resource.Styleable.NavigationView_elevation;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_headerLayout = global::Invento19.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemBackground = global::Invento19.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Invento19.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Invento19.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Invento19.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Invento19.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Invento19.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_menu = global::Invento19.Droid.Resource.Styleable.NavigationView_menu;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow = global::Invento19.Droid.Resource.Styleable.PopupWindow;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Invento19.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Invento19.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Invento19.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Invento19.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Invento19.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView = global::Invento19.Droid.Resource.Styleable.RecycleListView;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Invento19.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Invento19.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView = global::Invento19.Droid.Resource.Styleable.RecyclerView;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Invento19.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Invento19.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Invento19.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Invento19.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Invento19.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Invento19.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Invento19.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Invento19.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Invento19.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_spanCount = global::Invento19.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Invento19.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PanCardView.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Invento19.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PanCardView.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Invento19.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PanCardView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Invento19.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Invento19.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::PanCardView.Droid.Resource.Styleable.SearchView = global::Invento19.Droid.Resource.Styleable.SearchView;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_focusable = global::Invento19.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Invento19.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_inputType = global::Invento19.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Invento19.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_closeIcon = global::Invento19.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_commitIcon = global::Invento19.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Invento19.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_goIcon = global::Invento19.Droid.Resource.Styleable.SearchView_goIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Invento19.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_layout = global::Invento19.Droid.Resource.Styleable.SearchView_layout;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_queryBackground = global::Invento19.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_queryHint = global::Invento19.Droid.Resource.Styleable.SearchView_queryHint;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Invento19.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_searchIcon = global::Invento19.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_submitBackground = global::Invento19.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Invento19.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_voiceIcon = global::Invento19.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar = global::Invento19.Droid.Resource.Styleable.Snackbar;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Invento19.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Invento19.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout = global::Invento19.Droid.Resource.Styleable.SnackbarLayout;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Invento19.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Invento19.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Invento19.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PanCardView.Droid.Resource.Styleable.Spinner = global::Invento19.Droid.Resource.Styleable.Spinner;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Invento19.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_entries = global::Invento19.Droid.Resource.Styleable.Spinner_android_entries;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Invento19.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_prompt = global::Invento19.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_popupTheme = global::Invento19.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable = global::Invento19.Droid.Resource.Styleable.StateListDrawable;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Invento19.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem = global::Invento19.Droid.Resource.Styleable.StateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Invento19.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat = global::Invento19.Droid.Resource.Styleable.SwitchCompat;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Invento19.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Invento19.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Invento19.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_showText = global::Invento19.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Invento19.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Invento19.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Invento19.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Invento19.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Invento19.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Invento19.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Invento19.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_track = global::Invento19.Droid.Resource.Styleable.SwitchCompat_track;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Invento19.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Invento19.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::PanCardView.Droid.Resource.Styleable.TabItem = global::Invento19.Droid.Resource.Styleable.TabItem;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_icon = global::Invento19.Droid.Resource.Styleable.TabItem_android_icon;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_layout = global::Invento19.Droid.Resource.Styleable.TabItem_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_text = global::Invento19.Droid.Resource.Styleable.TabItem_android_text;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout = global::Invento19.Droid.Resource.Styleable.TabLayout;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabBackground = global::Invento19.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Invento19.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabGravity = global::Invento19.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Invento19.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Invento19.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Invento19.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Invento19.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMode = global::Invento19.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPadding = global::Invento19.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Invento19.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Invento19.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Invento19.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Invento19.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Invento19.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Invento19.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Invento19.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Invento19.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Invento19.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance = global::Invento19.Droid.Resource.Styleable.TextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Invento19.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Invento19.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Invento19.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout = global::Invento19.Droid.Resource.Styleable.TextInputLayout;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Invento19.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Invento19.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Invento19.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Invento19.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Invento19.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Invento19.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Invento19.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperText = global::Invento19.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Invento19.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Invento19.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Invento19.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Invento19.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Invento19.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Invento19.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Invento19.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement = global::Invento19.Droid.Resource.Styleable.ThemeEnforcement;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Invento19.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Invento19.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Invento19.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar = global::Invento19.Droid.Resource.Styleable.Toolbar;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_gravity = global::Invento19.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Invento19.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Invento19.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Invento19.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Invento19.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Invento19.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_logo = global::Invento19.Droid.Resource.Styleable.Toolbar_logo;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_logoDescription = global::Invento19.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Invento19.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Invento19.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Invento19.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_popupTheme = global::Invento19.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitle = global::Invento19.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Invento19.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Invento19.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_title = global::Invento19.Droid.Resource.Styleable.Toolbar_title;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMargin = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMargins = global::Invento19.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Invento19.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Invento19.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::PanCardView.Droid.Resource.Styleable.View = global::Invento19.Droid.Resource.Styleable.View;
+			global::PanCardView.Droid.Resource.Styleable.View_android_focusable = global::Invento19.Droid.Resource.Styleable.View_android_focusable;
+			global::PanCardView.Droid.Resource.Styleable.View_android_theme = global::Invento19.Droid.Resource.Styleable.View_android_theme;
+			global::PanCardView.Droid.Resource.Styleable.View_paddingEnd = global::Invento19.Droid.Resource.Styleable.View_paddingEnd;
+			global::PanCardView.Droid.Resource.Styleable.View_paddingStart = global::Invento19.Droid.Resource.Styleable.View_paddingStart;
+			global::PanCardView.Droid.Resource.Styleable.View_theme = global::Invento19.Droid.Resource.Styleable.View_theme;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper = global::Invento19.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Invento19.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Invento19.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Invento19.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat = global::Invento19.Droid.Resource.Styleable.ViewStubCompat;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Invento19.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Invento19.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Invento19.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Invento19.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Invento19.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Invento19.Droid.Resource.Attribute.font;
@@ -11223,617 +14097,617 @@ namespace Invento19.Droid
 			// aapt resource value: 0x7f020055
 			public const int Android3 = 2130837589;
 			
-			// aapt resource value: 0x7f020056
-			public const int aqarocket = 2130837590;
+			// aapt resource value: 0x7f020147
+			public const int avd_hide_password_1 = 2130837831;
 			
-			// aapt resource value: 0x7f020057
-			public const int avd_hide_password = 2130837591;
+			// aapt resource value: 0x7f020148
+			public const int avd_hide_password_2 = 2130837832;
 			
-			// aapt resource value: 0x7f020167
-			public const int avd_hide_password_1 = 2130837863;
+			// aapt resource value: 0x7f020149
+			public const int avd_hide_password_3 = 2130837833;
 			
 			// aapt resource value: 0x7f020168
 			public const int avd_hide_password_2 = 2130837864;
 			
-			// aapt resource value: 0x7f020169
-			public const int avd_hide_password_3 = 2130837865;
+			// aapt resource value: 0x7f02014a
+			public const int avd_show_password_1 = 2130837834;
+			
+			// aapt resource value: 0x7f02014b
+			public const int avd_show_password_2 = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int avd_show_password_3 = 2130837836;
+			
+			// aapt resource value: 0x7f020057
+			public const int bandwar1 = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int avd_show_password = 2130837592;
-			
-			// aapt resource value: 0x7f02016a
-			public const int avd_show_password_1 = 2130837866;
-			
-			// aapt resource value: 0x7f02016b
-			public const int avd_show_password_2 = 2130837867;
-			
-			// aapt resource value: 0x7f02016c
-			public const int avd_show_password_3 = 2130837868;
+			public const int cse = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int bb_bottom_bar_top_shadow = 2130837593;
+			public const int design_bottom_navigation_item_background = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int coderelay = 2130837594;
+			public const int design_fab_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int Competition = 2130837595;
+			public const int design_ic_visibility = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int cse = 2130837596;
+			public const int design_ic_visibility_off = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int dbmania = 2130837597;
+			public const int design_password_eye = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int design_bottom_navigation_item_background = 2130837598;
+			public const int design_snackbar_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int design_fab_background = 2130837599;
+			public const int ece = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int design_ic_visibility = 2130837600;
+			public const int eee = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int design_ic_visibility_off = 2130837601;
+			public const int facebook = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int design_password_eye = 2130837602;
+			public const int general = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int design_snackbar_background = 2130837603;
+			public const int go = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int Down = 2130837604;
+			public const int google = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ece = 2130837605;
+			public const int ic_audiotrack_dark = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int eee = 2130837606;
+			public const int ic_audiotrack_light = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int Ellipse = 2130837607;
+			public const int ic_dialog_close_dark = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int facebook = 2130837608;
+			public const int ic_dialog_close_light = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int gaming = 2130837609;
+			public const int ic_group_collapse_00 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int general = 2130837610;
+			public const int ic_group_collapse_01 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int go = 2130837611;
+			public const int ic_group_collapse_02 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int google = 2130837612;
+			public const int ic_group_collapse_03 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int googler = 2130837613;
+			public const int ic_group_collapse_04 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int Group2 = 2130837614;
+			public const int ic_group_collapse_05 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int Group4 = 2130837615;
+			public const int ic_group_collapse_06 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int Group5 = 2130837616;
+			public const int ic_group_collapse_07 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int hack = 2130837617;
+			public const int ic_group_collapse_08 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int highlights = 2130837618;
+			public const int ic_group_collapse_09 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int highlights1 = 2130837619;
+			public const int ic_group_collapse_10 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int holo = 2130837620;
+			public const int ic_group_collapse_11 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_audiotrack_dark = 2130837621;
+			public const int ic_group_collapse_12 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_audiotrack_light = 2130837622;
+			public const int ic_group_collapse_13 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_dialog_close_dark = 2130837623;
+			public const int ic_group_collapse_14 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_dialog_close_light = 2130837624;
+			public const int ic_group_collapse_15 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_collapse_00 = 2130837625;
+			public const int ic_group_expand_00 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_collapse_01 = 2130837626;
+			public const int ic_group_expand_01 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_collapse_02 = 2130837627;
+			public const int ic_group_expand_02 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_collapse_03 = 2130837628;
+			public const int ic_group_expand_03 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_collapse_04 = 2130837629;
+			public const int ic_group_expand_04 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_collapse_05 = 2130837630;
+			public const int ic_group_expand_05 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_collapse_06 = 2130837631;
+			public const int ic_group_expand_06 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_group_collapse_07 = 2130837632;
+			public const int ic_group_expand_07 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_group_collapse_08 = 2130837633;
+			public const int ic_group_expand_08 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_group_collapse_09 = 2130837634;
+			public const int ic_group_expand_09 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_group_collapse_10 = 2130837635;
+			public const int ic_group_expand_10 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_group_collapse_11 = 2130837636;
+			public const int ic_group_expand_11 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_group_collapse_12 = 2130837637;
+			public const int ic_group_expand_12 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_group_collapse_13 = 2130837638;
+			public const int ic_group_expand_13 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_group_collapse_14 = 2130837639;
+			public const int ic_group_expand_14 = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_group_collapse_15 = 2130837640;
+			public const int ic_group_expand_15 = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_group_expand_00 = 2130837641;
+			public const int ic_media_pause_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_group_expand_01 = 2130837642;
+			public const int ic_media_pause_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_group_expand_02 = 2130837643;
+			public const int ic_media_play_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_group_expand_03 = 2130837644;
+			public const int ic_media_play_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_group_expand_04 = 2130837645;
+			public const int ic_media_stop_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_group_expand_05 = 2130837646;
+			public const int ic_media_stop_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_group_expand_06 = 2130837647;
+			public const int ic_mr_button_connected_00_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_group_expand_07 = 2130837648;
+			public const int ic_mr_button_connected_00_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_group_expand_08 = 2130837649;
+			public const int ic_mr_button_connected_01_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_group_expand_09 = 2130837650;
+			public const int ic_mr_button_connected_01_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_group_expand_10 = 2130837651;
+			public const int ic_mr_button_connected_02_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_group_expand_11 = 2130837652;
+			public const int ic_mr_button_connected_02_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_group_expand_12 = 2130837653;
+			public const int ic_mr_button_connected_03_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_group_expand_13 = 2130837654;
+			public const int ic_mr_button_connected_03_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_group_expand_14 = 2130837655;
+			public const int ic_mr_button_connected_04_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_group_expand_15 = 2130837656;
+			public const int ic_mr_button_connected_04_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_media_pause_dark = 2130837657;
+			public const int ic_mr_button_connected_05_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_media_pause_light = 2130837658;
+			public const int ic_mr_button_connected_05_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_media_play_dark = 2130837659;
+			public const int ic_mr_button_connected_06_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_media_play_light = 2130837660;
+			public const int ic_mr_button_connected_06_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_media_stop_dark = 2130837661;
+			public const int ic_mr_button_connected_07_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_media_stop_light = 2130837662;
+			public const int ic_mr_button_connected_07_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_00_dark = 2130837663;
+			public const int ic_mr_button_connected_08_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_00_light = 2130837664;
+			public const int ic_mr_button_connected_08_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_01_dark = 2130837665;
+			public const int ic_mr_button_connected_09_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_01_light = 2130837666;
+			public const int ic_mr_button_connected_09_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_02_dark = 2130837667;
+			public const int ic_mr_button_connected_10_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_02_light = 2130837668;
+			public const int ic_mr_button_connected_10_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_03_dark = 2130837669;
+			public const int ic_mr_button_connected_11_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_03_light = 2130837670;
+			public const int ic_mr_button_connected_11_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_04_dark = 2130837671;
+			public const int ic_mr_button_connected_12_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_04_light = 2130837672;
+			public const int ic_mr_button_connected_12_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_05_dark = 2130837673;
+			public const int ic_mr_button_connected_13_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_05_light = 2130837674;
+			public const int ic_mr_button_connected_13_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_06_dark = 2130837675;
+			public const int ic_mr_button_connected_14_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_06_light = 2130837676;
+			public const int ic_mr_button_connected_14_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_07_dark = 2130837677;
+			public const int ic_mr_button_connected_15_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_07_light = 2130837678;
+			public const int ic_mr_button_connected_15_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_08_dark = 2130837679;
+			public const int ic_mr_button_connected_16_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_08_light = 2130837680;
+			public const int ic_mr_button_connected_16_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_09_dark = 2130837681;
+			public const int ic_mr_button_connected_17_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_09_light = 2130837682;
+			public const int ic_mr_button_connected_17_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_10_dark = 2130837683;
+			public const int ic_mr_button_connected_18_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_10_light = 2130837684;
+			public const int ic_mr_button_connected_18_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_11_dark = 2130837685;
+			public const int ic_mr_button_connected_19_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_11_light = 2130837686;
+			public const int ic_mr_button_connected_19_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_12_dark = 2130837687;
+			public const int ic_mr_button_connected_20_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_12_light = 2130837688;
+			public const int ic_mr_button_connected_20_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_13_dark = 2130837689;
+			public const int ic_mr_button_connected_21_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_13_light = 2130837690;
+			public const int ic_mr_button_connected_21_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_14_dark = 2130837691;
+			public const int ic_mr_button_connected_22_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_14_light = 2130837692;
+			public const int ic_mr_button_connected_22_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_15_dark = 2130837693;
+			public const int ic_mr_button_connected_23_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_15_light = 2130837694;
+			public const int ic_mr_button_connected_23_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_16_dark = 2130837695;
+			public const int ic_mr_button_connected_24_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_16_light = 2130837696;
+			public const int ic_mr_button_connected_24_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_17_dark = 2130837697;
+			public const int ic_mr_button_connected_25_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_17_light = 2130837698;
+			public const int ic_mr_button_connected_25_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_18_dark = 2130837699;
+			public const int ic_mr_button_connected_26_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_18_light = 2130837700;
+			public const int ic_mr_button_connected_26_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_19_dark = 2130837701;
+			public const int ic_mr_button_connected_27_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_19_light = 2130837702;
+			public const int ic_mr_button_connected_27_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connected_20_dark = 2130837703;
+			public const int ic_mr_button_connected_28_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connected_20_light = 2130837704;
+			public const int ic_mr_button_connected_28_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connected_21_dark = 2130837705;
+			public const int ic_mr_button_connected_29_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connected_21_light = 2130837706;
+			public const int ic_mr_button_connected_29_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connected_22_dark = 2130837707;
+			public const int ic_mr_button_connected_30_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connected_22_light = 2130837708;
+			public const int ic_mr_button_connected_30_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connected_23_dark = 2130837709;
+			public const int ic_mr_button_connecting_00_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connected_23_light = 2130837710;
+			public const int ic_mr_button_connecting_00_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connected_24_dark = 2130837711;
+			public const int ic_mr_button_connecting_01_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connected_24_light = 2130837712;
+			public const int ic_mr_button_connecting_01_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connected_25_dark = 2130837713;
+			public const int ic_mr_button_connecting_02_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connected_25_light = 2130837714;
+			public const int ic_mr_button_connecting_02_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connected_26_dark = 2130837715;
+			public const int ic_mr_button_connecting_03_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connected_26_light = 2130837716;
+			public const int ic_mr_button_connecting_03_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connected_27_dark = 2130837717;
+			public const int ic_mr_button_connecting_04_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connected_27_light = 2130837718;
+			public const int ic_mr_button_connecting_04_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connected_28_dark = 2130837719;
+			public const int ic_mr_button_connecting_05_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connected_28_light = 2130837720;
+			public const int ic_mr_button_connecting_05_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connected_29_dark = 2130837721;
+			public const int ic_mr_button_connecting_06_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connected_29_light = 2130837722;
+			public const int ic_mr_button_connecting_06_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connected_30_dark = 2130837723;
+			public const int ic_mr_button_connecting_07_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connected_30_light = 2130837724;
+			public const int ic_mr_button_connecting_07_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_00_dark = 2130837725;
+			public const int ic_mr_button_connecting_08_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_00_light = 2130837726;
+			public const int ic_mr_button_connecting_08_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_01_dark = 2130837727;
+			public const int ic_mr_button_connecting_09_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_01_light = 2130837728;
+			public const int ic_mr_button_connecting_09_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_02_dark = 2130837729;
+			public const int ic_mr_button_connecting_10_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_02_light = 2130837730;
+			public const int ic_mr_button_connecting_10_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_03_dark = 2130837731;
+			public const int ic_mr_button_connecting_11_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_03_light = 2130837732;
+			public const int ic_mr_button_connecting_11_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_04_dark = 2130837733;
+			public const int ic_mr_button_connecting_12_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_04_light = 2130837734;
+			public const int ic_mr_button_connecting_12_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_05_dark = 2130837735;
+			public const int ic_mr_button_connecting_13_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_05_light = 2130837736;
+			public const int ic_mr_button_connecting_13_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_06_dark = 2130837737;
+			public const int ic_mr_button_connecting_14_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_06_light = 2130837738;
+			public const int ic_mr_button_connecting_14_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_07_dark = 2130837739;
+			public const int ic_mr_button_connecting_15_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_07_light = 2130837740;
+			public const int ic_mr_button_connecting_15_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_08_dark = 2130837741;
+			public const int ic_mr_button_connecting_16_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_08_light = 2130837742;
+			public const int ic_mr_button_connecting_16_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_09_dark = 2130837743;
+			public const int ic_mr_button_connecting_17_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_09_light = 2130837744;
+			public const int ic_mr_button_connecting_17_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_10_dark = 2130837745;
+			public const int ic_mr_button_connecting_18_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_10_light = 2130837746;
+			public const int ic_mr_button_connecting_18_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_11_dark = 2130837747;
+			public const int ic_mr_button_connecting_19_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_11_light = 2130837748;
+			public const int ic_mr_button_connecting_19_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_12_dark = 2130837749;
+			public const int ic_mr_button_connecting_20_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_12_light = 2130837750;
+			public const int ic_mr_button_connecting_20_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_13_dark = 2130837751;
+			public const int ic_mr_button_connecting_21_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_13_light = 2130837752;
+			public const int ic_mr_button_connecting_21_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_14_dark = 2130837753;
+			public const int ic_mr_button_connecting_22_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_14_light = 2130837754;
+			public const int ic_mr_button_connecting_22_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_15_dark = 2130837755;
+			public const int ic_mr_button_connecting_23_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_15_light = 2130837756;
+			public const int ic_mr_button_connecting_23_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_16_dark = 2130837757;
+			public const int ic_mr_button_connecting_24_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_16_light = 2130837758;
+			public const int ic_mr_button_connecting_24_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_17_dark = 2130837759;
+			public const int ic_mr_button_connecting_25_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_17_light = 2130837760;
+			public const int ic_mr_button_connecting_25_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_18_dark = 2130837761;
+			public const int ic_mr_button_connecting_26_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_18_light = 2130837762;
+			public const int ic_mr_button_connecting_26_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_19_dark = 2130837763;
+			public const int ic_mr_button_connecting_27_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_19_light = 2130837764;
+			public const int ic_mr_button_connecting_27_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connecting_20_dark = 2130837765;
+			public const int ic_mr_button_connecting_28_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connecting_20_light = 2130837766;
+			public const int ic_mr_button_connecting_28_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_connecting_21_dark = 2130837767;
+			public const int ic_mr_button_connecting_29_dark = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_connecting_21_light = 2130837768;
+			public const int ic_mr_button_connecting_29_light = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_connecting_22_dark = 2130837769;
+			public const int ic_mr_button_connecting_30_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_connecting_22_light = 2130837770;
+			public const int ic_mr_button_connecting_30_light = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_connecting_23_dark = 2130837771;
+			public const int ic_mr_button_disabled_dark = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_mr_button_connecting_23_light = 2130837772;
+			public const int ic_mr_button_disabled_light = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_mr_button_connecting_24_dark = 2130837773;
+			public const int ic_mr_button_disconnected_dark = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_mr_button_connecting_24_light = 2130837774;
+			public const int ic_mr_button_disconnected_light = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_mr_button_connecting_25_dark = 2130837775;
+			public const int ic_mr_button_grey = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_mr_button_connecting_25_light = 2130837776;
+			public const int ic_mtrl_chip_checked_black = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_mr_button_connecting_26_dark = 2130837777;
+			public const int ic_mtrl_chip_checked_circle = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int ic_mr_button_connecting_26_light = 2130837778;
+			public const int ic_mtrl_chip_close_circle = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int ic_mr_button_connecting_27_dark = 2130837779;
+			public const int ic_vol_type_speaker_dark = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ic_mr_button_connecting_27_light = 2130837780;
+			public const int ic_vol_type_speaker_group_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int ic_mr_button_connecting_28_dark = 2130837781;
+			public const int ic_vol_type_speaker_group_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int ic_mr_button_connecting_28_light = 2130837782;
+			public const int ic_vol_type_speaker_light = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int ic_mr_button_connecting_29_dark = 2130837783;
+			public const int ic_vol_type_tv_dark = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int ic_mr_button_connecting_29_light = 2130837784;
+			public const int ic_vol_type_tv_light = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int ic_mr_button_connecting_30_dark = 2130837785;
+			public const int it = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int ic_mr_button_connecting_30_light = 2130837786;
+			public const int logo = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int ic_mr_button_disabled_dark = 2130837787;
+			public const int MaskGroup = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
 			public const int ic_mr_button_disabled_light = 2130837788;
@@ -11905,160 +14779,64 @@ namespace Invento19.Droid
 			public const int microcontroller = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int mr_button_connected_dark = 2130837811;
+			public const int natya1 = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int mr_button_connected_light = 2130837812;
+			public const int navigation_empty_icon = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int mr_button_connecting_dark = 2130837813;
+			public const int notification_action_background = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int mr_button_connecting_light = 2130837814;
+			public const int notification_bg = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int mr_button_dark = 2130837815;
+			public const int notification_bg_low = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int mr_button_light = 2130837816;
+			public const int notification_bg_low_normal = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int mr_dialog_close_dark = 2130837817;
+			public const int notification_bg_low_pressed = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int mr_dialog_close_light = 2130837818;
+			public const int notification_bg_normal = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int mr_dialog_material_background_dark = 2130837819;
+			public const int notification_bg_normal_pressed = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int mr_dialog_material_background_light = 2130837820;
-			
-			// aapt resource value: 0x7f02013d
-			public const int mr_group_collapse = 2130837821;
-			
-			// aapt resource value: 0x7f02013e
-			public const int mr_group_expand = 2130837822;
-			
-			// aapt resource value: 0x7f02013f
-			public const int mr_media_pause_dark = 2130837823;
-			
-			// aapt resource value: 0x7f020140
-			public const int mr_media_pause_light = 2130837824;
-			
-			// aapt resource value: 0x7f020141
-			public const int mr_media_play_dark = 2130837825;
-			
-			// aapt resource value: 0x7f020142
-			public const int mr_media_play_light = 2130837826;
-			
-			// aapt resource value: 0x7f020143
-			public const int mr_media_stop_dark = 2130837827;
-			
-			// aapt resource value: 0x7f020144
-			public const int mr_media_stop_light = 2130837828;
+			public const int notification_icon_background = 2130837820;
 			
 			// aapt resource value: 0x7f020145
-			public const int mr_vol_type_audiotrack_dark = 2130837829;
+			public const int notification_template_icon_bg = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int mr_vol_type_audiotrack_light = 2130837830;
+			public const int notification_template_icon_low_bg = 2130837830;
 			
-			// aapt resource value: 0x7f020147
-			public const int mtrl_snackbar_background = 2130837831;
+			// aapt resource value: 0x7f02013d
+			public const int notification_tile_bg = 2130837821;
 			
-			// aapt resource value: 0x7f020148
-			public const int mtrl_tabs_default_indicator = 2130837832;
+			// aapt resource value: 0x7f02013e
+			public const int notify_panel_notification_icon_bg = 2130837822;
 			
-			// aapt resource value: 0x7f020149
-			public const int navigation_empty_icon = 2130837833;
+			// aapt resource value: 0x7f02013f
+			public const int projectexpo = 2130837823;
 			
-			// aapt resource value: 0x7f02014a
-			public const int next = 2130837834;
+			// aapt resource value: 0x7f020140
+			public const int queen = 2130837824;
 			
-			// aapt resource value: 0x7f02014b
-			public const int notification_action_background = 2130837835;
+			// aapt resource value: 0x7f020141
+			public const int robowar = 2130837825;
 			
-			// aapt resource value: 0x7f02014c
-			public const int notification_bg = 2130837836;
+			// aapt resource value: 0x7f020142
+			public const int Subtract = 2130837826;
 			
-			// aapt resource value: 0x7f02014d
-			public const int notification_bg_low = 2130837837;
+			// aapt resource value: 0x7f020143
+			public const int tooltip_frame_dark = 2130837827;
 			
-			// aapt resource value: 0x7f02014e
-			public const int notification_bg_low_normal = 2130837838;
-			
-			// aapt resource value: 0x7f02014f
-			public const int notification_bg_low_pressed = 2130837839;
-			
-			// aapt resource value: 0x7f020150
-			public const int notification_bg_normal = 2130837840;
-			
-			// aapt resource value: 0x7f020151
-			public const int notification_bg_normal_pressed = 2130837841;
-			
-			// aapt resource value: 0x7f020152
-			public const int notification_icon_background = 2130837842;
-			
-			// aapt resource value: 0x7f020165
-			public const int notification_template_icon_bg = 2130837861;
-			
-			// aapt resource value: 0x7f020166
-			public const int notification_template_icon_low_bg = 2130837862;
-			
-			// aapt resource value: 0x7f020153
-			public const int notification_tile_bg = 2130837843;
-			
-			// aapt resource value: 0x7f020154
-			public const int notify_panel_notification_icon_bg = 2130837844;
-			
-			// aapt resource value: 0x7f020155
-			public const int path = 2130837845;
-			
-			// aapt resource value: 0x7f020156
-			public const int Prev = 2130837846;
-			
-			// aapt resource value: 0x7f020157
-			public const int pubg = 2130837847;
-			
-			// aapt resource value: 0x7f020158
-			public const int Rectangle = 2130837848;
-			
-			// aapt resource value: 0x7f020159
-			public const int roborace = 2130837849;
-			
-			// aapt resource value: 0x7f02015a
-			public const int robostall = 2130837850;
-			
-			// aapt resource value: 0x7f02015b
-			public const int robowar = 2130837851;
-			
-			// aapt resource value: 0x7f02015c
-			public const int satalite = 2130837852;
-			
-			// aapt resource value: 0x7f02015d
-			public const int Subtract = 2130837853;
-			
-			// aapt resource value: 0x7f02015e
-			public const int Talks = 2130837854;
-			
-			// aapt resource value: 0x7f02015f
-			public const int tooltip_frame_dark = 2130837855;
-			
-			// aapt resource value: 0x7f020160
-			public const int tooltip_frame_light = 2130837856;
-			
-			// aapt resource value: 0x7f020161
-			public const int Up = 2130837857;
-			
-			// aapt resource value: 0x7f020162
-			public const int Vector = 2130837858;
-			
-			// aapt resource value: 0x7f020163
-			public const int Vector1 = 2130837859;
-			
-			// aapt resource value: 0x7f020164
-			public const int Workshop = 2130837860;
+			// aapt resource value: 0x7f020144
+			public const int tooltip_frame_light = 2130837828;
 			
 			static Drawable()
 			{
