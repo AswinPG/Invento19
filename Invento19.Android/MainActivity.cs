@@ -8,7 +8,6 @@ using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Platform;
 using Xamarin.Forms;
-using CarouselView.FormsPlugin.Android;
 
 namespace Invento19.Droid
 {

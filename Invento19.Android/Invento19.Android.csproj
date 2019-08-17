@@ -189,9 +189,6 @@
     <AndroidResource Include="Resources\drawable\robostall.svg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\robowar.svg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\satalite.svg" />
   </ItemGroup>
   <ItemGroup>
