@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -52,21 +52,6 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CardsView">
-      <Version>2.1.7</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.FFImageLoading">
-      <Version>2.4.11.982</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.FFImageLoading.Forms">
-      <Version>2.4.11.982</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.FFImageLoading.Svg">
-      <Version>2.4.11.982</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
-      <Version>2.4.11.982</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.1" />
@@ -83,24 +68,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Montserrat-Black.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-BlackItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Bold.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-BoldItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-ExtraBold.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-ExtraBoldItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-ExtraLight.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-ExtraLightItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Italic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Light.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-LightItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Medium.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-MediumItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Regular.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-SemiBold.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-SemiBoldItalic.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-Thin.ttf" />
-    <AndroidAsset Include="Assets\Montserrat-ThinItalic.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -124,6 +91,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\drawable-hdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
@@ -135,59 +103,5 @@
       <Name>Invento19</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Subtract.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\go.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Android3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\facebook.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\google.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\me.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cse.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ece.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\eee.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\general.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\it.svg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\MaskGroup.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\natya1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\projectexpo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\queen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\robowar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bandwar1.png" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
