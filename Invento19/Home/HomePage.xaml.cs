@@ -17,11 +17,11 @@ namespace Invento19.Home
             InitializeComponent();
             
 
-            var name = new List<string>
-            {
-                "bandwar1.png", "natya1.png", "projectexpo.png", "queen.png", "robowar.png"
-            };
-            Car.ItemsSource = name;
+            //var name = new List<string>
+            //{
+            //    "bandwar1.png", "natya1.png", "projectexpo.png", "queen.png", "robowar.png"
+            //};
+            //Car.ItemsSource = name;
         }
     }
 }
