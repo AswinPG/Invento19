@@ -9,7 +9,7 @@
              x:Class="Invento19.SIgnIn.SIgnUp">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="Transparent">
+            <Frame BackgroundColor="#fff">
 
                 <ffSvg:SvgCachedImage Margin="20,20,0,0"
                                       Source="logo.svg"
